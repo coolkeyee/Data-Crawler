@@ -1,0 +1,462 @@
+<html class="x-border-box x-strict"><head>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>上海博物馆</title>
+<link rel="icon" type="image/vnd.microsoft.icon" href="/museum/images/media/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/museum/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/museum/bootstrap-frontend/css/bootstrap.min.css">
+<link rel="stylesheet" href="/museum/bootstrap-frontend/css/bootstrap.min.css" media="print">
+<link rel="stylesheet" type="text/css" href="/museum/bootstrap-dialog/css/bootstrap-dialog.min.css">
+<link rel="stylesheet" type="text/css" href="/museum/jquery-selectBox/jquery.selectBox.css">
+<link rel="stylesheet" type="text/css" href="/museum/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" type="text/css" href="/museum/simplyscroll/jquery.simplyscroll.css">
+<link rel="stylesheet" type="text/css" href="/museum/flexpaper/css/flexpaper.css">
+<link rel="stylesheet" type="text/css" href="/museum/metisMenu/metisMenu.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/menu-frontend.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/select-frontend.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/yidong-museum.css">
+<link rel="stylesheet" type="text/css" href="/museum/css/yidong-museum-member.css">
+<link rel="stylesheet" type="text/css" href="/museum/css-frontend/top.css">
+<link href="/museum/css-frontend/jquery-webox.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/museum/js/jspatch.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/museum/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="/museum/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="/museum/js/ext-all.js"></script>
+<script type="text/javascript" src="/museum/js/locale/ext-lang-zh_CN.js"></script>
+<script type="text/javascript" src="/museum/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="/museum/js/jquery.form.min.js"></script>
+<script type="text/javascript" src="/museum/bootstrap-frontend/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/museum/bootstrap-dialog/js/bootstrap-dialog.min.js"></script>
+<script type="text/javascript" src="/museum/jquery-selectBox/jquery.selectBox.js"></script>
+<script type="text/javascript" src="/museum/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="/museum/simplyscroll/jquery.simplyscroll.js"></script>
+<script type="text/javascript" src="/museum/flexpaper/js/flexpaper.js"></script>
+<script type="text/javascript" src="/museum/flexpaper/js/flexpaper_handlers.js"></script>
+<script type="text/javascript" src="/museum/metisMenu/metisMenu.js"></script>
+<script type="text/javascript" src="/museum/js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="/museum/js/jquery.pin.js"></script>
+<script type="text/javascript" src="/museum/js/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="/museum/js/sly.min.js"></script>
+<!-- 
+<script type="text/javascript" src="/museum/flowplayer/flowplayer-3.2.13.min.js"></script>
+ -->
+<script src="/museum/js-frontend/jquery-webox.js"></script>
+<script type="text/javascript">
+function initialData(list, params) {
+	list.empty();
+	list.data('params', params);
+	list.data('offset', 0);
+}
+
+function appendData(list) {
+	var url = list.data('url');
+	var params = list.data('params');
+	var offset = list.data('offset');
+	var limit = list.data('limit');
+	$.ajax({
+		url: url,
+		method: 'POST',
+		data: $.extend(params, {
+			offset: offset,
+			limit: limit
+		}),
+		success: function(result) {
+			list.append(result);
+			list.data('offset', offset + limit);
+		}
+	});
+}
+
+function myFlowplayer(id) {
+	flowplayer(id, '/museum/flowplayer/flowplayer-3.2.18.swf;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C');
+}
+
+var heightForBackToTopButton = 649;
+function scrollCallbackForBackToTopButton() {
+	if ($(window).scrollTop() > heightForBackToTopButton)
+		$('#back-to-top-button').fadeIn();
+	else
+		$('#back-to-top-button').fadeOut();
+}
+
+$.ajaxSetup({
+	cache: false
+});
+
+BootstrapDialog.DEFAULT_TEXTS[BootstrapDialog.TYPE_DANGER] = '出错信息';
+BootstrapDialog.DEFAULT_TEXTS['OK'] = '确定';
+BootstrapDialog.DEFAULT_TEXTS['CANCEL'] = '取消';
+
+$(function() {
+	var pageCategoryCode = $('body').data('pageCategoryCode');
+	if (Ext.isDefined(pageCategoryCode))
+		Ext.Ajax.request({
+			url: '/museum/pageview/hit.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C',
+			params: {
+				pageCategoryCode: pageCategoryCode
+			},
+			callback: function(options, success, response) {
+				if (success) {
+					var result = Ext.decode(response.responseText);
+					if (!result.success)
+						BootstrapDialog.danger(result.msg);
+				} else {
+					BootstrapDialog.danger('连接失败');
+				}
+			}
+		});
+});
+</script>
+
+<script type="text/javascript">
+	$(function() {
+		$(window).scroll(scrollCallbackForBackToTopButton);
+		
+		$('#left-menu').metisMenu();
+		
+		var researchList = $('#research-list');
+		$('input[name="searchTextButton"]').click(function() {
+			initialData(researchList, {
+				searchText: $('input[name="searchText"]').val()
+			});
+			appendData(researchList);
+		});
+		$('#more-button img').click(function() {
+			appendData(researchList);
+		});
+		initialData(researchList, {
+			searchText: ''
+		});
+		appendData(researchList);
+	});
+</script>
+</head>
+<body id="yanjiu" data-page-category-code="RESEARCH" class="x-body x-webkit x-safari x-reset">
+
+
+<div class="container">
+<div id="header" class="row">
+	<form action="/museum/frontend/fulltextsearch/full-text-search.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" method="post" class="col-md-12">
+		<span><input type="text" name="fullSearchText" value="" id="fullSearchText" class="text-field1" style="width: 180px;" autocomplete="off"><input type="image" src="/museum/images-frontend/search.gif;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="text-field1-addon"></span>
+		<!-- 
+		
+			<span><a href="/museum/frontend/member/login.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">登录</a> | <a href="/museum/frontend/member/register.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">立即加入</a></span>
+		
+		-->
+		
+		<span><a href="/museum/frontend/en/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">ENG</a> | <a href="/museum/frontend/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">中文</a></span>
+		<span><a href="/cn/preengage/engageLogin.do?cmd=checkLogin">签约旅行社</a></span>
+		
+		
+<span><a href="http://218.80.218.39:8080/sbjsp">直播</a></span>
+		
+	</form>
+</div>
+</div>
+<div id="menu-outer">
+<div class="container" style="width: 1200px !important;">
+<div id="menu" class="row">
+	<div class="col-sm-4">
+		<a href="/museum/frontend/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C"><img id="logo" src="/museum/images-frontend/logo.gif;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="img-responsive center-block"></a>
+	</div>
+	<ul class="col-sm-8">
+		<li class="fuwu"><a href="/museum/frontend/visit/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">服务</a></li>
+		<li>|</li>
+		<li class="info"><a href="/museum/frontend/infomation/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">资讯</a></li>
+		<li>|</li>
+		<li class="activity"><a href="/education/show/show.action">活动</a></li>
+		<li>|</li>
+		<li class="collection"><a href="/museum/frontend/collection/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">典藏</a></li>
+		<li>|</li>
+		<li class="display"><a href="/museum/frontend/display/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">展示</a></li>
+		<li>|</li>
+		<li class="yanjiu"><a href="/museum/frontend/research/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">研究</a></li>
+		<li class="yanjiu"><a href="https://reservation.shanghaimuseum.net/BpsWebSale/Perform" target="_blank">参观预约</a></li>
+	</ul>
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div id="banner" class="row">
+	<img src="/museum/show-resource.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?id=35" class="img-responsive center-block">
+</div>
+</div>
+<div class="container">
+<div id="arrow-down" class="row">
+	<a href="#content"><img src="/museum/images-frontend/down.gif;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="img-responsive center-block"></a>
+</div>
+<div id="content" class="row clearfix">
+	<nav class="col-left sidebar-nav">
+		<div class="pin-wrapper" style="height: 243px;"><ul id="left-menu" style="width: 228px;">
+			
+
+<li class="menu-header">研究</li>
+<li><a href="/museum/frontend/research/research.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?researchTypeCode=CATALOG">学术图录</a></li>
+<li>
+	<a href="#">学术专刊<span class="fa fa-caret-right"></span></a>
+	<ul class="collapse">
+		<li><a href="/museum/frontend/research/research.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?researchTypeCode=JOURNAL">馆刊</a></li>
+		<li><a href="/museum/frontend/research/research.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?researchTypeCode=WENBO">上海文博</a></li>
+		<li><a href="http://www.wwbhkgkx.net/ch/index.aspx">文物保护与考古科学期刊</a></li>
+	</ul>
+</li>
+<li><a href="javascript:alert('开发中');">学术讲堂</a></li>
+
+			<div class="menu-search-box">
+				<input type="text" name="searchText" class="text-field2" style="width: 178px;" autocomplete="off"><input type="image" name="searchTextButton" src="/museum/images-frontend/search_list2.gif;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="text-field2-addon">
+			</div>
+		</ul></div>
+	</nav>
+	<div class="col-right">
+		<div class="site-location">
+			
+				<a href="/museum/frontend/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">首页</a>&nbsp;&gt;&nbsp;<a href="/museum/frontend/research/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">研究</a>&nbsp;&gt;&nbsp;学术图录
+			
+			
+			
+		</div>
+		<ul id="research-list" data-url="/museum/frontend/research/research-list.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?researchTypeCode=CATALOG" data-limit="5">
+
+
+<li class="clearfix">
+	<div class="research-thumbnail">
+		<img src="/museum/show-resource.action?id=54">
+	</div>
+	<div class="research-detail">
+		<div class="research-name">古塔遗珍</div>
+		<div class="synopsis mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" style="position: relative; overflow: visible;"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">申城6000多平方公里地域上的考古文物充分证明，上海不仅是现代化的国际大都市，而且具有6000年的悠久历史。第三展厅“古塔遗珍”，在塔影秘宝佛光中领悟城镇兴起过程中的文化升华。</div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+		
+			<div class="research-footer">
+				<span>
+					<img src="/museum/images-frontend/pdf.png">
+					<a href="/museum/frontend/articles/R00003004.html">在线阅读</a>
+				</span>
+				<span>
+					<img src="/museum/images-frontend/download.png">
+					<a href="/museum/download-resource.action?id=53">PDF下载</a>
+				</span>
+			</div>
+		
+	</div>
+</li>
+
+<li class="clearfix">
+	<div class="research-thumbnail">
+		<img src="/museum/show-resource.action?id=56">
+	</div>
+	<div class="research-detail">
+		<div class="research-name">城镇之路</div>
+		<div class="synopsis mCustomScrollbar _mCS_2 mCS-autoHide mCS_no_scrollbar" style="position: relative; overflow: visible;"><div id="mCSB_2" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_2_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">申城6000多平方公里地域上的考古文物充分证明，上海不仅是现代化的国际大都市，而且具有6000年的悠久历史。第二展厅“城镇之路”，重建古代上海随着吴淞江、黄浦江两大水系变迁的城镇发展历程。</div></div><div id="mCSB_2_scrollbar_vertical" class="mCSB_scrollTools mCSB_2_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_2_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+		
+			<div class="research-footer">
+				<span>
+					<img src="/museum/images-frontend/pdf.png">
+					<a href="/museum/frontend/articles/R00003005.html">在线阅读</a>
+				</span>
+				<span>
+					<img src="/museum/images-frontend/download.png">
+					<a href="/museum/download-resource.action?id=55">PDF下载</a>
+				</span>
+			</div>
+		
+	</div>
+</li>
+
+<li class="clearfix">
+	<div class="research-thumbnail">
+		<img src="/museum/show-resource.action?id=66">
+	</div>
+	<div class="research-detail">
+		<div class="research-name">文明之光</div>
+		<div class="synopsis mCustomScrollbar _mCS_3 mCS-autoHide mCS_no_scrollbar" style="position: relative; overflow: visible;"><div id="mCSB_3" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_3_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">申城6000多平方公里地域上的考古文物充分证明，上海不仅是现代化的国际大都市，而且具有6000年的悠久历史。第一展厅“文明之光”，展现上海史前文明的起源、发展和转承。</div></div><div id="mCSB_3_scrollbar_vertical" class="mCSB_scrollTools mCSB_3_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_3_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+		
+			<div class="research-footer">
+				<span>
+					<img src="/museum/images-frontend/pdf.png">
+					<a href="/museum/frontend/articles/R00003010.html">在线阅读</a>
+				</span>
+				<span>
+					<img src="/museum/images-frontend/download.png">
+					<a href="/museum/download-resource.action?id=65">PDF下载</a>
+				</span>
+			</div>
+		
+	</div>
+</li>
+
+<li class="clearfix">
+	<div class="research-thumbnail">
+		<img src="/museum/show-resource.action?id=68">
+	</div>
+	<div class="research-detail">
+		<div class="research-name">竹镂文心</div>
+		<div class="synopsis mCustomScrollbar _mCS_4 mCS-autoHide mCS_no_scrollbar" style="position: relative; overflow: visible;"><div id="mCSB_4" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_4_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">竹刻在我国悠久深厚的竹文化与竹工艺传统的基础上，随着明代中后期文房雅玩鉴藏之风的兴起而成熟的特种雕刻艺术，是文人艺术与民间雕刻工艺相互交融的结晶。从明代直到20世纪中叶的竹刻艺术史：以嘉定竹刻为代表的“深刻”、滥觞于金陵濮澄的“浅刻”以及别具风韵的“留青阳文”这三大潮流，共同构建出绚烂多姿的竹刻艺术世界。</div></div><div id="mCSB_4_scrollbar_vertical" class="mCSB_scrollTools mCSB_4_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_4_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; height: 0px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+		
+			<div class="research-footer">
+				<span>
+					<img src="/museum/images-frontend/pdf.png">
+					<a href="/museum/frontend/articles/R00003011.html">在线阅读</a>
+				</span>
+				<span>
+					<img src="/museum/images-frontend/download.png">
+					<a href="/museum/download-resource.action?id=67">PDF下载</a>
+				</span>
+			</div>
+		
+	</div>
+</li>
+
+<li class="clearfix">
+	<div class="research-thumbnail">
+		<img src="/museum/show-resource.action?id=64">
+	</div>
+	<div class="research-detail">
+		<div class="research-name">亚历山大·佩里耶 风景画展</div>
+		<div class="synopsis mCustomScrollbar _mCS_5 mCS-autoHide" style="position: relative; overflow: visible;"><div id="mCSB_5" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_5_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">语言是有国界的，而艺术是无国界的。这次“亚历山大·佩里耶（1&nbsp;8&nbsp;6&nbsp;2&nbsp;-1936）风景画展”便是最好的证明。早在2004年，上海博物馆曾借“上海博物馆藏文物精品展”之机会将最能体现中华五千年文化的艺术珍品带给了在瑞士的观众。时隔七年，我们远在阿尔卑斯之巅的朋友——日内瓦艺术历史博物馆又将这朵友谊之花递到我们手中，这就是“亚历山大·佩里耶（1862-1936）风景画展”，一个饱含瑞士山水之美，同时又充盈着画家对故乡眷恋之情的展览。</div></div><div id="mCSB_5_scrollbar_vertical" class="mCSB_scrollTools mCSB_5_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_5_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 50px; display: block; height: 69px; max-height: 86px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+		
+			<div class="research-footer">
+				<span>
+					<img src="/museum/images-frontend/pdf.png">
+					<a href="/museum/frontend/articles/R00003009.html">在线阅读</a>
+				</span>
+				<span>
+					<img src="/museum/images-frontend/download.png">
+					<a href="/museum/download-resource.action?id=63">PDF下载</a>
+				</span>
+			</div>
+		
+	</div>
+</li>
+
+<script type="text/javascript">
+	$('.research-detail .synopsis').mCustomScrollbar({
+		theme: 'minimal-dark'
+	});
+	
+	var endFlag = 'false';
+	if (endFlag == 'true')
+		$('#more-button').hide();
+	else
+		$('#more-button').show();
+	
+	$('#left-menu').pin({
+		containerSelector: '#content'
+	});
+</script>
+</ul>
+		<div id="more-button">
+			<img src="/museum/images-frontend/down2.gif;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="img-responsive center-block">
+		</div>
+	</div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+	$(function() {
+		var outboundDropdown = $('#outbound-dropdown');
+		outboundDropdown.selectBox({
+			keepInViewport: false
+		});
+		outboundDropdown.selectBox('refresh');
+		outboundDropdown.selectBox().change(function() {
+			if (!Ext.isEmpty($(this).val()))
+				window.open($(this).val());
+		});
+	});
+</script>
+<div id="footer-wrapper">
+<div id="footer" class="container">
+<div class="row">
+	<div class="col-sm-3">
+		<h4>上海博物馆地址</h4>
+		<p>中华人民共和国<br>上海市黄浦区人民大道201号</p>
+		<h4>全年开放时间</h4>
+		<p>9:00—17:00<br>16:00后停止入场<br>全年免费开放，南门入北门出<br>（每周一闭馆，除国定假日外）</p>
+		<h4>联系电话</h4>
+		<p>021-63723500</p>
+		<h4>电子邮箱</h4>
+		<p>webmaster@shanghai-museum.org</p>
+	</div>
+	<div id="website-map" class="col-sm-6">
+		<h4>网站地图</h4>
+		<p class="prefix">
+			<a href="/museum/frontend/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="a_footer">首页</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/visit/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="a_footer">服务</a> |
+			<a href="/museum/frontend/visit/location.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">位置周边</a>
+			<a href="/museum/frontend/visit/open-info.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">开放信息</a>
+			<a href="/museum/frontend/visit/facilities.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">馆内设施</a>
+			<a href="/museum/frontend/visit/service.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">服务项目</a>
+			<a href="/museum/frontend/visit/shop.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">商业设施</a>
+			<a href="mailto:webmaster@shanghai-museum.org">联系我们</a>
+		</p>
+		<p class="prefix">
+			<a href="/education/show/show.action?link=0" class="a_footer">活动</a> |
+			<a href="/education/show/show.action?link=0">全部活动</a>
+			<a href="/education/show/show.action?link=2">专题讲座</a>
+			<a href="/education/show/show.action?link=3">专题导览</a>
+			<a href="/education/show/show.action?link=4">中小学假期活动</a>
+			<a href="/education/show/show.action?link=7">文化考察</a>
+			<a href="/education/show/show.action?link=8">艺术欣赏</a>
+			<a href="#">志愿者之家</a>
+			<a href="/education/show/show.action?link=13">其他</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/collection/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="a_footer">典藏</a> |
+			<a href="/museum/frontend/collection/collection-list.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" target="">典藏精选</a>
+			<a href="/museum/frontend/collection/month-treasure-list.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">每月一珍</a>
+			<a href="/museum/frontend/member/my-favorite.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">我的收藏</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/display/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="a_footer">展示 </a>|
+			<a href="/museum/frontend/display/route-info-grand.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">陈列大观</a>
+			<a href="/museum/frontend/display/exhibition-info-out-line.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">特别展览</a>
+			<a href="/museum/frontend/display/exhibition-info-on-line.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">网上展览</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/research/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="a_footer">研究 </a>|
+			<a href="/museum/frontend/research/research.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?researchTypeCode=CATALOG">学术目录</a>
+			<a href="/museum/frontend/research/research.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?researchTypeCode=JOURNAL">学术专刊</a>
+			<a href="#">学术讲堂</a>
+		</p>
+		<p class="prefix">
+			<a href="/museum/frontend/infomation/index.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C" class="a_footer">资讯</a> |
+			<a href="/museum/frontend/infomation/introduction.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">本馆介绍</a>
+			<a href="/museum/frontend/infomation/news.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">新闻动态</a>
+			<a href="/museum/frontend/infomation/video.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C">媒体资源</a>
+			<a href="/museum/frontend/infomation/desktop.action;jsessionid=5ADC3B820EF7A9CA95C8CB503AF4AE8C?productsType=2">数字产品</a>
+		</p>
+	</div>
+	<div id="outbound" class="col-sm-3">
+		<select id="outbound-dropdown" class="my-dropdown-list-style1 selectBox" style="width: 200px; display: none;">
+			<option value="" selected="">友情链接</option>
+			<option value="http://www.eastday.com">东方网</option>
+			<option value="http://www.chnmus.net">河南博物馆</option>
+			<option value="http://www.njmuseum.com">南京博物馆</option>
+			<option value="http://www.dpm.org.cn">故宫博物院</option>
+			<option value="http://www.ccrnews.com.cn">中国文物信息网</option>
+			<option value="http://www.ccacc.org.cn">中国文化遗产动漫作品大赛</option>
+			<option value="http://www.jinshasitemuseum.com">金沙遗址博物馆</option>
+			<option value="http://masterpieces.asemus.museum">杰作收藏在线</option>
+		</select><a class="selectBox my-dropdown-list-style1 selectBox-dropdown" title="" tabindex="0" style="width: 200px; display: inline-block;"><span class="selectBox-label" style="width: 170px;">友情链接</span><span class="selectBox-arrow"></span></a>
+	</div>
+</div>
+<div class="row">
+	<div id="copyright" class="col-sm-12">Copyright © 2015 ShanghaiMuseum.net 上海博物馆 版权所有 备案号：沪ICP备10003390号-4</div>
+</div>
+</div>
+</div>
+<div id="back-to-top-button">
+	<a href="#content"><span class="glyphicon glyphicon-chevron-up"></span></a>
+</div>
+
+
+
+<ul class="selectBox-dropdown-menu selectBox-options my-dropdown-list-style1-selectBox-dropdown-menu selectBox-selectBox-dropdown-menu" style="display: none;"><li class="selectBox-selected"><a rel="">友情链接</a></li><li><a rel="http://www.eastday.com">东方网</a></li><li><a rel="http://www.chnmus.net">河南博物馆</a></li><li><a rel="http://www.njmuseum.com">南京博物馆</a></li><li><a rel="http://www.dpm.org.cn">故宫博物院</a></li><li><a rel="http://www.ccrnews.com.cn">中国文物信息网</a></li><li><a rel="http://www.ccacc.org.cn">中国文化遗产动漫作品大赛</a></li><li><a rel="http://www.jinshasitemuseum.com">金沙遗址博物馆</a></li><li><a rel="http://masterpieces.asemus.museum">杰作收藏在线</a></li></ul></body></html>

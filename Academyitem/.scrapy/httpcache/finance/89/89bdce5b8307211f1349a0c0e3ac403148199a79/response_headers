@@ -1,0 +1,14 @@
+Server: Tengine
+Content-Type: text/plain
+Date: Tue, 19 May 2020 09:01:53 GMT
+Last-Modified: Fri, 12 Jul 2019 04:51:34 GMT
+Etag: "5d2811d6-2f"
+Accept-Ranges: bytes
+Ali-Swift-Global-Savetime: 1581789354
+Via: cache31.l2cn1851[92,200-0,H], cache36.l2cn1851[93,0], kunlun4.cn1602[156,200-0,M], kunlun3.cn1602[163,0]
+Age: 0
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-Savetime: Tue, 19 May 2020 09:01:53 GMT
+X-Swift-Cachetime: 3600
+Timing-Allow-Origin: *
+Eagleid: 74fd1d1715898789135413842e

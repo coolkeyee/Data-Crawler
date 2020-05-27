@@ -1,0 +1,269 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南通博物苑</title>
+<link href="/templets/pc/css/style.css" type="text/css" rel="stylesheet">
+<link href="/templets/pc/css/bootstrap.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/templets/pc/js/jquery.js"></script>
+<script src="/templets/pc/js/bplayer.js" type="text/javascript"></script>
+</head>
+<body>
+      		<div id="for_activity_block">
+	<a href="http://www.ntmuseum.com/markn/" target="_blank"><div class="activity_flag"></div></a>
+</div> 
+<script type="text/javascript">
+    function  showImg(){
+    document.getElementById("wxImg").style.display='block';
+    }
+    function hideImg(){
+    document.getElementById("wxImg").style.display='none';
+    }
+    </script>            
+		<div class="top">
+             <div class="top_box">
+		       <div class="lan">
+		         <a id="translateLink" style="float:left;" href="javascript:translatePage();">繁體中文</a>
+		       </div>		
+               <div class="code"><a href="javascript:void(0)" onmouseout="hideImg()" onmouseover="showImg()" target="_blank" style="vertical-align:bottom"><img src="/templets/pc/images/2015wechat.jpg"></a>
+		       <a href="http://weibo.com/ntmuseum" target="_blank" style="vertical-align:bottom"><img src="/templets/pc/images/2015sina.jpg"></a>
+		       <div id="wxImg" style="display:none;height:100px;z-index:10000;position:absolute;"><img src="/templets/pc/images/qrcode.jpg"></div>
+			</div>
+		   </div>
+		</div>			
+        <!-- Start head -->
+        <div class="head">
+            <div id="banner">
+                <div id="bannerContent">
+                    <div><img src="/templets/pc/images/banner.jpg"></div>
+                    <div class="smask"><img src="/templets/pc/images/banner1.jpg"></div>
+                    <div class="smask"><img src="/templets/pc/images/banner2.jpg"></div>
+                    <!--div class="smask"><img src="/templets/pc/images/banner3.jpg"></div>
+                    <div class="smask"><img src="/templets/pc/images/banner4.jpg"></div-->
+               </div>
+               <ul id="bannerNav">
+                <li class="current"></li>
+                <li></li>
+                <li></li>
+                <!--li></li>
+                <li></li-->
+               </ul>
+           </div>	   
+       </div>
+	   <!-- End head -->
+	    <!-- Start nav -->
+		<section class="nav_bg">
+		    <div class="nav">	     
+	        <ul> 
+			    <li><a href="/">首页</a></li>				                           
+                
+                <li><a href="http://www.ntmuseum.com/colunm1/">概况</a></li>
+                
+                <li><a href="http://www.ntmuseum.com/colunm2/">收藏</a></li>
+                
+                <li><a href="http://www.ntmuseum.com/colunm3/">展览</a></li>
+                
+                <li><a href="http://www.ntmuseum.com/colunm4/">教育</a></li>
+                
+                <li><a href="http://www.ntmuseum.com/column5/">自然</a></li>
+                
+                <li><a href="http://www.ntmuseum.com/colunm6/">研究</a></li>
+                
+                <li><a href="http://www.ntmuseum.com/colunm7/">服务</a></li>
+                	
+        <div class="search_box">
+        <form action="/plus/advancedsearch.php" method="post" target="_blank">
+           <input type="hidden" name="mid" value="1">
+           <input type="text" name="body" id="search-keyword" value="" onfocus="if(this.value=='搜索...'){this.value='';}" onblur="if(this.value==''){this.value='搜索...';}">
+           <button type="submit" class="search-submit"></button>
+          </form>
+        </div>     				
+            </ul>	  	   
+	   </div>
+	   </section>
+		<!-- End nav -->
+	   <div class="cut">			   
+            
+		</div>
+    <!-- Start container -->
+		<section class="main content">
+		    <div class="left_content">
+			   <div id="pub_left">
+                <div class="pub_left_all">
+                    <div class="pub_title_mod">
+					博物馆研究
+                    </div>
+                    <div class="pub_class_nav">
+                        <ul>
+	                        	
+                            <li><a href="http://www.ntmuseum.com/colunm6/col1/" title="数字苑刊">数字苑刊</a></li>	
+                            	
+                            <li><a href="http://www.ntmuseum.com/colunm6/col2/" title="出版物">出版物</a></li>	
+                            	
+                            <li><a href="http://www.ntmuseum.com/colunm6/col3/" title="学术活动">学术活动</a></li>	
+                            	
+                            <li><a href="http://www.ntmuseum.com/colunm6/col4/" title="苑史研究">苑史研究</a></li>	
+                            <li class="class_c"><a href="http://www.ntmuseum.com/colunm6/col5/">博物馆研究</a></li>
+	                    </ul>	
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+			</div>						   
+			<div class="right_content page_title clearfix">		        									
+				<div class="breadcrumbs">
+					您现在的位置：<a href="http://www.ntmuseum.com">主页</a> &gt; <a href="http://www.ntmuseum.com/colunm6/">研究</a> &gt; <a href="http://www.ntmuseum.com/colunm6/col5/">博物馆研究</a> &gt; 			
+				</div> 			
+		    </div>		   
+		    <div id="pub_right"> 			
+                <div class="article_list">                      
+                    <ul>
+                       <li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/133.html" title="" target="_blank">博物馆在旅游中的地位与作用</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/132.html" title="" target="_blank">装裱派系及特点</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/131.html" title="" target="_blank">浅谈书画装裱</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/130.html" title="" target="_blank">谈谈博物馆新馆建设</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/129.html" title="" target="_blank">浅谈博物馆与文化产业 </a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/128.html" title="" target="_blank">浅议博物馆的园林特色</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/127.html" title="" target="_blank">你从哪里来？博物馆吸引力！</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/126.html" title="" target="_blank">博物馆的立足点：本土、平民、传统</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/125.html" title="" target="_blank">2006“国际博物馆日”主题的双向解读</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/124.html" title="" target="_blank">浅议地方综合性博物馆的机构设置</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/123.html" title="" target="_blank">科学与人文在博物馆的融合—学习张謇博物馆思想一得</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/122.html" title="" target="_blank">关于将南通历史文化街区建成生态博物馆的思考</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/121.html" title="" target="_blank">创新我市博物馆管理体制与运行机制的思考</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/120.html" title="" target="_blank">大有晋盐垦公司“冰案”始末 </a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/119.html" title="" target="_blank">张謇与晚清民初公共图书馆的兴起</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/118.html" title="" target="_blank">张謇与张之洞城市化比较研究</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/117.html" title="" target="_blank">张謇与孙中山利用外资比较研究</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/116.html" title="" target="_blank">张謇博物馆思想中的国家观念和公共意识</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/115.html" title="" target="_blank">张謇致李虎臣函笺释</a>
+						</li><li><span>
+                            2015-11-06</span><a href="http://www.ntmuseum.com/colunm6/col5/114.html" title="" target="_blank">张謇开放主义思想的主要内涵和实践 </a>
+						</li>	   
+					</ul>
+                </div>
+				<div class="page_pagination">
+					<ul><li><a href="list_36_1.html">首页</a></li>
+<li><a href="list_36_1.html">上一页</a></li>
+<li><a href="list_36_1.html">1</a></li>
+<li class="thisclass">2</li>
+<li><a href="list_36_3.html">3</a></li>
+<li><a href="list_36_3.html">下一页</a></li>
+<li><a href="list_36_3.html">末页</a></li>
+<li><span class="pageinfo">共 <strong>3</strong>页<strong>43</strong>条</span></li>
+</ul>
+				</div>
+	       </div>
+		</section>
+	<!-- End container -->
+    <!-- Start foot -->
+   <!-- Start foot -->
+   <div class="clear"></div>
+    <div class="bottom">
+      	<div class="bottomcon">
+        	<div class="l">
+			<a href="/" class="logo"></a>
+			<p>地址：南通市濠南路19号<br>邮编：226001<br>电话：0513—85516233 85062528</p>
+			<span>友情链接：<select onchange="selectlink(this)" name="select">
+			<option value="#">南通博物苑</option>
+			<option value="http://www.ndcnc.gov.cn/">全国文化信息资源共享工程</option>
+			<option value="http://www.ihchina.cn/">中国非物质文化遗产网</option>
+			<option value="http://www.nationculture.com/">国家文化网</option>
+			<option value="http://www.capitalmuseum.org.cn/">首都博物馆</option>
+			<option value="http://www.dpm.org.cn/index1024768.html">故宫博物院</option>
+			<option value="http://www.ccrnews.com.cn/">中国文物信息网</option>
+			<option value="http://www.shanghaimuseum.net/">上海博物馆</option>
+			<option value="http://www.njmuseum.com/html/default.html">南京博物院</option>
+			<option value="http://www.jsmuseum.com/default.aspx">江苏文博信息网</option>
+			</select></span></div>
+			<script language="javascript">
+              function selectlink(sobj) {
+                var docurl =sobj.options[sobj.selectedIndex].value;
+                    if (docurl != "") {
+                       open(docurl,'_blank');
+                       sobj.selectedIndex=0;
+                       sobj.blur();
+				    }
+                }
+            </script>
+            <div class="r">
+			<dl>
+			   <dt><a href="http://www.ntmuseum.com/colunm1/" target="_blank">概况</a></dt>
+			       <dd>
+				   <a href="http://www.ntmuseum.com/colunm1/col1/" target="_blank">苑景掠影</a><a href="http://www.ntmuseum.com/colunm1/col2/" target="_blank">本苑荣誉</a><a href="http://www.ntmuseum.com/colunm1/col3/" target="_blank">组织机构</a><a href="http://www.ntmuseum.com/colunm1/col4/" target="_blank">挂靠单位</a><a href="http://www.ntmuseum.com/colunm1/col5/" target="_blank">视频资料</a>
+				   </dd>
+			</dl>
+			<dl>
+			   <dt><a href="http://www.ntmuseum.com/colunm2/" target="_blank">收藏</a></dt>
+			       <dd>
+				   <a href="http://www.ntmuseum.com/colunm2/col4/" target="_blank">收藏计划</a><a href="http://www.ntmuseum.com/colunm2/col1/" target="_blank">文物藏品</a><a href="http://www.ntmuseum.com/colunm2/col2/" target="_blank">自然标本</a><a href="http://www.ntmuseum.com/colunm2/col3/" target="_blank">名树古木</a>
+				   </dd>
+			</dl>
+			<dl>
+			     <dt><a href="http://www.ntmuseum.com/colunm3/" target="_blank">展览</a></dt>
+			       <dd>
+				   <a href="http://www.ntmuseum.com/colunm3/col1/" target="_blank">展览方略</a><a href="http://www.ntmuseum.com/colunm3/col2/" target="_blank">当前展览</a><a href="http://www.ntmuseum.com/colunm3/col3/" target="_blank">基本陈列</a><a href="http://www.ntmuseum.com/colunm3/col4/" target="_blank">展览回顾</a><a href="http://www.ntmuseum.com/colunm3/col5/" target="_blank">虚拟展览</a><a href="http://www.ntmuseum.com/colunm3/col6/" target="_blank">流动展览</a>
+				   </dd>
+		    </dl>
+			<dl>
+			     <dt><a href="http://www.ntmuseum.com/colunm4/" target="_blank">教育</a></dt>
+			       <dd>
+				   <a href="http://www.ntmuseum.com/colunm4/col1/" target="_blank">教育计划</a><a href="http://www.ntmuseum.com/colunm4/col2/" target="_blank">儿童活动</a><a href="http://www.ntmuseum.com/colunm4/col3/" target="_blank">馆校共建</a><a href="http://www.ntmuseum.com/colunm4/colunm4/col4/" target="_blank">成人活动</a>
+				   </dd>
+			</dl>
+			<dl>
+			    <dt><a href="http://www.ntmuseum.com/column5/" target="_blank">自然</a></dt>
+			       <dd>
+				   <a href="http://www.ntmuseum.com/column5/col1/" target="_blank">园林种植</a><a href="http://www.ntmuseum.com/column5/col2/" target="_blank">动物保护</a><a href="http://www.ntmuseum.com/column5/col3/" target="_blank">爱鸟护鸟</a><a href="http://www.ntmuseum.com/column5/col4/" target="_blank">自然真趣</a>
+				   </dd>
+			</dl>
+			<dl>
+			     <dt><a href="http://www.ntmuseum.com/colunm6/" target="_blank">研究</a></dt>
+			       <dd>
+				   <a href="http://www.ntmuseum.com/colunm6/col1/" target="_blank">数字苑刊</a><a href="http://www.ntmuseum.com/colunm6/col2/" target="_blank">出版物</a><a href="http://www.ntmuseum.com/colunm6/col3/" target="_blank">学术活动</a><a href="http://www.ntmuseum.com/colunm6/col4/" target="_blank">苑史研究</a><a href="http://www.ntmuseum.com/colunm6/col5/" target="_blank">博物馆研究</a>
+				   </dd>
+		    </dl>
+			<dl>
+			   <dt><a href="http://www.ntmuseum.com/colunm7/" target="_blank">服务</a></dt>
+			       <dd>
+				   <a href="http://www.ntmuseum.com/colunm7/col1/" target="_blank">交通路线</a><a href="http://www.ntmuseum.com/colunm7/col2/" target="_blank">导览地图</a><a href="http://www.ntmuseum.com/colunm7/col3/" target="_blank">参观指南</a>
+				   </dd>
+			</dl>			
+		   </div>
+        </div>		
+         <p class="copy">南通博物苑&nbsp;&nbsp; <a href="http://www.miitbeian.gov.cn" target="_blank">苏ICP备11008188号</a>&nbsp;&nbsp;您是本站第&nbsp;<script type="text/javascript" src="http://services.webestools.com/cpt_visits/14530-9-5.js"></script><a href="http://www.webestools.com/visits-counter-free-number-visits-users-visit-statistics.html"><img src="http://services.webestools.com/images/s9_8.gif" class="cpt_vi_14530" alt="8" style="border:0px;"><img src="http://services.webestools.com/images/s9_0.gif" class="cpt_vi_14530" alt="0" style="border:0px;"><img src="http://services.webestools.com/images/s9_5.gif" class="cpt_vi_14530" alt="5" style="border:0px;"><img src="http://services.webestools.com/images/s9_7.gif" class="cpt_vi_14530" alt="7" style="border:0px;"><img src="http://services.webestools.com/images/s9_4.gif" class="cpt_vi_14530" alt="4" style="border:0px;"><img src="http://services.webestools.com/images/s9_6.gif" class="cpt_vi_14530" alt="6" style="border:0px;"></a>&nbsp;位访客<br><a href="http://bszs.conac.cn/sitename?method=show&amp;id=09B0F3CCD04A28CDE053022819AC8974"><img src="/templets/pc/images/blue.png"></a>
+		 </p>
+         
+
+	</div> 
+<script type="text/javascript" src="/templets/pc/js/jianfan.js"></script>
+<script type="text/javascript">
+var defaultEncoding = 0; //默认是否繁体，0-简体，1-繁体
+var translateDelay = 0; //延迟时间,若不在</body>前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+var cookieDomain = "http://www.ntmuseum.com/"; //Cookie地址, 一定要设定, 通常为你的网址
+var msgToTraditionalChinese = "繁體中文"; //默认切换为繁体时显示的中文字符
+var msgToSimplifiedChinese = "简体中文"; //默认切换为简体时显示的中文字符
+var translateButtonId = "translateLink"; //默认互换id
+translateInitilization();
+</script> 	
+  <!-- End foot -->	
+
+		</body></html>

@@ -1,0 +1,92 @@
+<html><head><link href="/css/kkpager_orange.css" rel="stylesheet" type="text/css">
+        <link href="/css/common.css" type="text/css" rel="Stylesheet">
+        <link href="/css/index.css" type="text/css" rel="Stylesheet">
+        <link href="/css/sub.css" type="text/css" rel="Stylesheet">
+        <script src="/js/jquery-1.11.3.js" type="text/javascript"></script>
+        <script src="/js/kkpager.min.js" type="text/javascript"></script>
+        <style>
+            nav{
+                top: 168px;
+            }
+       
+        </style>
+    </head><body><form method="post" action="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=3" id="ctl00">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTM0NTEyNDYwD2QWAgIBD2QWCgIBDw8WAh4EVGV4dAUP6KW/5p+P5Z2h56CU56m2ZGQCAw8PFgIfAAUM5a2m5pyv6ZW/5buKZGQCBQ8PFgIfAAUP6KW/5p+P5Z2h56CU56m2ZGQCBw8WAh4LXyFJdGVtQ291bnQCChYWZg9kFgJmDxUDBDEwMTcq6KW/5p+P5Z2h5pe25pyf5q+b5rO95Lic5rOV5Yi25oCd5oOz5o6i5p6QCjIwMTctMDYtMzBkAgEPZBYCZg8VAwQxMDE2JOOAiuWFmuWnlOS8mueahOW3peS9nOaWueazleOAi+ino+aekAoyMDE3LTA2LTMwZAICD2QWAmYPFQMEMTAxNTPopb/mn4/lnaHml7bmnJ/lhZrnmoTmsJHmnKzmgJ3mg7Plj4rlhbbnjrDlrp7lj5HlsZUKMjAxNy0wNi0zMGQCAw9kFgJmDxUDBDEwMTRY5Yib5oSP57uP5rWO6KeG6KeS5LiL57qi6Imy5peF5ri45Lqn5Lia5YyW5Y+R5bGV55qE5oCd6Lev56CU56m2IOKAlOKAlOS7peays+WMl+ecgeS4uuS+iwoyMDE3LTA2LTMwZAIED2QWAmYPFQMEMTAxMkLorrropb/mn4/lnaHml7bmnJ/lhZrlr7nnp5Hlrablu7rorr7kuI7np5Hlrablj5HlsZXnmoTmgJ3mg7PorqTor4YKMjAxNy0wNi0zMGQCBQ9kFgJmDxUDBDEwMTE24oCc6LW26ICD4oCd5ZG96aKY5a+556C06Kej4oCc5Zub56eN5Y2x6Zmp4oCd55qE5ZCv6L+qCjIwMTctMDYtMzBkAgYPZBYCZg8VAwQxMDEwLeilv+afj+WdoeWTgeeJjOWGheaguOWPiuWFtuaVtOWQiOS8oOaSreetlueVpQoyMDE3LTA2LTMwZAIHD2QWAmYPFQMEMTAxMyfigJzkuKTkuKrliqHlv4XigJ3lvaLmiJDnmoTljoblj7LogIPor4EKMjAxNy0wNi0zMGQCCA9kFgJmDxUDBDEwMDk/5byY5oms6KW/5p+P5Z2h57K+56We5LiO5Yqg5by65paw5pe25pyf5YWa5ZGY5bmy6YOo6YGT5b635L+u5YW7CjIwMTctMDYtMzBkAgkPZBYCZg8VAwQxMDA4MOilv+afj+Wdoee6ouiJsuaXhea4uOWPr+aMgee7reWPkeWxlei3r+W+hOeglOeptgoyMDE3LTA2LTMwZAIKD2QWAgIBDxYCHgdWaXNpYmxlaGQCCQ8PFgYeC1JlY29yZGNvdW50AkAeEEN1cnJlbnRQYWdlSW5kZXgCAx4JVVJQYXR0ZXJuBQ1odHRwOi8vaGFoYWhhZGRkJQ/IftQUsGCKuaexoCgrhg0+pxgYFeFoft3gwF320ZM=">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AC064C93">
+</div>
+                       <div class="right_detail">
+                    <div class="zygg">
+                        <div class="panel-toolbar">
+                             <img src="../images/xbp/tubiao/rectangle.jpg" alt="">
+                            <strong><span id="lbname">西柏坡研究</span></strong>
+                            <div class="bread">您当前的位置：
+                                首页&gt;
+                                <span id="Label1">学术长廊</span>&gt;<span id="Label2">西柏坡研究</span>
+                            </div>
+                        </div>
+                        <div class="all-content">
+                            
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1017">西柏坡时期毛泽东法制思想探析</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1016">《党委会的工作方法》解析</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1015">西柏坡时期党的民本思想及其现实发展</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1014">创意经济视角下红色旅游产业化发展的思路研究 ——以河北省为例</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1012">论西柏坡时期党对科学建设与科学发展的思想认识</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1011">“赶考”命题对破解“四种危险”的启迪</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1010">西柏坡品牌内核及其整合传播策略</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1013">“两个务必”形成的历史考证</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1009">弘扬西柏坡精神与加强新时期党员干部道德修养</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                     <h2>             
+                                     <a href="NewDetail_New.aspx?n_id=1008">西柏坡红色旅游可持续发展路径研究</a><div class="rt">2017-06-30</div>
+                                      </h2>
+                                
+                                    
+                                
+                          <div class="pagnition">
+                    
+<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+<div id="Pager1" showpagesizebox="false">
+<a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=1" style="margin-right:5px;">首页</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=2" style="margin-right:5px;">上页</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=1" style="margin-right:5px;">1</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=2" style="margin-right:5px;">2</a><span style="margin-right:5px;font-weight:Bold;color:red;">3</span><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=4" style="margin-right:5px;">4</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=5" style="margin-right:5px;">5</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=6" style="margin-right:5px;">6</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=7" style="margin-right:5px;">7</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=4" style="margin-right:5px;">下页</a><a href="NewsList_New.aspx?id=ac3022bd-d56f-4778-b2f5-97217edea99e&amp;page=7" style="margin-right:5px;">末页</a>
+</div>
+<!-- AspNetPager 7.3.2  Copyright:2003-2010 Webdiyer (www.webdiyer.com) -->
+
+
+                </div>
+               </div> 
+                 </div>
+                           </div>
+            <div class="clear"></div>
+                 
+        </form>
+</body></html>

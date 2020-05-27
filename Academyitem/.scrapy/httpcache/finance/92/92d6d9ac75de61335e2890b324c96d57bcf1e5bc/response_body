@@ -1,0 +1,227 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <base href="https://www.yzmuseum.com">
+    <title>学术研究-学术成果</title>
+    <link rel="stylesheet" type="text/css" href="website/style/main.css">
+
+    <link rel="stylesheet" type="text/css" href="website/style/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="website/style/jquery-ui.css">
+    <!--[if lt IE 9]>
+    <script src="website/script/html5.js"></script>
+    <![endif]-->
+    <script src="https://hm.baidu.com/hm.js?ff832d629d1e785ec1b07b730b4586e9"></script><script src="website/script/jquery.min.js"></script>
+    <script src="website/script/jquery-ui.js"></script>
+        <script src="website/script/jquery-ui.lang.zn.js"></script>
+        <script src="website/script/jquery.flexslider.category.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge; IE=10; chrome=1;">
+    <script src="website/script/baidu.js"></script>
+    <style>
+        .flex-control-nav{
+            bottom:10px;
+        }
+        .flex-control-nav li{
+            margin:0 4px;
+        }
+        .flex-control-paging li a{
+            background:#fff;
+            width:6px;
+            height:6px;
+        }
+        .flex-control-paging li a.flex-active{
+            background:#ff0000;
+        }
+    </style>
+</head>
+<body>
+<div id="page">
+    <div id="header">
+        <div id="head_inner">
+            <div id="search_area">
+                <div id="search_box">
+                    <input type="text" id="global_search" onkeypress="if(event.keyCode==13) {$('#search_submit').click();return false;}">
+                    <span id="search_submit"></span>
+                </div>
+                <div id="lan"><a href="website/pages/index.php?forcelang=chinese"><span>中文</span></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="website/pages/index.php?forcelang=english"><span>English</span></a></div>
+            </div>
+            <div id="menu_area">
+                                <a class="menu_item  left" href="website/pages/index.php">首页</a>
+                <a class="menu_item  left" href="website/aboutyzm/welcome.php">关于扬博</a>
+                <a class="menu_item  left" href="website/guide/open.php">参观指南</a>
+                <a class="menu_item  left" href="website/exhibition/basic.php">陈列展览</a>
+                <a class="menu_item  left" href="website/treasure/list.php">馆藏精品</a>
+                <a class="menu_item  left" href="website/protect/repair.php">文物保护</a>
+
+                <a class="menu_item  right" href="website/product/intro.php">文创产品</a>
+                <a class="menu_item  right" href="website/share/video.php">资源共享</a>
+                <a class="menu_item  right" href="http://www.yzfjwhbwg.com" target="_blank">天宁寺</a>
+                <a class="menu_item  right" href="website/marcopolo/intro.php">马可波罗纪念馆</a>
+                <a class="menu_item  right" href="website/edu/center.php">教育互动</a>
+                <a class="menu_item selected right" href="website/research/discus.php">学术研究</a>
+                            </div>
+
+        </div>
+    </div>
+    <div id="content">
+        <div id="content_bg"></div>
+        <div id="content_inner">
+            <div id="sub_menu_bg"></div>
+            <div id="sub_menu">
+                <img src="website/images/submenu/academic.png">
+                                <a class="sub_menu_item " href="website/research/discus.php">学术研讨</a>
+                                <a class="sub_menu_item selected" href="website/research/achievement.php">学术成果</a>
+                                <a class="sub_menu_item " href="website/research/association.php">博物馆协会</a>
+                                <div id="bg_block"></div>
+            </div>
+
+            <div id="page_content">
+                <div id="page_content_bg"></div>
+<div id="content_head">
+    <div class="content_head_item onfocus">学术成果</div>
+</div>
+<ul class="content_list">
+        <a href="website/research/detail.php?id=1096&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">阮元与万柳堂——扬州博物馆馆藏阮元相关书法作品解读</div>
+            <span>[2015-12-10]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1095&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">“扬州城考古学术研讨会”综述</div>
+            <span>[2015-11-12]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1094&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">徽州盐商是清代扬州城市繁荣的主要力量</div>
+            <span>[2015-09-24]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1093&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">中国第一部科学家传记——关于阮元与《畴人传》</div>
+            <span>[2015-09-17]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1092&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">《扬州出土唐代长沙窑瓷器研究》</div>
+            <span>[2015-08-27]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1091&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">《神奇的东方之旅》</div>
+            <span>[2015-08-06]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1090&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">阮元与《至顺镇江志》</div>
+            <span>[2015-06-11]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1089&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">汉画像石：把梦想照进现实</div>
+            <span>[2015-04-17]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1088&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">举社会之力助推藏品利用</div>
+            <span>[2015-04-10]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1087&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">清·江雨三刻“三阳开泰”瓷盘</div>
+            <span>[2015-02-17]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1086&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">林木苍翠  冬青长青——祭卞孝萱先生</div>
+            <span>[2014-12-27]</span>
+        </li>
+    </a>
+        <a href="website/research/detail.php?id=1085&amp;type=19">
+        <li>
+            <div class="dot"></div>
+            <div class="title">“南海Ⅰ号”出土瓷器的保护修复</div>
+            <span>[2014-12-26]</span>
+        </li>
+    </a>
+    </ul>
+
+		<div id="paginate">
+			<div>当前页&nbsp;&nbsp;</div><span class="current_page">2</span><span>/</span><span class="total_page">10</span>
+			<a href="https://www.yzmuseum.com/website/research/achievement.php?page=1" id="first_page" class="enable">首页</a>
+			<a href="https://www.yzmuseum.com/website/research/achievement.php?page=1" id="last_page" class="enable">上一页</a>
+			<a href="https://www.yzmuseum.com/website/research/achievement.php?page=3" id="next_page" class="enable">下一页</a>
+			<a href="https://www.yzmuseum.com/website/research/achievement.php?page=10" id="end_page" class="enable">末页</a>
+			<div style="margin-left:20px;">转到</div>
+			<select id="page_selector">
+				<option>1</option><option selected="selected">2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+			</select>
+			<div>页</div>
+		</div>
+		<script>
+		$(function(){
+			$("#page_selector").on("change",function(){
+				window.location.href = "https://www.yzmuseum.com/website/research/achievement.php?page="+$(this).val()+"";
+			});
+		});
+		</script>
+		
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+        <div id="foot_links">
+        <div class="foot_link" href="./">网站首页</div>
+        <div class="foot_link" href="website/aboutyzm/about.php">关于扬博</div>
+        <div class="foot_link" href="">地图导览</div>
+        <div class="foot_link" href="">资源下载</div>
+        <div class="foot_link" href="">访客留言</div>
+        <div class="foot_link" href="">在线咨询</div>
+        <div class="foot_link" href="">联系我们</div>
+    </div>
+    <div id="foot_info">网站备案/许可证号：<a style="color: inherit;text-decoration: none" href="http://www.beian.miit.gov.cn" target="_blank">苏ICP备15000245号-1</a>　版权所有 2015 扬州博物馆  地址：扬州市邗江区文昌西路468号   邮编：225002   电话：（86）0514-85228003</div>
+    </div>
+
+<script>
+    $(function () {
+//        $(".sub_menu_item").on("click",function(){
+//            window.location.href = $(this).attr("href");
+//        });
+
+        $(".foot_link").on("click",function () {
+            window.location.href = $(this).attr("href");
+        });
+        $("#search_submit").on("click",function () {
+            var input = $("#global_search").val();
+            if(!input){
+                return;
+            }
+            window.location.href="website/pages/search.php?search="+input;
+        });
+    });
+</script>
+
+
+</body></html>

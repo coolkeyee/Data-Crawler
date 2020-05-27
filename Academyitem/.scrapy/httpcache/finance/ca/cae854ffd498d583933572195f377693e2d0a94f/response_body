@@ -1,0 +1,378 @@
+<html lang="en"><head><link href="" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="keywords" content="学术研究">
+	<meta name="description" content="学术研究">
+	<meta name="ColumnName" content="学术研究">
+	<meta name="ColumnDescription" content="学术研究">
+	<meta name="ColumnKeywords" content="学术研究">
+	<meta name="ColumnType" content="学术研究">
+    <title>学术研究-文化和旅游部恭王府博物馆</title>
+<meta name="others" content="页面生成时间 2020-04-27 20:36:35">
+	<link href="../xhtml/css/reset.css" rel="stylesheet">
+	<link href="../xhtml/css/style.css" rel="stylesheet">
+	<script src="../xhtml/js/jquery-1.11.1.min.js"></script>
+	<script src="../xhtml/js/jquery.SuperSlide.2.1.1.js"></script>
+   
+</head>
+<body>
+<div class="bodybg">
+    <!-- Top -->
+    <link rel="stylesheet" href="../xhtml/css/reset.css">
+	<link rel="stylesheet" href="../xhtml/css/style.css">
+<div class="inTop w1200 auto">
+	<div class="inlogo fl"><img src="/pgm/xhtml/images/inlogo.png" alt=""></div>
+	<ul class="innav fl">
+		<li id="m1" class="m on">
+			<h3><a href="/pgm/index.shtml" target="_parent">首页</a></h3>
+		</li>
+		<li id="m2" class="m">
+			<h3><a href="/pgm/daolan/daolan.shtml" target="_parent">	导览	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/daolan/daolan.shtml#d1k" target="_parent">
+ 
+参观指南
+</a></li>
+ 
+
+				<li><a href="http://web.pgm.org.cn/login" target="_parent">在线购票</a></li>
+
+				
+				<li><a href="/pgm/daolan/daolan.shtml#d3k" target="_parent">
+ 
+讲解服务
+</a></li>
+				
+				
+				<li><a href="/pgm/daolan/daolan.shtml#d4k" target="_parent">
+ 
+游览路线
+</a></li>
+				
+ 
+
+				<li><a href="http://www.pgm.org.cn/vr/tmp002/#d3k#d3k" target="_parent">虚拟游览</a></li>
+
+				
+			</ul>
+		</li>
+		<li id="m3" class="m">
+			<h3><a href="/pgm/zixun/zixun.shtml" target="_parent">	资讯	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/zixun/zixun.shtml#d1k" target="_parent">
+ 
+公告
+</a></li>
+				<li><a href="/pgm/zixun/zixun.shtml#d2k" target="_parent">
+ 
+王府动态
+</a></li>
+				<li><a href="/pgm/zixun/zixun.shtml#d2k" target="_parent">
+ 
+王府视频
+</a></li>
+				<li><a href="/pgm/zixun/zixun.shtml#d3k" target="_parent">
+ 
+媒体关注
+</a></li>
+				<li><a href="/pgm/zixun/zixun.shtml#d4k" target="_parent">
+ 
+府讯
+</a></li>
+			</ul>
+		</li>
+		<li id="m4" class="m">
+			<h3><a href="/pgm/zhanlan/zhanlan.shtml" target="_parent">	展览	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/zhanlan/zhanlan.shtml#d2k" target="_parent">
+ 
+正在展出
+</a></li>
+				<li><a href="/pgm/zhanlan/zhanlan.shtml#d2k" target="_parent">
+ 
+常设展览
+</a></li>
+				<li><a href="/pgm/zhanlan/zhanlan.shtml#d3k" target="_parent">
+ 
+展览回顾
+</a></li>
+			</ul>
+		</li>
+		<li id="m5" class="m">
+			<h3><a href="/pgm/shoucang/shoucang.shtml" target="_parent">	收藏	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/shoucang/shoucang.shtml#d1k" target="_parent">
+ 
+馆藏精品
+</a></li>
+				<li><a href="/pgm/shoucang/shoucang.shtml#d2k" target="_parent">
+ 
+王府文物
+</a></li>
+				<li><a href="/pgm/shoucang/shoucang.shtml#d2k" target="_parent">
+ 
+收藏捐赠
+</a></li>
+				<li><a href="/pgm/shoucang/shoucang.shtml#d3k" target="_parent">
+ 
+文物博览
+</a></li>
+			</ul>
+		</li>
+		<li id="m6" class="m">
+			<h3><a href="/pgm/yanjiu/yanjiu.shtml" target="_parent">	研究	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/yanjiu/yanjiu.shtml#d1k" target="_parent">
+ 
+王府历史
+</a></li>
+				<li><a href="/pgm/yanjiu/yanjiu.shtml#d2k" target="_parent">
+ 
+王府文化
+</a></li>
+				<li><a href="/pgm/yanjiu/yanjiu.shtml#d3k" target="_parent">
+ 
+王府影像
+</a></li>
+				<li><a href="/pgm/yanjiu/yanjiu.shtml#d2k" target="_parent">学术研究</a></li>
+			</ul>
+		</li>
+		<li id="m7" class="m">
+			<h3><a href="/pgm/jiaoyu/gongjiao.shtml" target="_parent">	公教	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/jiaoyu/gongjiao.shtml#d1k" target="_parent">
+ 
+公教活动
+</a></li>
+				<li><a href="/pgm/jiaoyu/gongjiao.shtml#d2k" target="_parent">
+ 
+王府志愿者
+</a></li>
+ 
+
+				<li><a href="http://www.pgm.org.cn/game/index.html" target="_parent" title="互动游戏">互动游戏</a></li>
+
+			</ul>
+		</li>
+		<li id="m7" class="m">
+			<h3><a href="/pgm/wenchuang/wenchuang.shtml" target="_parent">	文创	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/wenchuang/wenchuang.shtml#d1k" target="_parent">
+ 
+资讯
+</a></li>
+ 
+
+				<li><a href="/pgm/wenchuang/wenchuang.shtml#fwh" target="_parent" title="产品">产品</a></li>
+
+				<li><a href="/pgm/wenchuang/wenchuang.shtml#d3k" target="_parent">
+ 
+壁纸
+</a></li>
+			</ul>
+		</li>
+		<li id="m8" class="m">
+			<h3><a href="/pgm/guanyu/guanyu.shtml" target="_parent">	关于	</a></h3>
+			<ul class="sub">
+				<li><a href="/pgm/guanyu/guanyu.shtml#d1k" target="_parent">
+ 
+现任领导
+</a></li>
+				<li><a href="/pgm/guanyu/guanyu.shtml#d1k" target="_parent">
+ 
+机构设置
+</a></li>
+				<li><a href="/pgm/guanyu/guanyu.shtml#d2k" target="_parent">
+ 
+大事记
+</a></li>
+				<li><a href="/pgm/guanyu/guanyu.shtml#d2k" target="_parent">
+ 
+馆史
+</a></li>
+			</ul>
+		</li>
+		<div class="cl"></div>
+	</ul>
+	<script language="javascript" type="text/javascript">
+	$(document).ready(function (){
+		$(".innav>li").hover(function(){
+			$(this).find("ul").stop(false,true).fadeIn();//slideDown()展开   .stop(false,true)停止动画  false禁止添加到动画序列中   true将当前动画执行完毕    fadeIn()渐现   fadeOut()渐隐
+		},function(){
+			$(this).find("ul").stop(false,true).fadeOut()	//slideUp()折叠
+		})
+		$(".innav>li h3 a").each(function(){
+			if($.trim($(this).text())==$.trim($(".channel").text())){
+				$(this).parent().parent().addClass("on").siblings().removeClass("on");
+			}
+			
+		});
+		$('.innav').find('a').each(function(){
+			$(this).attr('href',$(this).attr('href').replace(/..\/..\/pgm/g,'/pgm'));
+			//$(this).attr('href',$(this).attr('href').replace(/pgm\/pgm/gi,'pgm'));
+			
+		})
+
+	});
+	</script>
+	<div class="intright fr">
+		<a href="http://so.pgm.org.cn:8090/s?qt=恭王府博物馆&amp;siteCode=N000000219" class="insous" target="_blank">搜索</a> 
+		<a href="https://mail.pgm.org.cn/" target="_blank" class="inyouj">邮箱</a>
+		<a href="http://en.pgm.org.cn/" target="_blank">EN</a> 
+		<span><iframe width="130" scrolling="no" height="22" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=1&amp;icon=2&amp;wind=1&amp;num=1" style="z-index:-1; margin-top:15px;"></iframe></span>
+	</div>
+	<div class="cl"></div>
+</div>
+	<div class="channel" style="display:none;">学术研究</div>
+    <div class="w1200">
+        <div class="wz">
+<a href="../../pgm/index.shtml" target="_parent">首页</a>&nbsp;&gt;&nbsp;<a href="../../pgm/yanjiu/yanjiu.shtml" target="_parent">研究</a>&nbsp;&gt;&nbsp;<a href="../../pgm/wfyjj/list.shtml" target="_parent">王府研究</a>&nbsp;&gt;&nbsp;学术研究
+</div>
+        <div class="bke4 p18 mb40">
+            <div class="lmtit">学术研究</div>
+            <ul class="lmlist" style="min-height:500px;">
+ 
+
+                    <li><span class="time fr">2018-07-13</span>· <a href="../../pgm/xsyjou/201807/5434ebe5f8df48478bceb61c0ccb0b31.shtml" target="_blank" title="清代冰桶与王府冰窖略论">	清代冰桶与王府冰窖略论	</a></li>
+
+                    <li><span class="time fr">2018-04-11</span>· <a href="../../pgm/xsyjou/201804/7ae2652097b148319abb308baec23b22.shtml" target="_blank" title="《平复帖》与恭王府的不解之缘">	《平复帖》与恭王府的不解之缘	</a></li>
+
+                    <li><span class="time fr">2015-09-24</span>· <a href="../../pgm/xsyjou/201509/f51ae307bd1e4f49bee19065e6b7bc9f.shtml" target="_blank" title="人书同构——浅析颜真卿人品与书法风格之关系">	人书同构——浅析颜真卿人品与书法风格之关系	</a></li>
+
+                    <li><span class="time fr">2015-09-24</span>· <a href="../../pgm/xsyjou/201509/732738d4d1824909bf0dcc4c103a09ec.shtml" target="_blank" title="清宫紫檀宝座的目鉴与考证">	清宫紫檀宝座的目鉴与考证	</a></li>
+
+                    <li><span class="time fr">2015-09-24</span>· <a href="../../pgm/xsyjou/201509/64cdebe17fec4bd9bee8f8751f1abb75.shtml" target="_blank" title="清代朝珠仪制考">	清代朝珠仪制考	</a></li>
+
+                    <li><span class="time fr">2015-07-10</span>· <a href="../../pgm/xsyjou/201507/c4cd52e8cacf4c8ea9fdeb65e1a42d42.shtml" target="_blank" title="恭王府楠木隔扇赏析">	恭王府楠木隔扇赏析	</a></li>
+
+                    <li><span class="time fr">2015-07-09</span>· <a href="../../pgm/xsyjou/201507/5a109c1de2064e32b82f4e7fb661afcf.shtml" target="_blank" title="台北故宫收藏的恭王府家具">	台北故宫收藏的恭王府家具	</a></li>
+
+                    <li><span class="time fr">2015-07-08</span>· <a href="../../pgm/xsyjou/201507/7415ea64bfbc46b38ee3302cef2d90ca.shtml" target="_blank" title="乐道堂和乐道堂主人制堂名款瓷器">	乐道堂和乐道堂主人制堂名款瓷器	</a></li>
+
+                    <li><span class="time fr">2015-07-03</span>· <a href="../../pgm/xsyjou/201507/110a2053001941ab84b62c58ad79f536.shtml" target="_blank" title="记述几位晚清王府中的女主人">	记述几位晚清王府中的女主人	</a></li>
+
+                    <li><span class="time fr">2015-07-03</span>· <a href="../../pgm/xsyjou/201507/163bae4970fc431aafec48e7ad5a900b.shtml" target="_blank" title="宫廷家具研究之我见">	宫廷家具研究之我见	</a></li>
+
+                    <li><span class="time fr">2015-07-03</span>· <a href="../../pgm/xsyjou/201507/32f0090ed9e14fd281038f6d0b79262f.shtml" target="_blank" title="从红楼梦看恭王府家具类文物的收藏与陈设">	从红楼梦看恭王府家具类文物的收藏与陈设	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/cb362e080bd746a9ae3fce7f8c46a4b8.shtml" target="_blank" title="乐道堂和乐道堂主人制堂名款瓷器">	乐道堂和乐道堂主人制堂名款瓷器	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/f993bc9f842148ec917fba81a22f6981.shtml" target="_blank" title="记述几位晚清王府中的女主人（之一）">	记述几位晚清王府中的女主人（之一）	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/a2550c930c1041aabdbc0ba45b8c8db7.shtml" target="_blank" title="台北故宫收藏的恭王府家具">	台北故宫收藏的恭王府家具	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/9a2a7ee6562148889c831b7be51bebd6.shtml" target="_blank" title="清宫紫檀宝座的目鉴与考证">	清宫紫檀宝座的目鉴与考证	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/1400039274cf4bc1b7d52517f113989c.shtml" target="_blank" title="恭王府楠木隔扇赏析">	恭王府楠木隔扇赏析	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/33fdbdf924074c1bba673dc87e900ced.shtml" target="_blank" title="清代朝珠仪制考">	清代朝珠仪制考	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/931a635d093641f1a2626f2cea16ef7f.shtml" target="_blank" title="宫廷家具研究之我见">	宫廷家具研究之我见	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/e087e044b50743ec837d779feece0d66.shtml" target="_blank" title="书人同构——浅析颜真卿人品与书法风格之关系">	书人同构——浅析颜真卿人品与书法风格之关系	</a></li>
+
+                    <li><span class="time fr">2015-03-23</span>· <a href="../../pgm/xsyjou/201503/9bf22f2597eb4011a4561c213369ce85.shtml" target="_blank" title="从红楼梦看恭王府家具类文物的收藏与陈设">	从红楼梦看恭王府家具类文物的收藏与陈设	</a></li>
+<script type="text/javascript" src="/pgm/xhtml/js/page.js"></script><script>window.onload=function() {createPageHTML('page_div',4, 1,'list','shtml',66);}</script>
+            </ul>
+            <script src="../xhtml/js/page.js"></script>
+            <div class="page_num"><div id="page_div"><div class="pagination_index"><span class="arrow"><a href="list.shtml">首页</a></span></div><div class="pagination_index_num currentIndex">1/4</div><div class="pagination_index"><span class="arrow"><a href="list_2.shtml">下一页</a></span></div><div class="pagination_index"><span class="arrow"><a href="list_4.shtml">尾页</a></span></div><div class="pagination_index_last">&nbsp;&nbsp; 第&nbsp;&nbsp;<input name="pagination_input" id="pagination_input">&nbsp;&nbsp;页 <a href="#" onclick="pagination_go('list','shtml','4')"> <span class="pagination_qd">转到</span></a> </div></div></div>
+        </div>
+    </div>
+    <!-- Bottom -->
+    <div class="inBottom fz12 textc"><p>
+ 
+<a href="../../pgm/bottom/201912/c3fb4047864a4dc885ed7dc9f300dfe7.shtml" target="_blank" title="版权声明">	版权声明	</a>
+ | 
+ 
+<a href="../../pgm/bottom/201912/d9309f54275748fc9780bf47e45dbbf9.shtml" target="_blank" title="隐私保护">	隐私保护	</a>
+ | <a href="../../pgm/wzdt/wzdt.shtml" target="_blank">	网站地图	</a></p>
+<p>友情链接：<a href="http://www.mct.gov.cn" target="_blank">中华人民共和国文化和旅游部</a> | <a href="http://www.ncha.gov.cn" target="_blank">国家文物局</a> | <a href="http://www.dpm.org.cn/Home.html" target="_blank">故宫博物院</a> | <a href="http://www.chnmuseum.cn/" target="_blank">中国国家博物馆</a></p>
+ 
+<p>地址：北京市西城区前海西街17号 &nbsp;邮编：100009 &nbsp;联系电话：010-83288149 &nbsp;<span style="font-size: 9pt;">(c) 2018 文化和旅游部恭王府博物馆 - 版权所有 &nbsp;文化和旅游部恭王府博物馆 京ICP备15030189号-2 &nbsp;</span><span style="font-size: 9pt;">京公网安备110102000082&nbsp;</span>   <a title="站长统计" target="_blank" href="http://www.cnzz.com/stat/website.php?web_id=4453276"><img border="0" vspace="0" hspace="0" src="http://icon.cnzz.com/img/pic1.gif"></a></p>
+<p>网站维护：恭王府博物馆行政办公室&nbsp;</p>
+</div>
+
+
+<!-- right -->
+<div class="inright">
+	<!--
+ 
+
+	<a href="/pgm/wzdt/wzdt.shtml" target="_blank" title="网站地图">
+		<div>网站地图</div>
+	</a>
+-->
+	<!--<a href="../../pgm/wzdt/wzdt.shtml" target="_blank" title="网站地图">
+		<div>网站地图</div>
+	</a>-->
+ 
+	<a class="ingfwx" title="官方微信">
+		<div><img src="/pgm/wzyc/201808/9580dbe5be4f4eb6ae4e3bf8b927730a/images/550dd40c83664842a6e67399a2a5e0f3.jpg" width="130" height="129">
+<img src="/pgm/wzyc/201808/9580dbe5be4f4eb6ae4e3bf8b927730a/images/c71c96bff8a14b8288b037de9cb66187.jpg" width="130" height="129">
+</div>
+	</a>
+
+ 
+
+	<a href="http://weibo.com/beijinggongwangfu" target="_blank" title="官方微博">
+		<div>官方微博</div>
+	</a>
+
+	<a href="#" target="_blank" title="网上商城">
+		<div>网上商城</div>
+	</a>
+
+	<a href="http://www.pgm.org.cn/gwf-survey/survey.do?method=findSurveyBySurveyIdBuildHTML&amp;surveyId=4028c94b628f768e01628f8d5b540002" target="_blank" title="调查问卷">
+		<div>调查问卷</div>
+	</a>
+
+	<a href="https://mail.pgm.org.cn/" target="_blank" title="工作邮件">
+		<div>工作邮件</div>
+	</a>
+
+	<!--<a href="#" target="_blank" title="网上商城">
+		<div>网上商城</div>
+	</a>
+	<a href="#" target="_blank" title="调查问卷">
+		<div>调查问卷</div>
+	</a>-->
+	
+	<a class="arrow" title="返回顶部"></a>
+</div>
+<!-- right js -->
+<script type="text/javascript">
+$(function(){
+	// 返回顶部js
+	$(".inright a.arrow").eq(0).click(function(){
+		$("html,body").animate({scrollTop :0}, 800);
+		return false;
+	});
+	//收藏图片滑过js
+	$('.boxgrid.caption').hover(function(){
+		$(".cover", this).stop().animate({top:'0px'},{queue:false,duration:500});
+		$(".cover", this).children("h3").css("padding-top","110px");
+		$(".cover", this).children("dl").show();
+	}, function() {
+		$(".cover", this).stop().animate({top:'378px'},{queue:false,duration:500});
+		$(".cover", this).children("h3").css("padding-top","0");
+	});
+	
+});
+</script>
+
+
+<script language="JavaScript">var _trackDataType = 'web';var _trackData = _trackData || [];</script>
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10001341" src="//fxsjcj.kaipuyun.cn/count/10001341/10001341.js"></script>
+
+
+
+<iframe id="rank" name="rank" width="0" height="0" src="/website-rank/addVoteRecord?id=" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+</div>
+<script>
+$(function(){
+   // $('.lmlist li:nth-child(5n)').addClass('line')
+})
+</script>
+
+</body></html>

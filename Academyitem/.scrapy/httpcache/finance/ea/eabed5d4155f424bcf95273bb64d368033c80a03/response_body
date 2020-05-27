@@ -1,0 +1,119 @@
+<html lang="zh"><head>
+	<meta charset="UTF-8">
+		<title>学术交流 - 吉林省博物院</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!-- 360 使用极速模式 -->
+    <meta name="renderer" content="webkit">
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=1180px">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="/App/Tpl/Home/Default/Public/css/style.css">
+	<script type="text/javascript" src="/Public/Js/jquery.min.js"></script>
+	<script type="text/javascript" src="/Public/Js/app.js"></script>
+	<script type="text/javascript" src="/App/Tpl/Home/Default/Public/js/plugin.js"></script>
+	<script type="text/javascript" src="/App/Tpl/Home/Default/Public/js/common.js"></script>
+	<script type="text/javascript">
+		var APP	 =	 '';
+		var ROOT =	 '';
+		var PUBLIC = '/Public';
+	</script>
+		</head>
+<body>
+<div class="header full-wrap">
+	<div class="top-header">
+		<div class="wrap">
+			<div class="bar">
+				<ul>
+															<li><a href="javascript:;" id="user-login">[ 登 录 ]</a> <a href="javascript:;" id="user-register">[ 注 册 ]</a></li>
+										<!-- <li><a href="/home/order/cart.html">购物车</a></li> -->
+										<li><a href="http://jlmuseum.org?l=cn">简体中文</a> <i>|</i> <a href="http://jlmuseum.org?l=en">English</a></li>
+				</ul>
+			</div>
+			<div class="logo">
+			<a href="http://jlmuseum.org" title="吉林省博物院">
+				<img src="/App/Tpl/Home/Default/Public/images/logo.png" alt="吉林省博物院">
+				<h1>吉林省博物院</h1>
+			</a>
+			</div>
+						<div class="search">
+				<form action="/index.php?" method="GET">
+					<input type="text" value="" placeholder="请输入关键字" name="keyword">
+					<input type="hidden" name="module" value="Article">
+					<input type="hidden" value="Search" name="m">
+					<input type="submit" class="submit" value="">
+				</form>
+			</div>
+					</div>
+	</div>
+	<div class="nav">
+		<div class="wrap cn">
+						<ul id="nav_box"><li id="nav_0"><span class="fl_ico"></span><a title="首页" href="/"><span class="fl">首页</span></a></li><li id="nav_2"><span class="fl_ico"></span><a title="概况" href="/description"><span class="fl">概况</span></a></li><li id="nav_3"><span class="fl_ico"></span><a title="数字展馆" href="/exhibition/"><span class="fl">数字展馆</span></a></li><li id="nav_4"><span class="fl_ico"></span><a title="陈列展览" href="/display"><span class="fl">陈列展览</span></a></li><li id="nav_5"><span class="fl_ico"></span><a title="院内动态" href="/news/"><span class="fl">院内动态</span></a></li><li id="nav_6"><span class="fl_ico"></span><a title="文博动态" href="/subject/"><span class="fl">文博动态</span></a></li><li id="nav_7"><span class="fl_ico"></span><a title="馆藏精品" href="/collection/"><span class="fl">馆藏精品</span></a></li><li id="nav_8"><span class="fl_ico"></span><a title="学术交流" href="/learning/"><span class="fl">学术交流</span></a></li><li id="nav_9"><span class="fl_ico"></span><a title="文创商店" href="/shop/"><span class="fl">文创商店</span></a></li><li id="nav_10"><span class="fl_ico"></span><a title="公众服务" href="/visit"><span class="fl">公众服务</span></a></li><li id="nav_11"><span class="fl_ico"></span><a title="留言板" href="/message/"><span class="fl">留言板</span></a></li></ul>
+			<script type="text/javascript">
+		  		if($('#nav_19')) $('#nav_19').addClass("current");
+		  	</script>
+		  			</div>
+	</div>
+</div>
+
+	
+
+
+
+
+
+
+
+
+
+		
+<div class="pub-page clearfix wrap">
+    <div class="left" style="height: 840px;">
+        <div class="ptitle">
+            资讯        </div>
+        <ul class="sub-list">
+            <li><a href="/news/" title="院内动态">院内动态</a><i></i></li><li><a href="/subject/" title="文博动态">文博动态</a><i></i></li><li class="current"><a href="/learning/" title="学术交流">学术交流</a><i></i></li><li><a href="/notice/" title="公告栏">公告栏</a><i></i></li>        </ul>
+    </div>
+    <div class="right">
+        <div class="crumbs">
+            当前位置： <a href="/">首页</a> / <a href="/news">资讯</a> / <a href="/learning/">学术交流</a>        </div>
+        <div class="list-txt">
+            <ul>
+				<li><a href="/learning/show/2137.html" title="吉林省博物院2018年项目公示" target="_blank">吉林省博物院2018年项目公示</a><span class="date">2019-04-12</span></li><li><a href="/learning/show/2136.html" title="吉林省博物院2017年学术成果公示" target="_blank">吉林省博物院2017年学术成果公示</a><span class="date">2019-04-12</span></li><li><a href="/learning/show/2135.html" title="吉林省博物院2018年学术成果公示" target="_blank">吉林省博物院2018年学术成果公示</a><span class="date">2019-04-12</span></li><li><a href="/learning/show/2133.html" title="吉林省博物院2017年项目公示" target="_blank">吉林省博物院2017年项目公示</a><span class="date">2019-04-11</span></li><li><a href="/learning/show/2077.html" title="国家文物局召开新闻发布会解读《关于加强文物保护利用改革的若干意见》" target="_blank">国家文物局召开新闻发布会解读《关于加强文物保护利用改革的若干意见》</a><span class="date">2018-10-15</span></li><li><a href="/learning/show/1963.html" title="吉林省博物院召开2017年度学术讨论会" target="_blank">吉林省博物院召开2017年度学术讨论会</a><span class="date">2018-03-29</span></li><li><a href="/learning/show/1923.html" title="吉林省博物院2016年学术成果" target="_blank">吉林省博物院2016年学术成果</a><span class="date">2017-03-07</span></li><li><a href="/learning/show/1922.html" title="吉林省博物院2015年科研成果" target="_blank">吉林省博物院2015年科研成果</a><span class="date">2015-12-16</span></li><li><a href="/learning/show/1921.html" title="吉林省博物院2014年科研成果" target="_blank">吉林省博物院2014年科研成果</a><span class="date">2014-12-23</span></li><li><a href="/learning/show/1896.html" title="吉林省博物院2016年项目公示" target="_blank">吉林省博物院2016年项目公示</a><span class="date">2016-12-20</span></li><li><a href="/learning/show/1895.html" title="吉林省博物院2015年项目公示" target="_blank">吉林省博物院2015年项目公示</a><span class="date">2016-03-02</span></li><li><a href="/learning/show/1894.html" title="吉林省博物院2014年项目公示" target="_blank">吉林省博物院2014年项目公示</a><span class="date">2014-12-18</span></li><li><a href="/learning/show/1893.html" title="吉林省博物院2016年学术成果公示" target="_blank">吉林省博物院2016年学术成果公示</a><span class="date">2016-12-14</span></li><li><a href="/learning/show/1892.html" title="吉林省博物院2015年学术成果公示" target="_blank">吉林省博物院2015年学术成果公示</a><span class="date">2016-03-02</span></li><li><a href="/learning/show/1891.html" title="吉林省博物院2014年学术成果公示" target="_blank">吉林省博物院2014年学术成果公示</a><span class="date">2014-11-19</span></li> 
+							</ul>
+        </div>
+        <div class="pages"><a class="a1">47条</a><a href="/learning/">第一页</a><a href="/learning/">上一页</a><span>1</span><a href="/learning/2.html">2</a><a href="/learning/3.html">3</a><a href="/learning/4.html">4</a><a href="/learning/2.html">下一页</a><a href="/learning/4.html">最后一页</a></div>    </div>
+</div>
+<div class="footer">
+	<div class="wrap">
+				<p>
+	吉林省博物院版权所有&nbsp; 吉ICP备05000211号
+</p>
+<p>
+	长春净月国家高新技术产业开发区永顺路1666号 电话：0431-88917353&nbsp; 81959582
+</p>
+<div>
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/09/000/0000/40685669/CA090000000406856690004.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=22BC0BF38CE11C9CE053012819ACAE3C" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/09/000/0000/40685669/CA090000000406856690004.js" type="text/javascript"></script><span id="_ideConac"></span>
+</div>
+		
+		<div class="view-conut">
+			65508		</div>
+	</div>
+</div>
+<div class="right-tools">
+	<ul>
+		<li class="wx" title="微信">
+			<div class="hide-div">
+				<img src="/App/Tpl/Home/Default/Public/images/qrcode.jpg" alt="微信">
+			</div>
+		</li>
+		<li class="wb" title="微博">
+			<a href="http://weibo.com/jlsbwy" target="_blank" title="点击进入微博"></a>
+		</li>
+		<li class="top">
+			<a href="#" title="返回顶部"></a>
+		</li>
+	</ul>
+</div>
+
+
+</body></html>

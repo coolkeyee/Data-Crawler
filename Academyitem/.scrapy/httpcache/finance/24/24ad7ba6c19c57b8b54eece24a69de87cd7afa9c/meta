@@ -1,0 +1,1 @@
+{'url': 'http://www.njmuseum.com/api/news/list?pageNum=2&pageSize=10&typeValue=7&modular=scientific', 'method': 'POST', 'status': 200, 'response_url': 'http://www.njmuseum.com/api/news/list?pageNum=2&pageSize=10&typeValue=7&modular=scientific', 'timestamp': 1590078569.9815986}

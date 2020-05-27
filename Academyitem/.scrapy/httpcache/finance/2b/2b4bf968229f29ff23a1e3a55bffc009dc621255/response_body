@@ -1,0 +1,622 @@
+<html lang="zh"><head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="author" content="www.fractal-technology.com">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title> - 全国农业展览馆（中国农业博物馆）</title><meta name="keywords" content="全国农业展览馆">
+<meta name="description" content="农展馆描述">
+
+<!--  -->
+
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/common_nbg/css/global.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/common_nbg/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/common_nbg/css/page.css">
+<link rel="stylesheet" href="/Public/static/themes/common_nbg/css/jjl.css">
+<script src="https://hm.baidu.com/hm.js?6f57a3e8370250889cb117dcc408943a"></script><script src="https://hm.baidu.com/hm.js?660768020582380a32b68f8cbeac91a2"></script><script src="https://hm.baidu.com/hm.js?7b106d6ec861f75d4e5534e0e456c3ba"></script><script src="https://hm.baidu.com/hm.js?6e41bc02f97134e88859ede924a1fab0"></script><script src="/Public/static/themes/common_nbg/js/jquery.min.js"></script>
+<script src="/Public/static/themes/common_nbg/js/global.js"></script>
+<script src="/Public/static/themes/common_nbg/js/jquery.mousewheel.js"></script>
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/common_nbg/css/jquery.mCustomScrollbar.css">
+<script src="/Public/static/themes/common_nbg/js/jquery.mCustomScrollbar.min.js"></script>
+<script src="/Public/static/themes/common_nbg/slick/slick.js"></script>
+<script>
+    $.ajaxSetup({
+        data: {
+            "lang": "zh"
+        }
+    });
+</script>
+
+</head><body class="bwg">
+<a href="javascript:;" class="goto" style="display: inline;"></a>
+    <style>
+    .empty-data{ width:100%; font-size:25px; padding-top:8%; padding-bottom:8%; text-align: center;}
+    </style>
+    <style>
+#myalert{ display:none; }
+.recruit .block1{ height: auto}
+.layer{background:url(/Public/static/themes/common_nbg/image/con_mask.png);;position:fixed;left:0;right: 0;top:0;bottom: 0;width:100%;height:100%;z-index: 1000000;}
+.layer .myalert{padding:30px;background:#fff;width:240px;position:absolute;margin-top:-100px;top:50%;left:50%;margin-left:-148px;text-align:center; z-index: 100000}
+.layer .guan{background:url(/Public/static/themes/common_nbg/image/clos.png) no-repeat center; display:block;width:23px;height:23px;position:absolute;top:10px;right:10px;}
+.layer .text{padding-bottom:15px;font-size:18px;color:#474747;line-height: normal;}
+.layer .button{background:none;border:1px solid #bbbbbb;width:91px;height:29px;font:14px/100% "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;color: #707070;}
+</style>
+<div id="myalert" class="layer">
+    <div class="myalert">
+        <a href="javascript:;" onclick="myalert_hide();" class="guan"></a>
+        <div class="text">请输入关键字</div>
+        <a><button class="button" id="my_ok" style="cursor:pointer ;opacity: 1;transform: translateY(0px);">OK</button></a>
+    </div>
+</div>
+<script>
+function my_alert( title, url) {
+    $('#myalert').show();
+    $('#myalert .myalert div').html(title);
+    if(url){
+        $('#my_ok').click(function(){
+            window.location.href=url;
+        });
+    }else{
+        $('#my_ok').click(function(){
+            $('#myalert').hide();
+        });
+    }
+}
+function myalert_hide(){
+    $('#myalert').hide();
+}
+</script>
+
+<!-- header -->
+<div class="header header2">
+    <a href="javascript:;" class="menu_h"><span>Menu</span></a>
+    <div class="top">
+        <div class="wrap cf">
+
+            <div class="logo" edit_params="width%3D519%26height%3D67%26showAlt%3D1"><a href="/">
+        <img src="/Uploads/Picture/2017/12/22/s5a3c7f43b4eff.png" title="" alt="">
+    </a>
+</div>
+            <div class="head_r">
+
+                <div class="calendar"><img src="/Public/static/themes/common_nzg/image_nzg/jjl/icon3.png" title="" alt="">时间2020-05-20&nbsp;&nbsp;&nbsp;星期三&nbsp;&nbsp;&nbsp;农历四月廿八</div>
+                <script>
+                    function headTime(date){
+                        if('zh'=='zh'){
+                          var yinli = '时间'+date.date+
+                          '&nbsp;&nbsp;&nbsp;'+date.weekday+
+                          '&nbsp;&nbsp;&nbsp;农历'+date.阴历[1]+date.阴历[2] ;
+                        }else{
+                          var yinli = date.date+
+                          '&nbsp;&nbsp;&nbsp;'+date.weekday_en;
+                        }
+                        var html = '<img src="/Public/static/themes/common_nzg/image_nzg/jjl/icon3.png" title="" alt="" />'+yinli ;
+                        $('.calendar').html(html);
+                    }
+                    try {
+                        var str = sessionStorage.getItem("jieqi_zh");
+                        if (str == null || !str) {
+                            throw new Error("数据初始化中");
+                        }
+                        var jieqi = JSON.parse(str);
+                        headTime(jieqi);
+                    } catch (e) {
+                        $.get("/jieqi.php", [], function (data) {
+                            var str = JSON.stringify(data);
+                            sessionStorage.setItem("jieqi_zh", str);
+                            var jieqi = data;
+                            headTime(jieqi);
+                        }, 'json');
+                    }
+                </script>
+
+                <div class="head_login"> <!-- style="display:none;" -->
+                  <a id="user_login" href="/passport/zh/login.html" class="a">登录</a>／
+                    <a id="user_out" href="/passport/zh/signup.html" class="a">注册</a>                </div>
+                <script>
+                    $.get("/passport/zh/nickname.html", function (re) {
+                        var loginUrl,loginText,outUrl,outText ;
+                        //$('.head_login').show();
+                        if(re.status){
+                            $('#user_login').attr('href','javascript:;') ;
+                            $('#user_login').text(re.info.nickname);
+
+                            $('#user_out').attr('href',"/passport/zh/logout.html") ;
+                            $('#user_out').text("退出");
+                        }
+                    });
+                </script>
+
+                <!-- <div class="oa"><a href="#" class="a">
+    <span class="ico">
+        <img src="/Public/static/themes/common_nbg/image/oa.png" alt="OA" title="OA">
+    </span>
+    <span>OA</span>
+</a></div>
+                <div class="phone"><a href="#" class="a">
+    <span class="ico">
+        <img src="/Public/static/themes/common_nbg/image/phone.png" alt="手机版" title="手机版">
+    </span>
+    <span>手机版</span>
+</a></div> -->
+                <div class="en"><a href="/nbg/en/index_nbg.html" class="a">EN</a></div>  <!--/nbg/en/index_nbg.html-->
+                                <!-- { : \ language : : getLangsMark() } -->
+
+                <div class="wx"><!-- style="background: url(/Public/static/themes/common_nbg/image/wx.png) no-repeat center;" -->
+<a href="javascript:void(0);" class="a"></a>
+<div class="ewm">
+    <img src="/Uploads/Picture/2017/11/27/s5a1b90c3a05d1.jpg" alt="" title="">
+</div></div>
+                <div class="wb" style="display:none;"><!-- style="background: url(/Public/static/themes/common_nbg/image/wb.png) no-repeat center;" -->
+<a href="javascript:void(0);" class="a"></a>
+<div class="ewm">
+    <img src="/Public/static/images/default.jpg" alt="" title="">
+</div></div>
+                <div class="search_w">
+    <a href="javascript:;" class="a"></a>
+    <div class="seach_w">
+        <div class="inp"><input type="text" id="search-input" placeholder="请输入搜索内容"></div>
+        <a href="javascript:;" class="btn_sea" id="search-btn_sea"></a>
+        <span class="bg"></span>
+    </div>
+</div>
+
+<script>
+$('#search-btn_sea').click(function(){
+   var value = $('#search-input').val();
+   if(value==''|| value=="请输入搜索内容"){
+       return false;
+   }
+
+   window.open("/full_searchs/" + value + '/zh.html'  ,"_self");
+   return false;
+})
+//回车搜索
+$("#search-input").keyup(function(e){
+
+   if(e.keyCode === 13){
+       $('#search-btn_sea').click();
+   }
+});
+</script>
+
+
+                <div class="oa" edit_params="linksShow%3D1"><a href="javascript:;" id="oklink" class="a">
+ <!--  <span></span> -->
+</a>
+<script>
+    $('#oklink').click(function(){
+        window.location.href='http://192.168.1.201';
+    });
+</script></div>            </div>
+        </div>
+    </div>
+
+    <div class="nav"><!--  -->
+<div class="wrap">
+    <ul class="cf">
+        <!---->
+                            <li>
+                    <a class="one" href="/nbg/zh/index_nbg.html">
+                        <img class="ico" src="/Uploads/Picture/2017/11/11/s5a06a47611d38.png" title="" alt="">                        数字农博馆                                            </a>
+                </li><!---->
+            <li>
+                    <a class="one" href="/display/zh/classroom.html">
+                                                社会教育                                            </a>
+                    <!---->
+                    <div class="secondNav">
+                        <!---->
+                            <a href="/display/zh/classroom.html">农博课堂</a>
+                            <!----><!---->
+                            <a href="/display/zh/pulpit.html">农博讲坛</a>
+                            <!----><!---->
+                            <a href="/display/zh/garden.html">科普园地</a>
+                            <!----><!---->
+                            <a href="/display/zh/exchange.html">活动交流</a>
+                            <!----><!---->
+                            <a href="/list/zh/reading_for_you/book.html">为您朗读</a>
+                            <!----><!---->
+                            <a href="/page/zh/msg.html">观众留言</a>
+                            <!---->                    </div>
+                    <!---->
+                </li>
+            <!---->
+            <li>
+                    <a class="one" href="/grand/zh/substance.html">
+                                                陈列大观                        <i></i>                    </a>
+                    <!---->
+                    <div class="secondNav">
+                        <!---->
+                            <a href="/grand/zh/substance.html">实体展厅</a>
+                            <!----><!---->
+                            <a href="/grand/zh/number_hall.html">数字展厅</a>
+                            <!---->                    </div>
+                    <!---->
+                </li>
+            <!---->
+                            <li>
+                    <a class="one" href="/collection/zh/collection.html">
+                                                馆藏精品                        <i></i>                    </a>
+                </li><!---->
+            <li class="">
+                    <a class="one" href="/study/zh/xsyan.html">
+                                                学术研究                        <i></i>                    </a>
+                    <!---->
+                    <div class="secondNav">
+                        <!---->
+                            <a href="/study/zh/xsyan.html#xsjg">学术机构</a>
+                            <!----><!---->
+                            <a href="/study/zh/science.html">研究馆员</a>
+                            <!----><!---->
+                            <a href="/study/zh/activities.html">学术活动</a>
+                            <!----><!---->
+                            <a href="/study/zh/subject.html">研究课题</a>
+                            <!----><!---->
+                            <a href="/exhibition/zh/digital/type/990364.html">学术成果</a>
+                            <!----><!---->
+                            <a href="/journals_detail/zh/4691.html">古今农业</a>
+                            <!---->                    </div>
+                    <!---->
+                </li>
+            <!---->
+            <li>
+                    <a class="one" href="/list/zh/people.html">
+                                                农业博览                        <i></i>                    </a>
+                    <!---->
+                    <div class="secondNav">
+                        <!---->
+                            <a href="/list/zh/people.html">农业人物</a>
+                            <!----><!---->
+                            <a href="/list/zh/folklore.html">农业民俗</a>
+                            <!----><!---->
+                            <a href="/list/zh/alusion.html">农业典故</a>
+                            <!----><!---->
+                            <a href="/list/zh/solar.html">二十四节气</a>
+                            <!---->                    </div>
+                    <!---->
+                </li>
+            <!---->
+            <li>
+                    <a class="one" href="/page/zh/interact.html">
+                                                农博之友                        <i></i>                    </a>
+                    <!---->
+                    <div class="secondNav">
+                        <!---->
+                            <a href="/detail/zh/15622.html">捐赠荣誉榜</a>
+                            <!----><!---->
+                            <a href="/volo/zh/voloteer.html">志愿者</a>
+                            <!----><!---->
+                            <a href="/page/zh/interact.html">互动交流</a>
+                            <!----><!---->
+                            <a href="/page/zh/contribute.html">我要投稿</a>
+                            <!----><!---->
+                            <a href="/page/zh/vipdown.html">会员下载</a>
+                            <!----><!---->
+                            <a href="/page/zh/question.html">问卷调查</a>
+                            <!---->                    </div>
+                    <!---->
+                </li>
+                </ul>
+</div>
+<script>
+// var path_name = window.location.pathname;
+/*  */
+var path_name = {"link":"\/study\/zh\/xsyan.html","name":"\u5b66\u672f\u7814\u7a76"}.link ;
+
+$('.header .nav ul li').each(function(index,element){
+    var _url = $(element).find('a').attr('href');
+    if(_url == path_name) {
+        $(element).addClass('on').siblings().removeClass('on');
+    }
+
+    $(element).find('.secondNav a').each(function(i,e){
+        var _sen_url = $(e).attr('href');
+
+        if(_sen_url == path_name) {
+            $(e).addClass('on').siblings().removeClass('on');
+            $(element).addClass('on').siblings().removeClass('on');
+        }
+    })
+});
+</script></div></div>
+
+    <div class="body_box bg_com" style="min-height: 208px;">
+
+    <div class="publish">
+        <div class="wrap">
+            <!-- <h3 class="title_h4">数字出版</h3> -->
+
+            <h3 class="title_h4">标题</h3>
+            <div class="history_tab">
+                                <a linkage-id="990363" href="javascript:;" class="">古今农业<i class="i1"></i><i class="i2"></i></a><a linkage-id="990364" href="javascript:;" class="">学术论文<i class="i1"></i><i class="i2"></i></a><a linkage-id="990365" href="javascript:;" class="">学术著作<i class="i1"></i><i class="i2"></i></a>            </div>
+
+            <div class="publishUl">
+                <div id="ajax-list" class="li" style="display:block;"><ul class="cf">
+                <li>
+            <a target="_blank" class="a" href="/detail/zh/16049.html" title="中国古代农具">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b5816b6f0781.jpg" title="中国古代农具" alt="中国古代农具">
+                </div>
+                <h3 class="ellipsis" title="中国古代农具">中国古代农具</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16048.html" title="南锣鼓巷">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b5816a17197a.jpg" title="南锣鼓巷" alt="南锣鼓巷">
+                </div>
+                <h3 class="ellipsis" title="南锣鼓巷">南锣鼓巷</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16047.html" title="农耕文化常识读本">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b581663e1bf5.jpg" title="农耕文化常识读本" alt="农耕文化常识读本">
+                </div>
+                <h3 class="ellipsis" title="农耕文化常识读本">农耕文化常识读本</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16046.html" title="中国农业文物宝典">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b58163590f83.jpg" title="中国农业文物宝典" alt="中国农业文物宝典">
+                </div>
+                <h3 class="ellipsis" title="中国农业文物宝典">中国农业文物宝典</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16045.html" title="博物馆陈列艺术总体设计">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b5815fba11c5.jpg" title="博物馆陈列艺术总体设计" alt="博物馆陈列艺术总体设计">
+                </div>
+                <h3 class="ellipsis" title="博物馆陈列艺术总体设计">博物馆陈列艺术总体设计</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/1025.html" title="走进中华农耕文明">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/24/s5b569e0d8b9f1.jpg" title="走进中华农耕文明" alt="走进中华农耕文明">
+                </div>
+                <h3 class="ellipsis" title="走进中华农耕文明">走进中华农耕文明</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/1026.html" title="古今农业漫谈">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/24/s5b569e34b397b.jpg" title="古今农业漫谈" alt="古今农业漫谈">
+                </div>
+                <h3 class="ellipsis" title="古今农业漫谈">古今农业漫谈</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/1024.html" title="中国农业科技十年">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/24/s5b569e6588718.jpg" title="中国农业科技十年" alt="中国农业科技十年">
+                </div>
+                <h3 class="ellipsis" title="中国农业科技十年">中国农业科技十年</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16044.html" title="现代展览空间艺术设计">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b5815c645bd5.jpg" title="现代展览空间艺术设计" alt="现代展览空间艺术设计">
+                </div>
+                <h3 class="ellipsis" title="现代展览空间艺术设计">现代展览空间艺术设计</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/1022.html" title="二十四节气">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/24/s5b569eef457b3.jpg" title="二十四节气" alt="二十四节气">
+                </div>
+                <h3 class="ellipsis" title="二十四节气">二十四节气</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16043.html" title="青铜器修复与鉴定">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b58158c1916f.jpg" title="青铜器修复与鉴定" alt="青铜器修复与鉴定">
+                </div>
+                <h3 class="ellipsis" title="青铜器修复与鉴定">青铜器修复与鉴定</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/1023.html" title="中华农耕文化">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/24/s5b569ec70073f.jpg" title="中华农耕文化" alt="中华农耕文化">
+                </div>
+                <h3 class="ellipsis" title="中华农耕文化">中华农耕文化</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/1021.html" title="中国农业博物馆藏品精粹">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/24/s5b569eac33358.jpg" title="中国农业博物馆藏品精粹" alt="中国农业博物馆藏品精粹">
+                </div>
+                <h3 class="ellipsis" title="中国农业博物馆藏品精粹">中国农业博物馆藏品精粹</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16042.html" title="中国农业博物馆">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b581573f0f1e.jpg" title="中国农业博物馆" alt="中国农业博物馆">
+                </div>
+                <h3 class="ellipsis" title="中国农业博物馆">中国农业博物馆</h3>
+            </a>
+        </li>        <li>
+            <a target="_blank" class="a" href="/detail/zh/16041.html" title="中国农业百年图说">
+                <div class="tran_scale">
+                    <img src="/Uploads/Picture/2018/07/25/s5b581535d3ece.jpg" title="中国农业百年图说" alt="中国农业百年图说">
+                </div>
+                <h3 class="ellipsis" title="中国农业百年图说">中国农业百年图说</h3>
+            </a>
+        </li></ul>
+    <div class="page2">
+                    <a class="on" href="javascript:void(0);">1</a>
+                            <a href="/searchs/digital/lang/zh/category_id/30/tpl_file/digital/linkage_id/0/p/2.html">2</a>                <a href="/searchs/digital/lang/zh/category_id/30/tpl_file/digital/linkage_id/0/p/3.html">3</a>                <a href="/searchs/digital/lang/zh/category_id/30/tpl_file/digital/linkage_id/0/p/4.html">4</a>                <a href="/searchs/digital/lang/zh/category_id/30/tpl_file/digital/linkage_id/0/p/5.html">5</a>        <a href="javascript:;" class="">....</a>
+             <a href="/searchs/digital/lang/zh/category_id/30/tpl_file/digital/linkage_id/0/p/16.html">16</a>        <a href="/searchs/digital/lang/zh/category_id/30/tpl_file/digital/linkage_id/0/p/2.html" class="next"></a></div>
+
+
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+    var linkage_id = "0"
+    var search = {
+        // 不设置category_id会出错
+        category_id : '30',
+        tpl_file    : 'digital',
+        linkage_id  : linkage_id
+    };
+
+    if( linkage_id == 990363 ) {
+        $('.history_tab').remove();
+        $('.publishUl').css({"margin-top":"5rem"})
+    }
+
+    if( linkage_id == 990364 || linkage_id == 990365 ) {
+        $('.history_tab').find('a').eq(0).remove();
+    }
+
+    refrush("/searchs/digital.html", search, false);
+
+    $('.history_tab').find('a').click(function(){
+        search['linkage_id'] = $(this).attr('linkage-id');
+        $(this).addClass("on").siblings().removeClass("on");
+        refrush("/searchs/digital.html", search);
+    })
+
+    $('#ajax-list').on('click', '.page2 a', function() {
+        refrush($(this).attr('href'), null, false);
+        return false;
+    });
+
+    function refrush(url, datas, falg) {
+        $.get(url, datas, function(data) {
+            if (data) {
+                $('#ajax-list').html(data);
+                $("html,body").animate({
+                        scrollTop: $("#ajax-list").offset().top-200
+                    }, 200);
+            }
+        });
+    }
+})
+</script>
+
+    <div class="footer">
+        <div class="copy">
+        <div class="wrap cf">
+            <div class="siteMap"></div>
+
+            <!--  -->
+            <div class="siteMap"><!-- :explode(',',$ids) -->
+    <!-- -->
+        <a href="/page/zh/sitemap.html" target="_blank">网站地图</a><!-- :explode(',',$ids) -->
+    <!-- -->
+    <span>|</span>    <a href="/page/zh/794.html" target="_blank">隐私条款</a><!-- :explode(',',$ids) -->
+    <!-- -->
+    <span>|</span>    <a href="/page/zh/795.html" target="_blank">法律声明</a><!-- :explode(',',$ids) -->
+    <!-- -->
+    <span>|</span>    <a href="/sz/zh/contwe.html" target="_blank">联系我们</a></div>
+            <div class="text">
+                <p>
+                    <a target="_blank" href="http://bszs.conac.cn/sitename?method=show&amp;id=6160CF8DFE7BECCDE053022E1AAC3773">
+                        <img style="width: auto;" src="/Public/static/themes/common_nbg/image/blue.png" alt="">
+                    </a>
+                    Copyright Reserved © 2017 全国农业展览馆 中国农业博物馆 版权所有                    <span class="fx">
+                                            <a href="http://www.fractal-technology.com" target="_blank">技术支持</a>：
+                        <a href="http://www.fractal-technology.com" target="_blank">北京分形科技</a>                    </span>
+                </p>
+                <div style="display: inline-block;overflow: hidden;">
+                    <div class="p" style="display: inline-block;vertical-align: middle;margin:0 20px;">
+                        <a target="_blank" href="http://www.beian.miit.gov.cn">
+                            ICP备案号：京ICP备05010011号-1                        </a>
+                    </div>
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502034873" style="vertical-align: middle;display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                        <img style="width: auto;height: auto;float: left;padding-right: 0;" src="/Public/static/themes/common_nbg/image/{D0289DC0-A46F-C5B1-5B33-63FFA78CF6C7}.png">
+                        <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;">京公网安备 11010502034873号</p>
+                    </a>
+                </div>
+                <div style="display:inline-block;overflow:hidden;    margin-left:23px;margin-bottom:2px;">
+                    <div id="cnzz_stat_icon_4891341" class="p"><a href="https://www.cnzz.com/stat/website.php?web_id=4891341" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+    // $('.nav .cf li .one').each(function(e){
+    //     var href = $(this).attr('href');
+    //     if(  href.indexOf("http")>=0 ){
+    //         $(this).on("click", function (e) {
+    //             e.preventDefault();
+    //             e.stopPropagation();
+    //             $(".tc_link").fadeIn(300);
+    //             $(".tc_link .sure").attr({ "href": href });
+    //         });
+    //     }
+    // });
+
+    $(function(){
+        $(".footer .link .a a").on("click",function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            var url = $(this).attr("href");
+            $(".tc_link").fadeIn(300);
+            $(".tc_link .sure").attr({"href":url});
+        });
+
+        $(document).on("click",".tc_link a",function(){
+            $(".tc_link").fadeOut(300);
+        })
+    })
+
+    /* f 统计代码 */
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6e41bc02f97134e88859ede924a1fab0";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+    /* agri 统计代码 */
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?7b106d6ec861f75d4e5534e0e456c3ba";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+
+    /* ciae 统计代码 */
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?660768020582380a32b68f8cbeac91a2";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+
+    /* zgnybwg 统计代码 */
+    var _hmt = _hmt || [];
+    (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?6f57a3e8370250889cb117dcc408943a";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+    })();
+
+    /* CNZZ-zgnybwg 统计代码 */
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4891341'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D4891341%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+
+    /*nong ye bu 统计*/
+    var _trackDataType = 'web';var _trackData = _trackData || [];
+
+</script><span id="cnzz_stat_icon_4891341"></span><script src=" http://s19.cnzz.com/stat.php?id=4891341&amp;show=pic" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=4891341&amp;show=pic&amp;t=z" charset="utf-8" type="text/javascript"></script>
+<!-- nong ye bu 统计 2018.1.12添加-->
+<!-- <script id="kpyfx_js_id_10003896" src="//fxsjcj2.kaipuyun.cn/count/10003896/10003896.js" type="text/javascript" charset="utf-8"></script> -->
+<!-- nong ye bu 统计 2018.6.5添加 -->
+<script type="text/javascript" charset="utf-8" id="kpyfx_js_id_10004070" src="//fxsjcj.kaipuyun.cn/count/10004070/10004070.js"></script>
+
+<!-- 事业单位 -->
+<!-- <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/60912855/CA330000000609128550001.js' type='text/javascript'%3E%3C/script%3E"));</script> -->
+
+
+</body></html>

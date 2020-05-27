@@ -1,0 +1,473 @@
+<html lang="zh-cn"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>                                            学术活动
+                            -北京自然博物馆</title>
+                             <link rel="shortcut icon" href="/pcstyle/img/favicon.ico">
+	<link rel="stylesheet" href="/pcstyle/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/pcstyle/css/jPages.css">
+	<link rel="stylesheet" href="/pcstyle/css/animate.css">
+  <link rel="stylesheet" href="/pcstyle/css/style.css">
+  <script type="text/javascript" async="" charset="utf-8" src="http://c.cnzz.com/core.php?web_id=1260313531&amp;t=z"></script><script src="/pcstyle/js/jquery-1.11.3.min.js"></script>
+	<script src="/pcstyle/js/bootstrap.js"></script>
+	  <script src="/pcstyle/js/main.js"></script>
+	<!--[if IE]>
+	<script src="/pcstyle/js/html5shiv.min.js"></script>
+	<script src="/pcstyle/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+
+
+<body>
+	<div class="top">
+		<div class="top_line">
+			<div class="top_line_1200">
+				<div class="top_welcome">
+					  <span>欢迎来到北京自然博物馆！</span>
+          <span>
+            <a href="/" target="_balnk">中文</a> |
+            <a href="/en" target="_balnk">ENGLISH</a> |
+            <a href="/jp" target="_balnk">日本語</a>
+          </span><!-- 头部中英文版本切换 -->
+				</div>
+			</div>
+		</div>
+		<div class="top_area">
+		  <div class="top_searchBar">
+				<p>
+					<button onclick="toSearch('/bmnh/front/frontController.do?search','1');">
+						<i class="search_icon"></i>
+					</button>
+					<input type="text" name="keyword1" id="keyword1" placeholder="请输入关键字" value="">
+				</p>
+			</div>
+	<script>
+			function toSearch(urlStr,siteid) {
+	/*  去掉字符前后的空格正则表达式*/
+			var keyword=document.getElementById("keyword1").value;
+			var key=keyword.replace(/\s+/g,"")
+			var keyWord1 = encodeURI(key);
+			keyWord1 = encodeURI(keyWord1);
+			window.location = urlStr + "&keyword=" + keyWord1+"&siteid="+siteid;
+		}
+		</script><!-- 站内检索 -->
+			<div id="top_logo">
+				<div class="logo_sci1"></div>
+				<div class="logo_sci2"></div>
+			</div>
+			<div id="menu">
+				<ul id="nav" class="sci_nav">
+				            <li class="mainlevel" id="sy">
+            <a href="/">首页</a>
+          </li>
+          <!-- <li class="mainlevel"  id="sy">
+            <a href="/" ><img src="/pcstyle/img/lion.png" style="position: relative;top: -29px;left: -15px;"></a>
+          </li> -->
+<!--           博物馆简介 -->
+          <li class="mainlevel">
+            <a href="/bwgjj/bwgjj/index.shtml" target="_blank">博物馆简介</a>
+            <ul class="sub_nav_01">
+              <span class="Triangle_con"></span>
+              <div class="round">
+                <li>
+                  <a href="/bwgjj/bwgjj/index.shtml" target="_blank">博物馆简介</a>
+                </li>
+                <li>
+                  <a href="/bwgjj/gzzc/index.shtml" target="_blank">馆长致辞</a>
+                </li>
+                <li>
+                  <a href="/bwgjj/lshg/index.shtml" target="_blank">历史回顾</a>
+                </li>
+                <li>
+                  <a href="/bwgjj/zzjg/index.shtml" target="_blank">组织机构</a>
+                </li>
+                <div style="clear:both;"></div>
+              </div>
+            </ul>
+          </li>
+<!-- 展览介绍 -->
+          <li class="mainlevel">
+            <a href="javascript:void(0);">展览介绍</a>
+            <ul class="sub_nav_01">
+              <span class="Triangle_con"></span>
+              <div class="round">
+                <li>
+                    <a href="/zljs/jbcl/1/zljs/index.shtml" target="_blank">基本陈列</a>
+                </li>
+                <li>
+                  <a href="/zljs/lszl/list.shtml" target="_blank">临时展览</a>
+                </li>
+                <li>
+                  <a href="/zljs/xhzl/list.shtml" target="_blank">巡回展览</a>
+                </li>
+              </div>
+            </ul>
+          </li>
+<!-- 馆藏信息 -->
+          <li class="mainlevel">
+            <a href="/gzxx/list.shtml" target="_blank">馆藏信息</a>
+            <ul class="sub_nav_01">
+              <span class="Triangle_con"></span>
+              <div class="round">
+                <li>
+                  <a href="/gzxx/gzbb/list.shtml" target="_blank">馆藏标本</a>
+                </li>
+                <li>
+                  <a href="/gzxx/gzgs/list.shtml" target="_blank">馆藏故事</a>
+                </li>
+              </div>
+            </ul>
+          </li>
+          <div style="float:left;width:200px;height:34px;"></div>
+<!-- 教育与活动 -->
+          <li class="mainlevel">
+            <a href="/jyhd/list.shtml" target="_blank">教育活动</a>
+            <!-- <ul class="sub_nav_01">
+              <span class="Triangle_con"></span>
+              <div class="round">
+                <li>
+                  <a href="/jyhd/hdjs/list.shtml"  target="_blank">活动介绍</a>
+                </li>
+                <li>
+                  <a href="/jyhd/zyxz/list.shtml"  target="_blank">活动图片下载</a>
+                </li>
+                <li>
+                  <a href="/jyhd/jyzygx/list.shtml"  target="_blank">教育资源共享</a>
+                </li>
+              </div>
+            </ul> -->
+          </li>
+          <!-- 科学研究-->
+          <li class="mainlevel activePage">
+            <a href="/kxyj/list.shtml" target="_blank">科学研究</a>
+            <ul class="sub_nav_01">
+              <span class="Triangle_con"></span>
+              <div class="round">
+                <li>
+                  <a href="/kxyj/kyxm/list.shtml" target="_blank">科研项目</a>
+                 
+                </li>
+                <li>
+                  <a href="/kxyj/kylw/list.shtml" target="_blank">科研论文</a>
+                 
+                </li>
+                <li>
+                  <a href="/kxyj/kycg/list.shtml" target="_blank">科研成果</a>
+                 
+                </li>
+                <li>
+                  <a href="/kxyj/xshd/list.shtml" target="_blank">学术活动</a>
+                 
+                </li>
+                <li>
+                       <a href="/kxyj/bwgyj/yckp/list.shtml" target="_blank">博物馆研究</a>
+                </li>
+              </div>
+            </ul>
+          </li>
+          <!-- 参观资讯-->
+          <li class="mainlevel">
+            <a href="javascript:void(0);">参观资讯</a>
+            <ul class="sub_nav_01">
+              <span class="Triangle_con"></span>
+              <div class="round">
+                <li>
+                  <a href="/cgzx/cgxx/index.shtml" target="_blank">参观信息</a>
+                </li>
+                <li>
+                  <a href="/cgzx/dlwz/index.shtml" target="_blank">地理位置</a>
+                </li>
+                <li>
+                  <a href="/cgzx/lxfs/index.shtml" target="_blank">联系方式</a>
+                </li>
+              </div>
+            </ul>
+          </li>
+          <!-- 博物馆商店-->
+          <li class="mainlevel">
+            <a href="/bwgsd/list.shtml" target="_blank">博物馆商店</a>
+          </li>
+
+<!-- 导航 -->
+				</ul>
+			</div>
+		</div>
+				<div class="top_after"></div>
+	</div>
+		<div class="banner_lite_sci1"></div>
+
+	<div class="content">
+			<div class="positionBar sciBar">
+			<p>所在位置：<a href="/">首页</a> &gt;
+<a href="/kxyj/list.shtml">科学研究</a>&gt;
+                                     <span><a href="/kxyj/xshd/list.shtml">学术活动</a></span>
+                                    			</p>
+		</div>
+		<div class="content_sci">
+			<div class="content_singlel">
+				<div class="list-group">
+					<h3 class="list-group-item list-group-title">
+						<p class="titlesci"></p>
+					</h3>
+					<ul>
+						<li> <a href="/kxyj/kyxm/list.shtml">科研项目</a></li><li>
+ 
+						</li><li> <a href="/kxyj/kylw/list.shtml">科研论文</a></li><li>
+ 
+						</li><li> <a href="/kxyj/kycg/list.shtml">科研成果</a></li><li>
+ 
+						</li><li> <a href="/kxyj/xshd/list.shtml" class="active">学术活动</a></li><li>
+ 
+					</li><li>
+						<a href="javascript:void(0);" class="inactive">博物馆研究</a>
+						<ul style="display:none;">
+						<li> <a href="/kxyj/bwgyj/yckp/list.shtml"><i></i>原创科普</a>
+						</li> 						<li> <a href="/kxyj/bwgyj/cbw/list.shtml"><i></i>出版物</a>
+						</li>  
+						</ul>
+					</li>
+					</ul>
+				</div>
+			</div>
+		<div class="content_singler singler_sci">
+       <!-- 列表 -->
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028c10863d903760163d92b2239001d.shtml" target="_blank">
+						<span class="content_single_listTitle">“中生代哺乳动物国际研讨会”在京开幕 </span>
+					</a>
+					<span class="content_single_listDate">2018-06-07</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028c10863eb49280163ec60186b0007.shtml" target="_blank">
+						<span class="content_single_listTitle">孟庆金馆长参加两院院士大会和“百名科学家、百名基层科技工作者座谈会”</span>
+					</a>
+					<span class="content_single_listDate">2018-06-07</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028c10862d71f0b0162d72032730034.shtml" target="_blank">
+						<span class="content_single_listTitle">我馆获得北京市科学技术研究院两项科技创新奖</span>
+					</a>
+					<span class="content_single_listDate">2018-03-30</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028c10862d71f0b0162d72034660078.shtml" target="_blank">
+						<span class="content_single_listTitle">我馆李竹研究员获得北京市三八红旗奖章</span>
+					</a>
+					<span class="content_single_listDate">2018-03-05</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028c10862d71f0b0162d72034b40082.shtml" target="_blank">
+						<span class="content_single_listTitle">香港科学馆陈淑文馆长一行来访我馆</span>
+					</a>
+					<span class="content_single_listDate">2018-03-02</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028c10862d531dc0162d63204e00007.shtml" target="_blank">
+						<span class="content_single_listTitle">北京自然博物馆协办首届“一带一路”科普场馆发展国际研讨会</span>
+					</a>
+					<span class="content_single_listDate">2017-11-30</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028f10f6025650701602565d18009b1.shtml" target="_blank">
+						<span class="content_single_listTitle">我馆成功举行首部原创4D特效科普影片《黑羽精灵》首映仪式</span>
+					</a>
+					<span class="content_single_listDate">2016-11-24</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028f10f6025650701602565cfc80975.shtml" target="_blank">
+						<span class="content_single_listTitle">北京市科委—市科研院科普工作研讨会在我馆召开</span>
+					</a>
+					<span class="content_single_listDate">2016-10-24</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028f10f6025650701602565d18d09b3.shtml" target="_blank">
+						<span class="content_single_listTitle">我馆参加第七届中国博物馆及相关产品与技术博览会</span>
+					</a>
+					<span class="content_single_listDate">2016-09-16</span>
+				</p>
+                    <p class="content_single_list">
+					<span class="content_single_listIcon">
+						<i></i>
+					</span>
+					<a href="/kxyj/xshd/4028f10f602565070160256b4dd216ec.shtml" target="_blank">
+						<span class="content_single_listTitle">2012年国际博协自然历史博物馆及藏品委员会年会在曼谷举行</span>
+					</a>
+					<span class="content_single_listDate">2012-05-21</span>
+				</p>
+				
+
+				<!-- 分页 -->
+				<div class="page_change">
+					<ul class="pagination">
+						  <a href="javascript:void(0);">首页</a><a href="javascript:void(0);">上一页</a><div style="display: inline-block;margin: 0 10px;">第1页</div><a href="list_2.shtml">下一页</a><a href="list_3.shtml">尾页</a><div style="display: inline-block;margin: 0 10px;">共3页</div>
+					</ul>
+				</div>
+			</div>
+
+
+			<div style="clear:both"></div>
+		</div>
+		<!-- <div style="clear:both"></div> -->
+	</div>
+  <div class="foot">
+     ﻿  <div class="foot_after"></div>
+    <div class="foot_l1">
+      <div class="foot_l1a">
+        <h4>
+         在线活动
+        </h4>
+        <p>
+          <a href="javascript:void(0);" target="_blank">青少年自然知识竞赛</a>
+        </p>
+        <p>
+          <a href="javascript:void(0);" target="_blank">科普作品投票</a>
+        </p>
+        <p>
+          <a href="javascript:void(0);" target="_blank">活动抽奖</a>
+        </p>
+      </div>
+      <div class="foot_l1b">
+        <h4>综合快讯
+        </h4>
+        <p>
+        		<a href="/zhkx/gnyw/list.shtml" target="_blank">馆内要闻</a>
+       </p>
+        <p>
+		<a href="/zhkx/yndt/list.shtml" target="_blank">业内动态</a>
+       </p>
+      </div>
+      <div class="foot_l1c">
+        <h4>相关服务
+        </h4>
+       <p>
+		<a href="/zyzzj/list.shtml" target="_blank">志愿者之家</a>
+       </p>
+         <p>
+		<a href="/zbhyjlb/list.shtml" target="_blank">自博会员</a>
+       </p>
+         <p>
+		<a href="/bwgsd/list.shtml" target="_blank">文创产品</a>
+       </p>
+       <p>
+    <a href="http://117.121.97.102/" target="_blank">科普服务信息管理系统</a>
+     </p>
+      </div>
+      <div class="foot_l1d">
+        <h4>友情链接
+        </h4>
+           <p>
+  <a href="http://www.bjast.ac.cn/" data="4028f10f603e280001603ea8af950074" target="_blank">北京市科学技术研究院</a>
+</p>
+<p>
+  <a href="http://www.bjkw.gov.cn" data="4028c10863b2a3530163b580ec990133" target="_blank">北京市科学技术委员会</a>
+</p>
+<p>
+  <a href="http://www.bjp.org.cn/" data="4028f10f603e280001603ea9f40c0076" target="_blank">北京天文馆</a>
+</p>
+<p>
+  <a href="/yqlj/list.shtml" target="_blank">更多&gt;&gt;</a>
+</p>
+      </div>
+      <div class="foot_l1e"></div>
+      <div style="clear:both;"></div>
+    </div>
+
+    <div class="foot_l2">
+      <p style="display: none;">访问量统计：
+        <span style="color:#f39800;" class="latecnzz">
+        <script src="http://s4.cnzz.com/z_stat.php?id=1260313531&amp;web_id=1260313531"></script></span>
+      </p>
+      <p>通信地址：北京市东城区天桥南大街126号（100050） 电子信箱：office@bmnh.org.cn 电话：010-67024431 传真：010-67021254</p>
+    </div>
+
+    <div class="foot_l3">
+      <div class="foot_l3a">
+        <div class="foot_l3a1">
+          <p>Copyright © 2018 北京自然博物馆(Beijing Museum of Natural History)
+            <br>京ICP备07033573号 京公网安备110101003156号</p>
+        </div>
+
+        <div class="foot_l3a2">
+          <div class="shiye">
+            <script type="text/javascript">
+              document.write(unescape(
+                "%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/01/000/0000/60638375/CA010000000606383750001.js' type='text/javascript'%3E%3C/script%3E"
+              ));
+            </script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=2778EF34EF3B16F4E053012819ACFA2E" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/01/000/0000/60638375/CA010000000606383750001.js" type="text/javascript"></script><span id="_ideConac"></span>
+          </div>
+          <div class="kxwz">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        $(function () {
+          var cnzz = document.createElement("script");
+          cnzz.src = "http://s4.cnzz.com/z_stat.php?id=1260313531&web_id=1260313531"; //修改成自己的CNZZ统计地址
+          document.getElementsByClassName('latecnzz')[0].appendChild(cnzz);
+        });
+        // $(function () {
+        //   var kxwz = document.createElement("script");
+        //   kxwz.src = "https://ss.knet.cn/seallogo.dll?sn=2010112400200002987&size=4&ct=df";
+        //   document.getElementsByClassName('kxwz')[0].appendChild(kxwz);
+        // });
+    </script><!-- 尾部 -->
+  </div>
+
+<script>
+$(document).ready(function () {
+			$(".mainlevel").each(function(){
+			if($(this).html().indexOf("学术活动")>=0){
+			$(this).addClass("activePage");
+			}
+  });
+  });
+  $(document).ready(function () {
+			$('.inactive').click(function () {
+				if ($(this).siblings('ul').css('display') == 'none') {
+					$(this).parent('li').siblings('li').removeClass('inactives');
+					$(this).addClass('inactives');
+					$(this).siblings('ul').slideDown(100).children('li');
+					if ($(this).parents('li').siblings('li').children('ul').css('display') == 'block') {
+						$(this).parents('li').siblings('li').children('ul').parent('li').children('a').removeClass('inactives');
+						$(this).parents('li').siblings('li').children('ul').slideUp(100);
+					}
+				} else {
+					$(this).removeClass('inactives');
+					$(this).siblings('ul').slideUp(100);
+					$(this).siblings('ul').children('li').children('ul').parent('li').children('a').addClass('inactives');
+					$(this).siblings('ul').children('li').children('ul').slideUp(100);
+					$(this).siblings('ul').children('li').children('a').removeClass('inactives');
+				}
+			})
+		});
+</script>
+</body></html>

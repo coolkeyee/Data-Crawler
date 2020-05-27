@@ -1,0 +1,136 @@
+<html lang="en" class="page1366"><head>
+    <meta charset="UTF-8">
+    <title>中国抗战胜利网-学术动态</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/common/pic_hover.css">
+    
+     <link rel="stylesheet" type="text/css" href="../header/css/global.css"> 
+     <link rel="stylesheet" type="text/css" href="../common/css/common.css">   
+    <link rel="stylesheet" type="text/css" href="../header/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../header/css/slw_index.css">
+    <link rel="stylesheet" href="../common/css/news_2.css">
+    <link rel="stylesheet" href="../home/css/deflt_sl.css">
+    <link rel="stylesheet" href="../common/css/pages.css">
+   <style>
+
+       @media only screen and (max-width: 1023px){
+        .f--label,.f--desc {
+          color: #fff;
+         }
+       }
+
+        .xscg a {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+        }
+
+   </style>
+    <script src="https://hm.baidu.com/hm.js?c643e7340eb67c306e78b6bbe3197cf4"></script><script src="../../static/jquery/jquery-1.8.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- share css & js -->
+    <link rel="stylesheet" href="../common/css/share.min.css">
+    <script src="../common/js/social-share.js"></script>
+    <script src="../common/js/qrcode.js"></script>
+</head>
+<body>
+    <!-- 导航开始 -->
+    <div id="header" class="slw slw_bak_opc">
+        <div class="wrap">
+            <div class="logo">
+                <a href="../home/default.html">
+                    <img src="../header/images/sl_logo_03.png" alt="中国抗战胜利网">
+                </a>
+            </div>            
+            <div class="nav">
+                <div class="nav-in">
+                    <ul class=" nav-ul">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class=" nav-box">
+                        <ul class="l-nav"><li><a href="../home/default.html">首页</a></li></ul>
+                        <ul class="clear g-nav"><li class=""><a href="../qwsy/zyjh.html">权威声音</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../zxfb/slw_zxfb.html">资讯发布</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../kzls/kzls.html">抗战历史</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../kzsp/kzsp.html">抗战视频</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../kztp/kztp.html">抗战图片</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../timeline/timeline.html">抗战英烈</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../dfzzc/dfzzc.html">东方主战场</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../kzzl/zlzs.html">抗战展览</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../kzww/kzww.html">抗战文物</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../xsyj/xsyj.html">学术研究</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../ztgz/ztgz.html">专题关注</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../jyhd/jyhd.html">教育活动</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../zyjm/zyjm.html">志愿加盟</a><b><img src="../header/picture/arrow1.png" width="18"></b></li><li class=""><a href="../erzhanjng/ezjng.html?type=0">二战纪念馆</a><b><img src="../header/picture/arrow1.png" width="18"></b></li></ul>  
+                    </div>                      
+                </div>
+                <div class="nav_child"><div class="child c1"><div class="p"><p class="last"><strong> <a href="../qwsy/zyjh.html">重要讲话</a> </strong></p></div></div><div class="child c2"><div class="p"><p><strong> <a href="../zxfb/slw_zx_ssyw.html">时事要闻</a> </strong></p><p><strong> <a href="../zxfb/slw_zx_wbdt.html">政策文件</a> </strong></p><p><strong> <a href="../zxfb/slw_zx_kzdt.html">各地动态</a> </strong></p><p class="last"><strong> <a href="../zxfb/slw_zx_spbb.html">视频播报</a> </strong></p></div></div><div class="child c3"><div class="p"><p><strong> <a href="../kzls/kzls_kzsj.html">抗战大事记</a> </strong></p><p><strong> <a href="../kzls/kzls_zyzhanyi.html">重要战役</a> </strong></p><p><strong> <a href="../kzls/kzls_zyshijian.html">重要事件</a> </strong></p><p><strong> <a href="../kzls/kzls_kzrw.html">抗战人物</a> </strong></p><p><strong> <a href="../kzls/kzls_kzgs.html">抗战故事</a> </strong></p><p><strong> <a href="../kzls/kzls_kzyz.html">国家级抗战纪念设施遗址名录</a> </strong></p><p class="last"><strong> <a href="../kzls/kzls_kzwh.html">抗战文化</a> </strong></p></div></div><div class="child c4"><div class="p"><p><strong> <a href="../kzsp/kzsp.html?type=1">抗战纪录片</a> </strong></p><p class="last"><strong> <a href="../kzsp/kzsp.html?type=2">抗战电影</a> </strong></p></div></div><div class="child c5"><div class="p"></div></div><div class="child c6"><div class="p"></div></div><div class="child c7"><div class="p"></div></div><div class="child c8"><div class="p"><p><strong> <a href="../kzzl/zlzs_zlzx.html">展览资讯</a> </strong></p><p><strong> <a href="../kzzl/zlzs_jbcl.html">基本陈列</a> </strong></p><p><strong> <a href="../kzzl/zlzs_ztzl.html">专题展览</a> </strong></p><p class="last"><strong> <a href="../kzzl/zlzs_xnzt.html">VR专区</a> </strong></p></div></div><div class="child c9"><div class="p"><p><strong> <a href="../kzww/kzww_wwsc.html">文物收藏</a> </strong></p><p><strong> <a href="../kzww/kzww_zjqs.html">征集启事</a> </strong></p><p><strong> <a href="../kzww/kzww_jpdc.html">中国人民抗日战争纪念馆馆藏珍贵文物</a> </strong></p><p><strong> <a href="../kzww/kzww_ztda.html">专题档案</a> </strong></p><p class="last"><strong> <a href="../kzww/kzww_xxcx.html">全国博物馆馆藏文物信息查询系统</a> </strong></p></div></div><div class="child c10"><div class="p"><p><strong> <a href="../xsyj/xsyj_xsdt.html">学术动态</a> </strong></p><p><strong> <a href="../xsyj/xsyj_llwz.html">理论文章</a> </strong></p><p><strong> <a href="../xsyj/xsyj_kzwx.html">抗战文献系统</a> </strong></p><p><strong> <a href="../xsyj/xsyj_kzwx_sjpt.html">抗战文献数据平台</a> </strong></p><p><strong> <a href="../xsyj/xsyj_yjkw.html">研究刊物</a> </strong></p><p><strong> <a href="../xsyj/xsyj_cbts.html">出版图书</a> </strong></p><p class="last"><strong> <a href="../xsyj/xsyj_xstt.html">学术团体</a> </strong></p></div></div><div class="child c11"><div class="p"><p><strong> <a href="../ztgz/ztgz_zgykr.html">中国共产党与抗日战争</a> </strong></p><p><strong> <a href="../ztgz/ztgz_twtb.html">台湾同胞抗日斗争史实</a> </strong></p><p><strong> <a href="../ztgz/ztgz_gangaotb.html">港澳同胞与祖国抗日战争</a> </strong></p><p><strong> <a href="../ztgz/ztgz_hqkr.html"> 华侨与抗日战争</a> </strong></p><p><strong> <a target="_blank" href="http://history.sina.com.cn/z/kangzhan/">新浪网抗战专题</a> </strong></p><p class="last"><strong> <a target="_blank" href="http://news.ifeng.com/history/zhongguojindaishi/special/kangzhanwangshangjinianguan">凤凰网抗战专题</a> </strong></p></div></div><div class="child c12"><div class="p"><p><strong> <a href="../jyhd_bwcxljsm/bwcxljsm.html">不忘初心 牢记使命</a> </strong></p><p><strong> <a href="../jyhd_ykzxdsqdx/ykzxdsqdx.html">忆抗战 学党史 强党性</a> </strong></p><p><strong> <a href="../jyhd_bjszxxszjjng/jyhd_bjszxxs.html">北京市中小学生走进抗战馆</a> </strong></p><p><strong> <a target="_blank" href="/kzgdata/clzl/ztzl/qmj/">清明节的铭记</a> </strong></p><p class="last"><strong> <a href="../jyhd/wmskz.html">网民晒抗战</a> </strong></p></div></div><div class="child c13"><div class="p"></div></div><div class="child c14"><div class="p"><p><strong> <a href="../erzhanjng/ezjng.html?type=1">中国抗战纪念馆</a> </strong></p><p class="last"><strong> <a href="../erzhanjng/ezjng.html?type=2">国际二战博物馆</a> </strong></p></div></div></div>
+
+            </div>
+            <div class="tools clear">
+                <ul class="clear">
+                    <li class="login"><a href="javascript:;"><img src="../header/picture/ico_tools_search2.png" alt=""></a><div class="loginbox"><div class="loginbox-in"> <span class="a lg">登录</span> <span class="a lg">注册</span></div></div></li>
+                    <li class="lang"><a href="/kzslw/">中文</a><div class="language"><div class="language-in"><span class="a" data-link="/kzslw/foreign/views/home/indexen.html" ;"="">English</span><span class="a" data-link="/kzslw/foreign/views/home/indexjpn.html" ;"="">日本語</span><span class="a" data-link="/kzslw/foreign/views/home/indexko.html" ;"="">한국어</span><span class="a" data-link="/kzslw/foreign/views/home/indexrus.html" ;"="" style="font-family:微软雅黑">русский</span></div></div></li>
+                    <li class="scbtn"><a><img src="../header/picture/ico_tools_user2.png" alt=""></a>
+                        <div class="search"><div class="search-in"><input type="text" class="kw" value="搜索关键词..."><input type="button" class="ok"></div></div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <script src="../header/js/menuData.js"></script><div class="sc_cg" style="display: none;"><div class="c"><i class="close"></i><h3>请输入关键词</h3><a href="javascript:;" class="sure_btn">确 定</a></div></div>
+    <!-- 导航结束 -->
+
+    <main role="main" id="main" class="top-padding"><section id="" class="fixed-top breadcrumb "><div class="l-container--lg"><div id="block-nwwiim-breadcrumbs" class="block block-system block-system-breadcrumb-block"><div class="block-content"><nav role="navigation" aria-labelledby="system-breadcrumb" class="breadcrumb-dropdown-menu"><ul class="on-img"><li><a href="../home/default.html">首页</a></li> <li><i>»</i><a href="../xsyj/xsyj.html">学术研究</a></li> <li><i>»</i><a href="../xsyj/xsyj_xsdt.html">学术动态</a></li></ul></nav></div></div></div></section> <section id="hero" class="hero hero-secondary"><figure class="bg--dark"><div class="img-ratio--hero-secondary"><div style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; background: url(&quot;../common/picture/xsdt_bg.jpg&quot;) center 64px / 100% no-repeat fixed;"></div> <span class="bg-overlay overlay--dark"></span></div> <figcaption class="text-align--center"><div class="u-faux-table"><div class="u-faux-table--align-middle"><div class="wrapper-width--sm"><div id="block-nwwiim-page-title" class="block block-core block-page-title-block"><div class="block-content"><h1 class="f--tertiary wrapper-width--lg" style="color: rgb(255, 255, 255);">学术动态</h1></div> <div class="f--subtitle indent_left_content"> 这里是抗日战争研究工作者展示科研成果、交流学术观点的窗口，是机关、高校、企事业单位了解抗日战争研究动向的渠道。</div></div> <div class="hero-cta-links field field--name-field-hero-cta-links field--type-link field--label-hidden"></div></div></div></div></figcaption></figure></section> <div class="paragraph p-bundle bg--very-light-grey"><div class="content-inner l-container--lg row-inside--md "><div class="curs-box"><div id="articles0"><ul class="commonlist"><li><a href="../newsdetail/news_detail.html?id=1799&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20191230/157769026082684182629.html" target="_blank"><div class="img-wrap"><img src="/kzgdata/image/thumbnail/4b56b61bfeb0ac9893729ca1744e4e91.jpg" alt="学术动态" style="width: 100%;"></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          2019，港台出版了這些史學書籍
+                                      </p> <span>2019-12-30</span></div> <div class="right-con">
+                                  前言把握學術研究動態是每位史學生的必備素養，了解相關研究領域最新研究成果是我們把握學科發展方向的重要途徑。2017、2018年末本號曾陸續推出年度港台史學研究書訊，反響較好。年復一年，大陸學界對境外史學研究動態日益關注。又到年終時，2019年即將過去，本期「史學苦行生」將發佈2019年港台地區出版發行的史學領域學術研究成果。另有幾點需要說明：一，此名錄以歷史學為主，亦涉及部分與史學有關之學科研究；二，雖已廣為收羅，但此份名錄肯定是不完整的，有所遺缺還請見諒，歡迎各位補充；三，本名錄以學術研究為主，較少注目於通俗類讀物，在書籍、出版社選定上亦有甄別；四，個別學術研究涉及敏感區域，在此列出純為能較
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1779&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20191218/157666969460353500265.html" target="_blank"><div class="img-wrap"><img src="/kzgdata/image/thumbnail/d5a98ecb4533c0d4ed1b605bccdf7a2e.jpg" alt="学术动态" style="width: 100%;"></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          解密：你从未看过的那些抗战影像
+                                      </p> <span>2019-12-18</span></div> <div class="right-con">
+                                  或许，你已经在报纸、电视、微博、微信中看到过各种各样有关抗战的老照片，但是，下面你将看到的这些影像，也许并不在其中。这些珍贵的影像资料来自于一本即将付梓的摄影集——《最前线：中国共产党抗战图像志》。该影集以方大曾、沙飞、吴印咸、石少华、苏静等抗战时期的27位摄影者的一手资料为聚焦，集合了600余幅高清图像。图片全部由抗战时期原始底片整理修复而成，并通过走访摄影者家属及战友，对图片拍摄时间、拍摄地点、拍摄背景进行了充分考察与论证，具有极强的史料价值及档案抢救价值。目力所及，这已是目前中国共产党领导抗战影像最齐全的版本。这份庞大的工作成果由研究者高初及其中国美术学院中国摄影文献研究所的研究团队倾力
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1775&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20191029/157233191254510294037.html" target="_blank"><div class="img-wrap"><!----></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          郭德宏：抗日战争史应该进一步研究的几个问题
+                                      </p> <span>2019-10-29</span></div> <div class="right-con">
+                                  关于抗日战争史的研究，2005年我在《论抗日战争史研究中的若干重大问题》中提出了十五个问题，即关于抗日战争的性质与研究角度，关于抗日战争的起点、时限和历史阶段的划分，关于九一八事变以后中国社会的主要矛盾与评价历史事件、人物的主要标准，关于抗日战争的领导者，关于中国共产党是抗日战争的中流砥柱，关于抗日战争的主战场，关于国民党的“积极反共，消极抗日”方针，关于“三次反共高潮”，关于抗日战争在中国近现代历史上的地位，关于中国战场在世界反法西斯战争中的地位，关于抗日战争史的话语系统，关于抗日战争中的统计数字，关于抗战人物的评价，关于进一步加强研究抗日战争史研究的几点建议，关于对抗日战争的纪念和反思。这
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1774&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20191018/157137165915613059698.html" target="_blank"><div class="img-wrap"><!----></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          “百年南开日本研究文库”近日出版
+                                      </p> <span>2019-10-18</span></div> <div class="right-con">
+                                  近日，“百年南开日本研究文库”出版。此次出版的文库共包括19卷。据悉，文库还将继续推出后续卷本。《南开日本研究（1919-1945）》。作者：张伯苓等，刘岳兵编。该书是自南开大学创建至第二次世界大战胜利期间南开大学日本研究史料集，分为“日本概论”“国际关系中的日本”“日本对中国东北的侵略”三个部分。本卷由南开大学出版社出版，其余各卷由江苏人民出版社出版。《日本史通论》。作者：吴廷璆，南开大学日本研究院教授。吴廷璆先生是著名日本史和亚洲史研究专家，新中国日本史研究的开拓者之一。本卷由日本史和亚洲史研究论著组成。包括古代中日文化交流、日本大化改新、明治维新的性质及日本通史的有关论述。《日本现代外交
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1773&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20191011/157078202055906089894.html" target="_blank"><div class="img-wrap"><img src="/kzgdata/image/thumbnail/c204751ca10f1dce89961620e21cf394.jpg" alt="学术动态" style="width: 100%;"></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          从世界史高度看中国抗战史，我们做得还很不够
+                                      </p> <span>2019-10-11</span></div> <div class="right-con">
+                                   今年是第二次世界大战爆发80周年，为进一步深化与推动世界反法西斯战争的研究，8月24-25日，上海师范大学光启国际学者中心举办了“从‘抗战’到‘二战’——纪念第二次世界大战爆发八十周年”学术研讨会。 在主旨报告中，来自中国社会科学院近代史研究所、《抗日战争研究》主编高士华教授作了题为《抗战研究七十年：成果与问题》的报告，他认为不管是研究中国史还是世界史的学者，都要具备世界史的视野，他指出了目前国内抗战史研究中存在的几个问题：第一，如何看待1931年9.18事变在世界史研究中的意义？高教授认为目前国内的研究低估了9.18事变的世界意义，有些结论过于拘泥于表面，并没有进行学理和学术上的研究。“应
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1772&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20191011/157078177684064952598.html" target="_blank"><div class="img-wrap"><!----></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          “新中国抗日战争史研究70年”学术研讨会在南京举行
+                                      </p> <span>2019-10-11</span></div> <div class="right-con">
+                                  中国社会科学报南京9月21日电（记者吴楠）9月21日，“新中国抗日战争史研究70年”学术研讨会在南京举行。江苏省社会科学院历史研究所所长叶扬兵表示，检视新中国抗日战争史研究发展历程和辉煌成就，探讨其未来发展趋势，进一步推动抗日战争史研究，是这一领域历史研究工作者庆祝中华人民共和国成立70年的最好献礼。南京师范大学社会发展学院院长齐春风表示，抗战史研究的丰硕成果，不仅厘清了大量史实，也强有力地印证了中国人民抗日战争对世界反法西斯战争的重要贡献。浙江大学人文学院教授陈红民认为，抗战史研究的丰硕成果是在唯物史观指导下取得的，未来也要用唯物史观深化抗战史研究。要坚持实事求是，按照历史事实，强调中国和世
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1771&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20190910/156808260577299569960.html" target="_blank"><div class="img-wrap"><img src="/kzgdata/image/thumbnail/f264e47263aad77fc63c85d3a6a199cf.jpg" alt="学术动态" style="width: 100%;"></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          在交流互鉴中开创约翰·拉贝研究新局面
+                                      </p> <span>2019-09-10</span></div> <div class="right-con">
+                                  在交流互鉴中开创约翰·拉贝研究新局面 会场本网记者齐泽垚/摄中国社会科学网讯（记者齐泽垚）9月2日，为深切缅怀约翰·拉贝为中国人民所做出的杰出贡献，深化“约翰·拉贝与中国”综合研究，北京联合大学约翰·拉贝北京交流中心、中国人民抗日战争纪念馆联合举办“约翰·拉贝与中国”学术研讨会。来自北京大学、北京联合大学、中国人民抗日战争纪念馆、北京外国语大学、北京市档案馆、南京市档案馆等机构的专家学者进行了主题研讨，围绕约翰·拉贝人道主义精神与爱国主义教育、国际友人与中国抗日战争研究、拉贝日记与中国近代史研究、约翰·拉贝北京日记与中国文化遗产多样性研究、拉贝日记与世界文明互鉴研究、约翰·拉贝精神对建设人类命
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1770&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20190902/156740725996957206969.html" target="_blank"><div class="img-wrap"><img src="/kzgdata/image/thumbnail/7db250f9e676314e7483ceb404d59a50.jpg" alt="学术动态" style="width: 100%;"></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          武汉大学主办抗战、二战与新中国的诞生学术研讨会暨二战史课题会议抗战、二战与新中国的诞生
+                                      </p> <span>2019-09-02</span></div> <div class="right-con">
+                                  中国社会科学网讯（通讯员 聂向明）在新中国成立七十周年前夕，2019年8月23—24日，国家社科基金抗日战争研究专项工程项目——武汉大学“世界反法西斯战争史(含中国抗战史)档案收集整理与研究”课题组联合中国第二次世界大战史研究会，在武汉大学举办了“抗战、二战与新中国的诞生学术研讨会暨二战史课题会议”，来自北京大学、复旦大学、中国军事科学院、武汉大学等高校和研究单位的专家出席会议。背景介绍2015年习近平总书记指出，“70年前，中国人民经过艰苦卓绝的浴血奋战，打败了穷凶极恶的日本军国主义侵略者，赢得了近代以来中国抗击外敌入侵的第一次完全胜利。这一伟大胜利，彻底粉碎了日本军国主义殖民奴役中国的图谋
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1769&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20190902/20190902/156740698236012622179.html" target="_blank"><div class="img-wrap"><img src="/kzgdata/image/thumbnail/7bb9ceac2ce77436ddf708a4104266b8.jpg" alt="学术动态" style="width: 100%;"></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          “中共中央北方局旧址”汇报座谈会在京举行（组图)
+                                      </p> <span>2019-09-02</span></div> <div class="right-con">
+                                   参加“中共中央北方局旧址” 汇报座谈会人员合影。（赵朋洋摄影） “中共中央北方局旧址”汇报座谈会现场。（赵朋洋摄影）中红网北京2019年8月27日电（赵朋洋）中华人民共和国成立70周年前夕，2019年8月25日上午，山西省左权县麻田“中共中央北方局旧址”管理办在北京金龙潭大酒店组织召开了“中共中央北方局”历史和“旧址” 修缮布展情况汇报座谈会。有关单位领导、党史军史专家、抗战时期的中共中央北方局、八路军总部、一二九师、晋冀鲁豫边区党委、政府及所辖单位的后代们、八路军研究会及太行分会、太岳分会、军工分会、鲁艺校友会的同志、媒体等100多人到会参加。抗日战争时期，中共中央北方局、八路军总部、一二
+                                  </div></div></a></li><li><a href="../newsdetail/news_detail.html?id=1768&amp;newsSession=xsyj_xsdt&amp;isTitleShow=true&amp;parentPage=xsyj_xsdt&amp;fileName=20190902/20190902/20190902/156740474985208614852.html" target="_blank"><div class="img-wrap"><!----></div> <div class="li-right"><div class="right-title-time"><p class="ellipsis">
+                                          第三届中华民族抗日战争史与抗战精神传承研讨会在南宁举行
+                                      </p> <span>2019-09-02</span></div> <div class="right-con">
+                                  新华社南宁8月20日电（记者朱丽莉）20日，第三届中华民族抗日战争史与抗战精神传承研讨会在广西南宁开幕，来自两岸的退役将领、专家学者和教师学生代表等约500人参加会议。研讨会由中国抗日战争史学会和台湾中华民族抗日战争纪念协会共同主办。这是继2017年南京中华民族抗日战争史学术研讨会、2018年武汉中华民族抗战历史教育与抗战精神传承研讨会之后，两岸民间机构第三次携手组织的“共享史料，共写史书，共同弘扬抗战精神”大型主题研讨活动，以此倡导加强两岸抗战历史教育和抗战精神传承，激励两岸同胞尤其是年轻一代铭记共同的抗战历史，弘扬抗战精神，凝聚民族情感，实现民族复兴。多位两岸嘉宾在研讨会开幕式上致辞。中国
+                                  </div></div></a></li></ul> <div class="digg" style=""><ul class="pages"><li class="disabled"><a>首页</a></li><li class="disabled"><a>上一页</a></li><li style="display: none;"><a>1</a></li><li style="display: none;"><a>...</a></li><li class="active"><a>1</a></li><li class=""><a>2</a></li><li class=""><a>3</a></li><li class=""><a>4</a></li><li class=""><a>5</a></li><li class=""><a>6</a></li><li class=""><a>7</a></li><li style=""><a>...</a></li><li class=""><a>下一页</a></li><li class=""><a>尾页</a></li></ul> <div class="pageinfo"><input type="text"><input type="button" value="跳转"><p>总记录数：<span>1764</span></p><p>总页数：<span>177</span></p></div></div></div></div></div></div></main>
+
+
+
+
+  
+
+<iframe name="footerIframe" src="../footer/footer_slw_2.html" id=""></iframe>
+<!-- 渲染数据 -->
+<script type="text/javascript" src="../../js/common/vue.js"></script>
+<script type="text/javascript" src="../../js/common/tools.js"></script>
+<script type="text/javascript" src="../../js/common/api.js"></script>
+<script src="../../js/common/page.js"></script>
+<script src="js/xsdt.js"></script>
+<script src="../common/js/sider-share-add.js"></script><div class="sharedetail"><ul><li class="toJng"><a href="/kzjng/" target="_blank">中国人民抗日战争纪念馆</a></li><li class="toEz"><a href="/bwgxh/" target="_blank">国际二战博物馆协会</a></li></ul><div class="social-share sider-share share-component" data-sites="weibo,wechat"><a class="social-share-icon icon-weibo" href="https://service.weibo.com/share/share.php?url=http%3A%2F%2Fwww.1937china.com%2Fviews%2Fxsyj%2Fxsyj_xsdt.html&amp;title=%E4%B8%AD%E5%9B%BD%E6%8A%97%E6%88%98%E8%83%9C%E5%88%A9%E7%BD%91-%E5%AD%A6%E6%9C%AF%E5%8A%A8%E6%80%81&amp;pic=&amp;appkey=" target="_blank"></a><a class="social-share-icon icon-wechat" href="javascript:"><div class="wechat-qrcode"><h4>微信扫一扫：分享</h4><div class="qrcode" title="http://www.1937china.com/views/xsyj/xsyj_xsdt.html"><canvas width="100" height="100" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,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" style="display: block;"></div><div class="help"><p>微信里点“发现”，扫一下</p><p>二维码便可将网页分享至朋友圈。</p></div></div></a></div></div>
+
+</body></html>

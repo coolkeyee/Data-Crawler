@@ -1,0 +1,652 @@
+<html style="font-size: 14px;"><head>
+<!-- 静态化时间： 2020-05-22 01:45:49 -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="author" content="http://www.fractal-technology.com">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<meta name="keywords" content="">
+		<meta name="description" content="山西博物院的基本陈列以“晋魂”为主题，由文明摇篮、夏商踪迹、晋国霸业、民族熔炉、佛风遗韵、戏曲故乡、明清晋商等7个历史文化专题和土木华章、山川精英、翰墨丹青、方圆世界、瓷苑艺葩等5个艺术专题构成。">
+
+<title>学术论文 - 山西博物院 </title>
+
+
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/video-js.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/global.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/flex.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/page.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/ld.css">
+
+<script src="https://hm.baidu.com/hm.js?74053f922eeb42de308dc8dd42b190c8"></script><script src="/Public/static/themes/js/plugs/jquery-1.11.3.min.js"></script>
+<script src="/Public/static/themes/js/plugs/jquery.placeholder.min.js"></script>
+<script src="/Public/static/themes/js/plugs/jquery.ba-throttle-debounce.min.js"></script>
+<script src="/Public/static/themes/js/plugs/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/Public/static/themes/js/plugs/TweenMax.min.js"></script>
+<script src="/Public/static/themes/js/plugs/video.js"></script>
+<script src="/Public/static/themes/js/plugs/slick.js"></script>
+<script src="/Public/static/themes/js/plugs/xRoll.js"></script>
+<script src="/Public/static/themes/js/global.js"></script>
+<script src="/Public/static/themes/js/jquery.mChange.zoom.js"></script>
+<script src="/Public/static/themes/js/jquery.transit.min.js"></script>
+<script src="/Public/static/themes/js/plugs/iscroll-probe.js"></script>
+<!--[if lt IE 9]>
+<script src="/Public/static/themes/js/plugs/html5shiv.min.js"></script>
+<script src="/Public/static/themes/js/plugs/respond.min.js"></script>
+<![endif]-->
+<script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=441688"></script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style0_24.css"></head>
+
+<body>
+<div class="pop-mod pop-atlas" id="icontimgs">
+    <div class="pop-dialog">
+        <div class="pop-close xfont-icon"></div>
+        <div class="slick-mod">
+        </div>
+        <div class="slick-paging"></div>
+    </div>
+</div>
+            <script>
+            $(function(){
+                $('.x-header .widget-area-edit-bg,.x-header .widget-area-edit-title').remove();
+                $('.x-footer .widget-area-edit-bg,.x-footer .widget-area-edit-title').remove();
+                $('.right-bar .widget-area-edit-bg,.right-bar .widget-area-edit-title').remove();
+                $('#list-modone .widget-area-edit-bg,#list-modone .widget-area-edit-title').remove();
+            });
+        </script>
+        <style>
+        .empty-data{ width:100%; font-size:25px; padding-top:8%; padding-bottom:8%; text-align: center;}
+    </style>
+    <style>
+#myalert{ display:none; }
+.recruit .block1{ height: auto}
+.layer{background:url(/Public/static/themes/image/con_mask.png);;position:fixed;left:0;right: 0;top:0;bottom: 0;width:100%;height:100%;z-index: 1000000;}
+.layer .myalert{padding:30px;background:#fff;width:240px;position:absolute;margin-top:-100px;top:50%;left:50%;margin-left:-120px;text-align:center; z-index: 100000}
+.layer .guan{background:url(/Public/static/themes/image/clos.png) no-repeat center; display:block;width:23px;height:23px;position:absolute;top:10px;right:10px;}
+.layer .text{padding-bottom:15px;font-size:16px;color:#474747;}
+.layer .button{background:none;border:1px solid #bbbbbb;width:91px;height:29px;font:14px/100% "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;color: #707070;}
+</style>
+<div id="myalert" class="layer">
+    <div class="myalert">
+        <a href="javascript:;" onclick="myalert_hide();" class="guan"></a>
+        <div class="text">请输入关键字</div>
+        <a><button class="button" id="my_ok" style="cursor:pointer ;opacity: 1;transform: translateY(0px);">确定</button></a>
+    </div>
+</div>
+<script>
+function my_alert(text,callback) {
+    $('#myalert').show();
+    $('#myalert .myalert div').html(text);
+
+    $('#my_ok').click( function() {
+        $('#myalert').hide();
+
+        if (typeof(callback) == 'function') {
+            callback();
+            return false;
+        }
+    });
+}
+
+function myalert_hide(){
+    $('#myalert').hide();
+}
+</script>
+    <div class="pop-mod pop-video">
+    <div class="pop-overlay"></div>
+    <div class="pop-dialog">
+        <span class="pop-close"></span>
+        <div class="cont">
+            <div class="video" id="header_video">
+                <video id="example_video_1" preload="" controls="" class="video-js vjs-default-skin" webkit-playsinline="" playsinline="" x5-playsinline="" x-webkit-airplay="allow" width="100%" height="100%">
+                    <source src="/Public/static/themes/image/2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="right-bar"><div class="sb-item">
+            <a href="javascript:void(0);" class="a">微信</a>
+            <span class="code"><img src="/Uploads/Picture/2019/03/28/s5c9c7ddbf2856.jpg" alt="" title=""></span>
+        </div>
+            <div class="sb-item">
+                <a href="https://weibo.com/shanximuseum" class="a">微博</a>
+            </div>        <div class="sb-item">
+                <a href="/guestbook/message.html" class="a">观众留言</a>
+            </div>        <div class="sb-item">
+                <a href="/single_detail/6891.html?_isa=1" class="a">友情链接</a>
+            </div><div class="sb-item"><a class="a js-gotop"></a></div></div>
+<div class="x-header">
+    <div class="mar-wrap">
+        <div class="menu-head">
+            <div class="logo" edit_params="width%3D280%26height%3D86%26zoom%3D0.75%26backgroundColor%3D1"><a href="/">
+    <img class="img" src="/Uploads/Picture/2018/11/29/s5bffbabd0fef4.png" alt="">
+</a></div>            <div class="menu-btn m-show"><span class="line"></span></div>
+        </div>
+        <div class="tools p-show">
+            <div class="search-trigger">
+                <div class="search-box search_pc">
+                    <div class="search-txt">
+                        <input placeholder="search..." type="text">
+                    </div>
+                    <button class="search-btn btn_1" type="button"></button>
+                </div>
+            </div>
+            <script>
+                $('.btn_1').click( function() {
+                    var value = $('.search_pc input').val();
+                    if( value == ''|| value == '请输入关键字...' || value == '请输入您要搜索的关键字' ) {
+                        my_alert( "请输入关键词" );
+                        return false;
+                    }
+                    var url = window.location.href;
+                    if( url.indexOf("searchs/keywords") > -1 ) {
+                        window.open( "/searchs/keywords/" + value , "_self" );
+                    } else {
+                        window.open( "/searchs/keywords/" + value , "_blank" );
+                    }
+                    return false;
+                });
+                // 回车搜索
+                $(".search_pc input").keyup( function( e ) {
+                    if( e.keyCode === 13 ) {
+                        $('.btn_1').click();
+                    }
+                });
+            </script>
+           <!--  <div class="share-box bdsharebuttonbox">
+                <a href="javascript:void('member')" class="share-item icon-name" title="个人中心"></a>
+            </div> -->
+            <a href="/en/index.html" class="lang">EN</a>
+            <div class="calendar-box">
+                <iframe width="270" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="//i.tianqi.com/index.php?c=code&amp;id=11&amp;icon=1&amp;py=taiyuan&amp;site=14"></iframe>
+            </div>
+        </div>
+        <div class="nav-mod"><div class="d1"></div>
+<div class="d2"></div>
+<div class="search-box m-show search_wap">
+    <div class="search-txt">
+        <input type="text" placeholder="search...">
+    </div>
+    <button class="search-btn btn_2" type="button"></button>
+</div>
+<script>
+    $('.btn_2').click( function() {
+        var value = $('.search_wap input').val();
+        if( value == ''|| value == '请输入关键字...' || value == '请输入您要搜索的关键字' ) {
+            my_alert( "请输入关键词" );
+            return false;
+        }
+        window.open( "/searchs/keywords/" + value , "_self" );
+        return false;
+    });
+    //回车搜索
+    $(".search_wap input").keyup( function( e ) {
+        if( e.keyCode === 13 ) {
+            $('.btn_2').click();
+        }
+    });
+</script>
+<ul class="nav-lv nav-lv1 clear">
+            <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/">首页</a>
+                            </div>
+                    </li>        <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/openfuwu.html">服务</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 1076px; margin-left: 0px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/openfuwu.html">开放服务</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/visit_fuwu.html">参观导览</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/volunteer.html">加入我们</a></div></li>                    </ul>
+                </div>        </li>        <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/temporary.html">展览</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 1228px; margin-left: 0px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/temporary.html">临时展览</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/outgoing.html">赴外展览</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/inter.html">网上展厅</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/htltopics.html">基本陈列</a></div></li>                    </ul>
+                </div>        </li>        <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/collection.html">藏品</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 1120px; margin-left: 130px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/collection.html">典藏精选</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/colloection_list.html">藏品列表</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/coll/solicitation.html">藏品征集</a></div></li>                    </ul>
+                </div>        </li>        <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/education.html">教育</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 968px; margin-left: 282px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/sign_up.html">活动预告</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/activity_list.html">活动回顾</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/education.html#education2">活动推荐</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/line/study.html">线上学习</a></div></li>                    </ul>
+                </div>        </li>        <li class="nav-item cur">
+            <div class="nav-tit">
+                <a class="nav-link" href="/research/committee.html">研究</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 816px; margin-left: 434px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/research/committee.html">学术委员会</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/research/project.html">科研项目</a></div></li><li class="nav-item cur"><div class="nav-tit"><a class="nav-link" href="/research/paper.html">学术论文</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/research/publish.html">出版图书</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/research/exchan.html">学术活动</a></div></li>                    </ul>
+                </div>        </li>        <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/literary.html">文创</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 664px; margin-left: 586px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/literary.html#part1">文创简介</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/literary.html#part2">文创精品</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/literary.html#part3">新闻资讯</a></div></li>                    </ul>
+                </div>        </li>        <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/building.html">党建</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 512px; margin-left: 738px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/building.html#part2">理论之窗</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/building.html#part3">党建活动</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/building.html#part4">文明晋博</a></div></li>                    </ul>
+                </div>        </li>        <li class="nav-item">
+            <div class="nav-tit">
+                <a class="nav-link" href="/about.html">关于</a>
+                <span class="arr"></span>            </div>
+            <div class="nav-lv nav-lv2">
+                    <ul class="nav-grp" style="width: 360px; margin-left: 890px;">
+                        <li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/about.html">博物院简介</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/about.html#about2">机构职能</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/about.html#about3">历史沿革</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/about.html#about4">大事记</a></div></li><li class="nav-item"><div class="nav-tit"><a class="nav-link" href="/about/news.html">资讯前沿</a></div></li>                    </ul>
+                </div>        </li>    </ul>
+<div class="qtlogo" edit_params="width%3D209%26height%3D45%26zoom%3D0.65%26backgroundColor%3D1%26showAlt%3D1%26showLink%3D1"><a href="/bronze.html"><img class="img" src="/Uploads/Picture/2019/07/25/s5d399e5cd51b0.png" alt="" title=""></a></div><script>
+    var index= "";
+    if( index ) {
+        $(".nav-lv1 .nav-item:first").addClass("cur");
+    } else {
+        $(".nav-lv1 .nav-item:first").removeClass("cur");
+    }
+    var nowurl  = "/research/paper.html";
+    $(".nav-lv2 .nav-item a").each( function() {
+        $(this).parent().parent().removeClass('cur');
+        var listurl = $(this).attr('href');
+        if( nowurl == listurl ) {
+            $(this).parent().parent().addClass('cur');
+            $(this).parents("div.nav-lv2").parent().addClass('cur');
+        }
+    })
+    $('.nav-lv > .nav-item').eq(6).find('a').on('click',function(){
+        if($(this).attr('href') == "javascript:void(0);"){
+             window.location.reload();
+        }
+    })
+    $('.nav-lv > .nav-item').eq(7).find('a').on('click',function(){
+        if($(this).attr('href') == "javascript:void(0);"){
+             window.location.reload();
+        }
+    })
+    $('.nav-lv > .nav-item').eq(7).find('a').on('click',function(){
+        if($(this).attr('href') == "javascript:void(0);"){
+             window.location.reload();
+        }
+    })
+    $('.nav-lv2').eq(1).find('a').on('click',function(){
+        if($(this).attr('href') == "javascript:void(0);"){
+             window.location.reload();
+        }
+    })
+</script>
+<div class="share-box bdsharebuttonbox m-show bdshare-button-style0-24" data-bd-bind="1590083149886">
+    <a href="javascript:void('member');" class="share-item icon-name" title="个人中心"></a>
+    <a href="/en/index.html" class="lang">EN</a>
+</div></div>    </div>
+</div>
+<script type="text/javascript">
+window.onload=function (){
+  if($(window).width()<1025){
+    $('a').removeAttr('target');
+  }
+};
+</script>
+
+        <div class="x-container" style="min-height: 72px;">	<div class="bread-mod p-show">
+		<div class="mar-wrap">    <div class="x-wrap"><div class="bread-item"><a href="/">首页</a></div><div class="bread-item"><a href="javascript:void(0);">研究</a></div><div class="bread-item"><span>学术论文</span></div>    </div></div>	</div><div>
+    <script src="/Public/static/themes/js/plugs/imagesloaded.pkgd.min_v3.2.0.js"></script>
+    <script src="/Public/static/themes/js/plugs/masonry.pkgd.min.js"></script>
+</div>
+<div class="paper_list1">
+    <div class="x-wrap">
+                <div class="x-tit center">
+            <div class="h26">学术论文</div>
+        </div>
+    
+        <!-- <div class="tab-nav">
+        <a href="/research/committee.html" class="link-box "><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">学术委员会</div></div></a>&nbsp;<a href="/research/project.html" class="link-box "><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">科研项目</div></div></a>&nbsp;<a href="/research/paper.html" class="link-box cur"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">学术论文</div></div></a>&nbsp;<a href="/research/publish.html" class="link-box "><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">出版图书</div></div></a>&nbsp;<a href="" class="link-box "><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">学术活动</div></div></a>        </div> -->
+        <div class="screen-mod">
+            <div class="justify">
+                <div class="input"><div class="bp-border"><div class="bp-inner"><input type="text" placeholder="关键字、年份" id="search_paper"></div></div></div>
+                <div class="submit bp-border cur"><a class="link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t"><div class="bp-inner" id="btn_paper"><button type="submit">搜索</button></div></div></div></a></div>
+            </div> 
+        </div>
+        <div class="option">
+            <span class="s1">仅看山西博物院</span>
+        </div>
+        <div id="datalist">
+                <div class="list">
+  <div class="item">
+      <a href="/research/paper/1145.html">
+        <div class="padd">
+          <div class="h18">传统手工纸与中华文化血脉相连</div>
+          <div class="p">作者：刘艳萍</div>
+          <div class="p">来源：文物世界 2018年第06期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1143.html">
+        <div class="padd">
+          <div class="h18">博物馆微博发展策略研究</div>
+          <div class="p">作者：薛萍</div>
+          <div class="p">来源：文物世界 2018年第01期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1140.html">
+        <div class="padd">
+          <div class="h18">浅析王铎行草书的形态表现</div>
+          <div class="p">作者：曹雨琪</div>
+          <div class="p">来源：文物世界 2018年第06期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1138.html">
+        <div class="padd">
+          <div class="h18">晋博馆藏书画尽显三晋特色</div>
+          <div class="p">作者：赵晓华</div>
+          <div class="p">来源：中国拍卖 2018年第06期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1137.html">
+        <div class="padd">
+          <div class="h18">从浑源窑镶嵌瓷谈起</div>
+          <div class="p">作者：田银梅</div>
+          <div class="p">来源：文物世界 2018年第06期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1135.html">
+        <div class="padd">
+          <div class="h18">山西三处先秦遗址出土绿松石制品产源特征探索</div>
+          <div class="p">作者：李延祥、张登毅、何驽、郭智勇、郭银堂</div>
+          <div class="p">来源：文物 2018年第02期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1134.html">
+        <div class="padd">
+          <div class="h18">浅谈山西博物院藏康熙青花碗的保护修复</div>
+          <div class="p">作者：李小波、谢晋</div>
+          <div class="p">来源：文物世界 2018年第06期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1133.html">
+        <div class="padd">
+          <div class="h18">浅谈提升博物馆藏品管理品质</div>
+          <div class="p">作者：王瑞</div>
+          <div class="p">来源：文物世界  2018年05期</div>
+        </div>
+      </a>
+    </div><div class="item">
+      <a href="/research/paper/1132.html">
+        <div class="padd">
+          <div class="h18">山西忻州九原岗北朝墓葬壁画颜料及颜色变化分析</div>
+          <div class="p">作者：石美风、任建光、张秉坚、黄继忠霍宝强</div>
+          <div class="p">来源：文物保护与考古科学 2018年第01期</div>
+        </div>
+      </a>
+    </div>  
+  </div>
+  <div class="page-mod" data-size="36" style="display:block;clear:both;">
+        <ul class="page-box p-show clear">
+            <li class="page-item"><a href="/research/paper/p/3.html" onclick="getPage($(this));return false;" class="link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t"></div></div></a></li>            <li class="page-item"><a href="/research/paper/p/1.html" class="link-box" onclick="getPage($(this));return false;"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">1</div></div></a></li>                                             <li class="page-item"><a href="/research/paper/p/2.html" onclick="getPage($(this));return false;" class="link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">2</div></div></a></li>                     <li class="page-item"><a href="/research/paper/p/3.html" onclick="getPage($(this));return false;" class="link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">3</div></div></a></li><li class="page-item"><a href="javascript:void(0);" class="link-box cur"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">4</div></div></a></li>
+                                     <li class="page-item"><a href="/research/paper/p/5.html" onclick="getPage($(this));return false;" class="link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">5</div></div></a></li>                     <li class="page-item"><a href="/research/paper/p/6.html" onclick="getPage($(this));return false;" class="link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">6</div></div></a></li>            <li class="page-item"></li>            <li class="page-item"><a href="/research/paper/p/36.html" class="link-box" onclick="getPage($(this));return false;"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">36</div></div></a></li>            <li class="page-item"><a href="/research/paper/p/5.html" onclick="getPage($(this));return false;" class="link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t"></div></div></a></li>            <li class="page-item jump">
+                <a class="link-box">
+                    <div class="d1"></div>
+                    <div class="d2"></div>
+                    <div class="c">
+                        <div class="t">
+                            <div class="page-input">
+                                <input type="text" id="text_se1" onkeydown="keydown(event, '#btn_new')">
+                            </div>
+                            <button type="button" class="page-btn" id="btn_new">GO</button>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="page-mod page-more">
+            <a href="/research/paper/p/5.html" id="more_id" onclick="wapGetPage($(this));return false;" data-href="/research/paper/p/5.html" class="page-more m-show link-box"><div class="d1"></div><div class="d2"></div><div class="c"><div class="t">查看更多</div></div></a>
+        </div><script>
+function getPage( obj ){
+    var url = obj.attr('href');
+    if( url == 'javascript:void(0);' ) {
+        return false;
+    }
+    url = url + "?" + Math.random();
+    // $.ajaxSetup({cache:false});
+    $.get(url,{},function(data){
+      $('#datalist').html(data);
+      $('html,body').animate({scrollTop:parseInt($('#datalist').offset().top-230)},500);        
+    })
+}
+
+function wapGetPage( obj ) {
+    var url = obj.attr('href');
+    if( url == 'javascript:void(0);' ) {
+        return false;
+    }
+    url = url + "?" + Math.random();
+    $('div.page-more')[0].remove();
+    $.get( url , {} , function( data ) {
+        $('#datalist').append( data );
+    })
+}
+</script>
+
+<script>
+    $(function(){
+        $('#btn_new').click(function(){
+            var p = $('#text_se1').val();
+            if( p == 0 || p == '' ) {
+                my_alert("请输入跳转页数");
+                return false;
+            } else {
+                var pagesize = $('.page-mod').attr('data-size');
+                if( ( p * 1 ) <= ( pagesize * 1 ) ) {
+                    var url = $('.page-mod a').eq(1).attr('href') + "?" + Math.random();
+                    $.get( url , { p : p } , function( data ) {
+                        $('#datalist').html( data );
+                        $('html,body').animate({ scrollTop : parseInt( $('#datalist').offset().top - 230 ) } , 500 );
+                    });
+                }else{
+                    my_alert('跳转页数超出!');
+                }
+
+            }
+
+        });
+
+    })
+    function keydown( e , but ) {
+        var currKey=0,e=e||event;
+        var _this = $(but);
+
+        if( e.keyCode == 13 )
+        {
+            _this.click();
+            return false;
+        }
+    }
+</script>
+
+        </div>
+    </div>
+</div>
+<script>
+(function($){
+    // var search = {
+    //     // 不设置category_id会出错
+    //     tpl_file    : 'paper',
+    //     title       :  '',
+    //     pagesize    : 9,
+    //     category_id : "41",
+    // };
+    // refrush("/searchs/paper.html", search);
+    $('#btn_paper').click(function(){
+        var value = $('#search_paper').val();
+        if(value == ''){
+            my_alert("请输入搜索关键字");
+            return false;
+        }
+        if( $('.paper_list1 .option .s1').hasClass("act") ){
+            var search = {
+                // 不设置category_id会出错
+                tpl_file    : 'paper',
+                title       : value,
+                pagesize    : 9,
+                radios      : 1,
+                category_id : "41",
+            };
+        }else{
+            var search = {
+                // 不设置category_id会出错
+                tpl_file    : 'paper',
+                title       : value,
+                pagesize    : 9,
+                category_id : "41",
+            };
+        }
+        refrush("/searchs/paper.html", search);    
+       
+    });
+ 
+    //回车搜索
+    $(".justify input").keyup(function(e){
+        if(e.keyCode === 13){
+            $('#btn_paper').click();
+        }
+    });
+    $(".paper_list1 .option .s1").bind("click",function(){
+        $(this).toggleClass("act");
+        var value = $('#search_paper').val();
+        if( $(this).hasClass("act") ){
+            var search = {
+                // 不设置category_id会出错
+                tpl_file    : 'paper',
+                radios      : 1,
+                title       : value,
+                pagesize    : 9,
+                category_id : "41",
+            };
+            refrush("/searchs/paper.html", search);    
+           
+        }else{
+            var search = {
+                // 不设置category_id会出错
+                tpl_file    : 'paper',
+                title       : value,
+                pagesize    : 9,
+                category_id : "41",
+            };
+            refrush("/searchs/paper.html", search);    
+           
+        }
+    });
+    function refrush(url, datas) {
+        $.get(url, datas, function(data) {
+            if (data) {
+                $('#datalist').html(data);
+            }
+        });
+    }
+})(jQuery);  
+</script>
+</div>
+    <script src="http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+<div class="x-footer" style="z-index: 0;">
+            <div class="list-mod " id="list-modone">
+            <div class="mar-wrap" edit_params="width%3D106%26height%3D83%26tabs%3D4%26title1Show%3D1%26title1Max%3D4%26showLink%3D1%26zoom%3D0.5%26desc%3D1"><div class="x-wrap">
+	<div class="list">
+		<div class="item">
+			<div class="cell"><div class="h24">全面贴心<br>
+参观服务</div></div>
+		</div>
+		<div class="item">
+				<a href="/temporary.html">
+					<div class="ico"><img src="/Uploads/Picture/2018/11/22/s5bf61b98c5065.png" title="" alt=""></div>
+					<div class="h18">展览</div>
+				</a>
+			</div><div class="item">
+				<a href="http://www.shanximuseum.com/education/">
+					<div class="ico"><img src="/Uploads/Picture/2018/11/30/s5c00aa5f50ef0.png" title="" alt=""></div>
+					<div class="h18">教育</div>
+				</a>
+			</div><div class="item">
+				<a href="/collection.html">
+					<div class="ico"><img src="/Uploads/Picture/2018/11/22/s5bf61ba57fa73.png" title="" alt=""></div>
+					<div class="h18">藏品</div>
+				</a>
+			</div><div class="item">
+				<a href="http://www.shanximuseum.com/service/shop.html">
+					<div class="ico"><img src="/Uploads/Picture/2018/11/22/s5bf61bac41520.png" title="" alt=""></div>
+					<div class="h18">文创</div>
+				</a>
+			</div>	</div>
+</div></div>        </div>    <div class="clear">
+        <div class="copy">
+            <div class="p"><a href="http://sx.beian.miit.gov.cn/">晋ICP备08001524</a></div>
+            <p class="ftbj"><a href="http://www.fractal-technology.com">网站建设</a>：<a href="http://www.fractal-technology.com">北京分形科技</a></p>
+            <p class="ftbj" style="padding: 0 5px;">联系电话：03518789188、03518789222</p>
+        </div>
+        <div class="share-box bdsharebuttonbox bdshare-button-style0-24" data-bd-bind="1590083149886">
+            <a class="share-item icon-wchat" data-cmd="weixin" href="javascript:;" title="分享到微信"><!-- <span class="code"><img src="image/temp/qrcode.png" alt=""></span> --></a>
+            <a href="https://weibo.com/p/1001061704131137/home?from=page_100106&amp;%3Bmod=TAB%23place&amp;is_hot=1" class="share-item icon-sinawb" title="新浪微博"></a>
+        </div>
+        <!--<div><img src="/Public/static/images/default.png" alt="" title=""/></div>-->
+    </div>
+</div>
+<!--<div id="qrcode_div" style="position: fixed; top: 50%; left: 50%; display: none; margin-top: -100px; margin-left: -100px; z-index: 9999;">
+    <div id="code"></div>
+</div>-->
+<script>
+    // 新浪分享
+    // function shareToXl() {
+    //     var sharesinastring = 'http://v.t.sina.com.cn/share/share.php?title=' + document.title + '&url=' + window.location.href + '&content=utf-8&sourceUrl=' + window.location.href;
+    //     window.open( sharesinastring , 'newwindow' , 'height=500,width=500,top=100,left=100' );
+    // }
+    // QQ分享
+    // function shareToqq() {
+    //     var _shareUrl = 'https://connect.qq.com/widget/shareqq/iframe_index.html?';
+    //     _shareUrl += 'url=' + encodeURIComponent( location.href );   //分享的链接
+    //     _shareUrl += '&title=' + encodeURIComponent( document.title );     //分享的标题
+    //     window.open( _shareUrl , 'newwindow' , 'height=505,width=720,top=100,left=100' );
+    // }
+    // 当前页面分享二维码
+    // function shareQrcode () {
+    //     $("#code").qrcode({
+    //         render  : "table", //table方式
+    //         width   : 200, //宽度
+    //         height  : 200, //高度
+    //         text    : window.location.href //任意内容
+    //     });
+    //     $("#qrcode_div").css( "display", "block" );
+    // }
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?74053f922eeb42de308dc8dd42b190c8";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</body></html>

@@ -1,0 +1,226 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>学术研究-北京鲁迅博物馆（北京新文化运动纪念馆）</title>
+<meta name="Keywords" content="">
+<meta name="Description" content="学术研究">
+<base href="http://www.luxunmuseum.com.cn/">
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7;IE=6; IE=EDGE">
+<link href="/template/default//css/style.css" rel="stylesheet" type="text/css">
+<link href="/template/default//css/banner.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div id="banner">
+  <ul id="slides">
+    <li style="background:url('/template/default/images/bg_header.jpg') no-repeat center top"><a href="javascript:"></a></li>
+    <li style="background: url(&quot;/template/default/images/bg_header01.jpg&quot;) center top no-repeat; display: none;"><a href="javascript:"></a></li>
+    <li style="background: url(&quot;/template/default/images/bg_header02.jpg&quot;) center top no-repeat; display: none;"><a href="javascript:"></a></li>
+    <li style="background: url(&quot;/template/default/images/bg_header03.jpg&quot;) center top no-repeat; display: none;"><a href="javascript:"></a></li>
+  </ul><ul id="pagination" style="margin-left: 370px;"><li class="current"><a href="#">1</a></li><li><a href="#">2</a></li><li><a href="#">3</a></li><li><a href="#">4</a></li></ul>
+</div>
+<script type="text/javascript" src="/template/default//js/jquery.min.js"></script>
+<script type="text/javascript" src="/template/default//js/jquery.jslides.js"></script>
+
+<div class="bg_header">
+<div class="header">
+  <div class="logo"><a href="/"><img src="/template/default/images/logo.jpg" width="614" height="71"></a></div>
+    <div class="nav"><ul>
+        <li>
+          <a href="/"><img src="/template/default/img/nav1.jpg"></a>
+          <a href="/"><div class="hover1"><img src="/template/default/img/nav1_2.jpg"></div></a>
+        </li>
+
+        <li>
+          <a href="/gaikuang/"><img src="/template/default/img/nav2.jpg"></a>
+           <a href="/gaikuang/"><div class="hover1"><img src="/template/default/img/nav2_2.jpg"></div></a>
+        </li>
+        <li>
+          <a href="/zixun/"><img src="/template/default/img/nav3.jpg"></a>
+           <a href="/zixun/"><div class="hover1"><img src="/template/default/img/nav3_2.jpg"></div></a>
+        </li>
+        <li>
+          <a href="/zhanlan/"><img src="/template/default/img/nav4.jpg"></a>
+           <a href="/zhanlan/"><div class="hover1"><img src="/template/default/img/nav4_2.jpg"></div></a>
+        </li>
+        <li class="nav1set">
+          <a href="/xueshuyanjiu/"><img src="/template/default/img/nav5.jpg"></a>
+           <a href="/xueshuyanjiu/"><div class="hover1"><img src="/template/default/img/nav5_2.jpg"></div></a>
+        </li>
+        <li>
+          <a href="/guancangjingpin/"><img src="/template/default/img/nav6.jpg"></a>
+           <a href="/guancangjingpin/"><div class="hover1"><img src="/template/default/img/nav6_2.jpg"></div></a>
+        </li>
+        <li>
+          <a href="/jiaoyuxuanchuan/"><img src="/template/default/img/nav7.jpg"></a>
+           <a href="/jiaoyuxuanchuan/"><div class="hover1"><img src="/template/default/img/nav7_2.jpg"></div></a>
+        </li>
+        <li>
+          <a href="/wenchuangchanpin/"><img src="/template/default/img/nav8.jpg"></a>
+           <a href="/wenchuangchanpin/"><div class="hover1"><img src="/template/default/img/nav8_2.jpg"></div></a>
+        </li>
+
+        <div class="clear"></div>
+      </ul>
+    </div>
+</div>
+</div>
+<div class="main">
+
+		
+	<div class="fnav_xs l">
+    	<ul>
+        	        	<li><a href="/xueshuchengguo/">学术成果</a></li>
+			        	<li><a href="/shiliaogouchen/">史料钩沉</a></li>
+			        	<li><a href="/xinwenhuajiangtang/">新文化讲堂</a></li>
+			        	<li><a href="/luxunyanjiuyuekan/">鲁迅研究月刊</a></li>
+			        	<li><a href="http://www.luxunmuseum.com.cn/cx/">在线检索系统</a></li>
+			        </ul>
+    </div>    
+  <div class="main_r r">
+    <div class="position">
+		<div style="float:left; margin-top:15px; margin-left:20px;">当前位置： <a href="http://www.luxunmuseum.com.cn/" title="北京鲁迅博物馆（北京新文化运动纪念馆）">首页</a> &gt;  <a href="/xueshuyanjiu/" title="学术研究">学术研究</a> </div>
+        <div style="float:right; margin-top:10px; margin-left:50px;">
+        <form name="formsearch" action="/search/index.php" method="get">
+        <input type="hidden" name="modelid" id="modelid" value="1">
+        <input style="width:200px; height:20px; border:solid #ffd672 1px;" name="k" type="text" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}" onblur="if(this.value==''){this.value='在这里搜索...';}">  
+        <input style="width:50px; height:22px; background-color:#e8be58; color:#FFFFFF;" value="搜 索" type="submit">
+     </form>
+		</div></div>
+    <div class="main_content">
+       <div class="content_czyd">
+                    <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201803/a1073.htm" target="_blank">关于鲁迅的新闻</a><span class="time">2018-03-26</span></dt>
+                        <dd><a href="/html/201803/a1073.htm" target="_blank">2014年2月7日，中共中央总书记、国家主席、中央军委主席习近平在俄罗斯索契亲切看望参加第二十二届冬季奥林匹克运动会的中国体育代表团。在与中国冬奥会健儿交谈时…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201803/a1073.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="http://navi.cnki.net/KNavi/JournalDetail?pcode=CJFD&amp;pykm=LXYJ&amp;Year=&amp;Issue=&amp;Entry=" target="_blank">鲁迅研究月刊</a><span class="time">2015-09-20</span></dt>
+                        <dd><a href="http://navi.cnki.net/KNavi/JournalDetail?pcode=CJFD&amp;pykm=LXYJ&amp;Year=&amp;Issue=&amp;Entry=" target="_blank">鲁迅研究月刊,</a></dd>
+                </div>
+                <div class="more r"><a href="http://navi.cnki.net/KNavi/JournalDetail?pcode=CJFD&amp;pykm=LXYJ&amp;Year=&amp;Issue=&amp;Entry=" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201508/a1087.htm" target="_blank">群星灿烂的五四星空—以鲁迅•胡适•周作人为中心</a><span class="time">2015-08-28</span></dt>
+                        <dd><a href="/html/201508/a1087.htm" target="_blank">2015年4月29日，在《新青年》创刊暨新文化运动百年纪念之际，北京鲁迅博物馆（新文化运动纪念馆）举办新文化讲坛。原北京鲁迅博物馆副馆长、著名现代文学研究专家陈漱渝…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201508/a1087.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201508/a1086.htm" target="_blank">《钱玄同与新文化运动》学术报告</a><span class="time">2015-08-28</span></dt>
+                        <dd><a href="/html/201508/a1086.htm" target="_blank">2015年6月2日，北京鲁迅博物馆（北京新文化运动纪念馆）邀请著名学者、中国社科院荣誉学部委员、中央文史研究馆馆员杨天石先生作了题为《钱玄同与新文化运动》的学术报…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201508/a1086.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201508/a1085.htm" target="_blank">《学习贯彻《博物馆条例》的若干体会》讲座</a><span class="time">2015-08-28</span></dt>
+                        <dd><a href="/html/201508/a1085.htm" target="_blank">2015年5月21日下午，北京鲁迅博物馆（北京新文化运动纪念馆）举办业务培训，副馆长、中国博物馆协会副理事长兼秘书长安来顺研究馆员作了题为《学习贯彻《博物馆条例》的…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201508/a1085.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201508/a1084.htm" target="_blank">《抗战版画的学术意义》的专题讲座</a><span class="time">2015-08-28</span></dt>
+                        <dd><a href="/html/201508/a1084.htm" target="_blank">7月3日上午9：30在北大红楼李允经先生应邀作了题为《抗战版画的学术意义》的专题讲座。</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201508/a1084.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201508/a1082.htm" target="_blank">“中国博物馆的发展与展望”专题讲座</a><span class="time">2015-08-28</span></dt>
+                        <dd><a href="/html/201508/a1082.htm" target="_blank">为了提高干部职工的思想政治素质和业务能力，经北京鲁迅博物馆（北京新文化运动纪念馆）党委领导班子研究决定，从2015年开始在全馆干部职工中开展政治理论和业务培训活动…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201508/a1082.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201508/a1075.htm" target="_blank">甘博镜头中的五四运动</a><span class="time">2015-08-04</span></dt>
+                        <dd><a href="/html/201508/a1075.htm" target="_blank">西德尼•戴维•甘博（1890－1968）是一位美国社会经济学家和摄影家。1917年至1932年，他曾三次来到中国，以一个社会学家的角度拍下5000余张照片，记录了当时中国的社会生活。…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201508/a1075.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201508/a1074.htm" target="_blank">让博物馆资源真正成为公众资源</a><span class="time">2015-08-04</span></dt>
+                        <dd><a href="/html/201508/a1074.htm" target="_blank">目前国内博物馆普遍存在公众资源浪费问题，本文从“开放博物馆资源”、“让公众知晓博物馆资源的主要渠道”等方面介绍了台湾博物馆向公众开放资源的经验，希望能为国…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201508/a1074.htm" target="_blank"></a></div>
+            </div>
+                     <div class="list_list">
+                <div class="list_l l">
+                        <dt><a href="/html/201503/a1071.htm" target="_blank">鲁迅为青年校稿　　陈洁</a><span class="time">2015-03-26</span></dt>
+                        <dd><a href="/html/201503/a1071.htm" target="_blank">在鲁迅的鼓励和指导下，青年知识者开始将翻译视为一种有意义的工作，并翻译了大量作品。李霁野等青年知识者进入翻译领域的时候，最初只是视为一种精神的游戏。李霁野在…</a></dd>
+                </div>
+                <div class="more r"><a href="/html/201503/a1071.htm" target="_blank"></a></div>
+            </div>
+         
+        </div>
+        
+        <div class="fenye">
+                        <li class="page1">首页</li>  <li class="page1">1</li> <li class="page"><a href="/xueshuyanjiu/list_18_2.htm">2</a></li> <li class="page"><a href="/xueshuyanjiu/list_18_3.htm">3</a></li> <li class="page"><a href="/xueshuyanjiu/list_18_4.htm">4</a></li> <li class="page"><a href="/xueshuyanjiu/list_18_5.htm">5</a></li> <p class="xiaye"><a href="/xueshuyanjiu/list_18_2.htm"></a></p> <li class="page"><a href="/xueshuyanjiu/list_18_15.htm">末页</a></li> <li><select name="pageto" style="width:71px" onchange="location.href=this.options[this.selectedIndex].value;"><option value="/xueshuyanjiu/list_18_1.htm" selected="">第1页</option><option value="/xueshuyanjiu/list_18_2.htm">第2页</option><option value="/xueshuyanjiu/list_18_3.htm">第3页</option><option value="/xueshuyanjiu/list_18_4.htm">第4页</option><option value="/xueshuyanjiu/list_18_5.htm">第5页</option><option value="/xueshuyanjiu/list_18_6.htm">第6页</option><option value="/xueshuyanjiu/list_18_7.htm">第7页</option><option value="/xueshuyanjiu/list_18_8.htm">第8页</option><option value="/xueshuyanjiu/list_18_9.htm">第9页</option><option value="/xueshuyanjiu/list_18_10.htm">第10页</option><option value="/xueshuyanjiu/list_18_11.htm">第11页</option><option value="/xueshuyanjiu/list_18_12.htm">第12页</option><option value="/xueshuyanjiu/list_18_13.htm">第13页</option><option value="/xueshuyanjiu/list_18_14.htm">第14页</option><option value="/xueshuyanjiu/list_18_15.htm">第15页</option></select></li> 
+                        
+        </div>
+        
+    </div>
+  </div>
+    
+</div>
+
+<div style="display:none"><script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1278098163&amp;web_id=1278098163"></script><script src="https://c.cnzz.com/core.php?web_id=1278098163&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="https://www.cnzz.com/stat/website.php?web_id=1278098163" target="_blank" title="站长统计">站长统计</a></div>
+
+<div class="footer">
+	<div class="bnav">
+   	<a href="javascript:void(0);" onclick="SetHome(this,'http://www.luxunmuseum.com.cn');">设为首页</a>丨
+    <a href="/fuwutai/canguanluxian/" target="_blank">服务台</a>丨
+    <a href="/lianxiwomen/" target="_blank">联系我们</a>丨
+    <a href="wangzhandaohang/" target="_blank">网站导航</a>丨
+    <a href="youqinglianjie/" target="_blank">友情链接</a>丨
+    <a href="falvshengming/" target="_blank">法律声明</a>丨
+    <a href="http://www.chinamuseum.org.cn/index.html" target="_blank">博物馆协会</a>
+    <p>Copyright Reserved 2014-2019 版权所有  北京鲁迅博物馆（北京新文化运动纪念馆）  京ICP备18041591号-2<br>
+技术支持：中国文物信息咨询中心　技术服务电话：86-010-84849835</p>
+    </div>
+    
+</div>
+
+<script type="text/javascript">
+//设为首页 www.luxunmuseum.com.cn
+function SetHome(obj,url){
+    try{
+        obj.style.behavior='url(#default#homepage)';
+       obj.setHomePage(url);
+   }catch(e){
+       if(window.netscape){
+          try{
+              netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+         }catch(e){
+              alert("抱歉，此操作被浏览器拒绝！nn请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+          }
+       }else{
+        alert("抱歉，您所使用的浏览器无法完成此操作。nn您需要手动将【"+url+"】设置为首页。");
+       }
+  }
+}
+ 
+//收藏本站 www.luxunmuseum.com.cn
+function AddFavorite(title, url) {
+  try {
+      window.external.addFavorite(url, title);
+  }
+catch (e) {
+     try {
+       window.sidebar.addPanel(title, url, "");
+    }
+     catch (e) {
+         alert("抱歉2，您所使用的浏览器无法完成此操作。nn加入收藏失败，请使用Ctrl+D进行添加");
+     }
+  }
+}
+</script>
+
+</body></html>

@@ -1,0 +1,256 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="IE=EmulateIE8" http-equiv="X-UA-Compatible">
+
+<title>旅顺博物馆</title>
+
+<meta name="keywords" content="旅顺博物馆">
+<meta name="description" content="旅顺博物馆">
+
+<script src="https://hm.baidu.com/hm.js?697148874d2ba2b57289a24ff5e46d13"></script><script>if (top.location!=self.location){top.location = self.location;}</script>
+
+<link rel="stylesheet" type="text/css" href="/Content/Css/style.css">
+
+<meta name="Author" content="Naite.com.cn----奈特原动力">
+<meta name="Robots" content="all"> 
+<meta name="googlebot" content="index, follow">
+<meta name="Baiduspider" content="index, follow">
+<meta name="MSNBOT" content="index, follow">
+<meta name="Slurp" content="index, follow">
+<meta name="FAST-WebCrawler" content="index, follow">
+<meta name="ia_archiver" content="index, follow">
+<meta name="Scooter" content="index, follow">
+<meta name="MSNBOT" content="index, follow">
+<meta name="baidu-site-verification" content="gLsobfSU0i">
+
+  <link rel="stylesheet" href="/Content/Css/tab.css">
+<script type="text/javascript" src="/Script/jQuery1.7.js"></script>
+<script type="text/javascript">
+    /*选项卡切换*/
+    function clickTab(sender) {
+        $(sender).addClass('selected').siblings().removeClass('selected');
+        var index = $('#tab ul li').index(sender);
+        $('div.tab_box > div').eq(index).show().siblings().hide();
+        //$('.down_arrow').hide();
+        //$('.down_arrow').eq(index).show();
+    }
+
+    /*查看产品详细*/
+    function viewdetail() {
+        shopcontent.innerHTML = productdetail.innerHTML;
+    }
+
+    /*返回商品列表*/
+    function backList() {
+        shopcontent.innerHTML = productlist.innerHTML;
+    }
+
+    $(document).ready(function () {
+        var $tab_li = $('#tab ul li');
+        $tab_li.click(function () {
+            clickTab(this);
+        });
+    });
+</script>
+
+<script>
+	$(function(){
+		var end1 = $(".youshangjiao a:last").text();
+		var end2 = $(".youshangjiao a:nth-last-child(2)").text();
+		console.log(end1);console.log(end2);
+		console.log("二级栏目1"+$(".tab_menu a").text());
+		// 二级导航
+		$(".tab_menu a").each(function(){
+			console.log("二级栏目2"+$(".tab_menu a").text());
+			if($(this).text()==end1){
+				console.log("二级导航11"+$(this).text());
+				$(this).parent("li").addClass("selected");
+			}else{
+				console.log("二级导航12"+$(this).text());
+				if($(this).text()==end2){
+					console.log("二级导航21"+$(this).text());
+					$(this).parent("li").addClass("selected");
+					// 三级导航
+					$(".innertab_menu a").each(function(){
+						if($(this).text()==end1){
+							console.log("三级导航"+$(this).text());
+							$(this).parent("li").addClass("selected innerselected");
+						}
+					});
+				}else{
+					console.log("二级导航22"+$(this).text());
+				}
+			}
+		});
+	})
+</script>
+</head><body>
+<div class="bgbox01">
+<div class="whole_content">
+<div class="inner_content">
+	        <script type="text/javascript">var mobileAgent = new Array("iphone", "ipod", "ipad", "android", "mobile", "blackberry", "webos", "incognito", "webmate", "bada", "nokia", "lg", "ucweb", "skyfire");var browser = navigator.userAgent.toLowerCase();var isMobile = false;for (var i = 0; i < mobileAgent.length; i++) {if (browser.indexOf(mobileAgent[i]) != -1) {isMobile = true;window.location.href = '/mobile/';break;}}</script>
+
+
+
+
+<style>
+.headtext{ position:absolute; right:305px; top:47px; width:155px; }
+.ewm_VR{ position:absolute; right:205px; top:24px;}
+.ewm_VRtext{ position:absolute; right:225px; top:112px; color:white;}
+</style>
+    <div class="headbox clear">
+    	<a href="/">
+            <img class="headlogo" src="/Content/Images/logo.png" alt="">
+         </a>
+        <ul class="headbtn">
+        	<li><a href="/login.aspx">登录</a></li>
+        	<li><a href="/register.aspx">注册</a></li>
+        </ul>
+        <div class="headtext">
+        	<div class="text">
+            	<a href="/Service/messages.aspx">公交线路</a><span>|</span><a href="/Service/messages.aspx">联系我们</a>
+            </div>
+            <p>预约电话:0411-86383334</p>
+            <p>办公电话:0411-86382378</p>
+        </div>
+        <img src="/Content/Images/ewm_VR.jpg" class="ewm_VR">
+        <img src="/Content/Images/weibo.jpg" class="head_erweima">
+        <img src="/Content/Images/wexin.jpg" class="weixin">
+        <a class="ewm_VRtext">VR体验</a>
+        <a class="wbtext">微博</a>
+        <a class="wxtext">微信公众平台</a>
+    </div>
+
+
+    <div class="body_content clear">
+            
+
+	<div class="body_left">
+        	<ul class="navbox">
+			<li><a href="/aboutUs/ ">馆情总览 </a></li><li><a href="/news/">资讯 </a></li><li><a href="/Exhibition/">陈列展览 </a></li><li><a href="/Collection/">藏品精粹</a></li><li class="curenta"><a href="/Academic/">学术研究 </a></li><li><a href="/Education/">宣教活动</a></li><li><a href="/Conservation/">文物保护 </a></li><li><a href="/order/">预约 </a></li><li><a href="/Service/">服务指南 </a></li><li><a href="/CulturalInnovation/">文创</a></li>
+		</ul>
+		<div class="guide">
+	<p class="p1">参观导览：</p>
+	<p class="p2">开放时间：</p>
+	<p class="p3">4月1日至10月31日</p>
+	<p class="p3">09:00-16:30</p>
+	<p class="p3">16:00 停止入馆</p>
+	<p class="p3"> &nbsp;</p>
+	<p class="p3">11月1日至3月31日</p>
+	<p class="p3">9:00-16:00</p>
+	<p class="p3">15:30 停止入馆</p>
+	<p class="p3"> &nbsp;</p>
+	<p class="p3">每周一闭馆，国家法定节假日另行通知</p>
+	<p class="p3"> &nbsp;</p>
+	<p class="p3" style="margin-top:8px;">详细地址：<br>大连市旅顺口区列宁街42号</p>
+</div>
+        </div>
+        <div class="body_right">
+        	
+        	<div class="news_tab" style="position:relative">
+            	<div id="tab">
+              <ul class="tab_menu T1">
+                        <ul><li class="selected"><a href="/Academic/?SortID=6">学术成果</a></li><li><a href="/Academic/?SortID=7">学术活动</a></li><li><a href="/Academic/?SortID=25">课题</a></li><li><a href="/Academic/?SortID=9">馆刊</a></li><li><a href="/Academic/?SortID=10">年鉴</a></li><li><a href="/Infoshared/">信息共享</a></li></ul>
+                    </ul>
+                    <div class="tab_box">
+                       
+                         <!--学术成果-->
+                          
+                        <div style="position:relative">
+                        <div class="youshangjiao Y5">
+													<a href="/">首页</a> - 
+													<a href="/Academic/default.aspx?SortID=5">学术研究</a> - <a href="/Academic/default.aspx?SortID=6">学术成果</a>
+                        </div>
+                        <div class="collection acdmp">
+
+                        <div id="innertab" style="clear:both;height:2em;">
+			        <ul class="innertab_menu">
+					<ul><li><a href="?SortID=19">藏品</a></li><li><a href="?SortID=20">陈列</a></li><li><a href="?SortID=21">社会教育成果</a></li><li><a href="?SortID=22">观众</a></li></ul>
+                                </ul>
+			</div>
+
+                            	<ul class="showcase_list">
+                                    <li><a href=" /Academic/NewsDetail.aspx?ID=1187"><div class="picbox"><img src=" /Upload/image/20190104/20190104151437_9877.jpg" alt=" 2018年展览导读手册一览表"></div><div class="textbox"><h1>2018年展览导读手册一览表</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1198"><div class="picbox"><img src=" /Upload/image/20190117/20190117141709_2811.png" alt=" 旅顺博物馆2018年度观众满意度调查报告"></div><div class="textbox"><h1>旅顺博物馆2018年度观众满意度调查报告</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1194"><div class="picbox"><img src=" /Upload/image/20190116/20190116151253_5509.png" alt=" 旅顺博物馆社会教育活动调查分析报告（2018）"></div><div class="textbox"><h1>旅顺博物馆社会教育活动调查分析报告（201…</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1174"><div class="picbox"><img src=" /Content/images/no.jpg" alt=" 旅顺博物馆观众2018年度观众满意度调查"></div><div class="textbox"><h1>旅顺博物馆观众2018年度观众满意度调查</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1195"><div class="picbox"><img src=" /Content/images/no.jpg" alt=" 旅顺博物馆社会教育活动调查问卷"></div><div class="textbox"><h1>旅顺博物馆社会教育活动调查问卷</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1185"><div class="picbox"><img src=" /Upload/image/20190104/20190104140316_8945.jpg" alt=" 2017年展览导读手册一览表"></div><div class="textbox"><h1>2017年展览导读手册一览表</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1193"><div class="picbox"><img src=" /Upload/image/20190116/20190116145126_7622.png" alt=" 旅顺博物馆免费开放后观众调查分析报告（2017）"></div><div class="textbox"><h1>旅顺博物馆免费开放后观众调查分析报告（2…</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1113"><div class="picbox"><img src=" /Upload/image/20180226/20180226222307_9794.jpg" alt=" 载铜以器——旅顺博物馆藏鄂尔多斯式青铜短剑和铜"></div><div class="textbox"><h1>载铜以器——旅顺博物馆藏鄂尔多斯式青铜短…</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1112"><div class="picbox"><img src=" /Upload/image/20180226/20180226221910_3542.jpg" alt=" 新机遇 新使命——新建博物馆陈列展览的策划与实施"></div><div class="textbox"><h1>新机遇 新使命——新建博物馆陈列展览的策…</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1111"><div class="picbox"><img src=" /Upload/image/20180226/20180226221737_4791.jpg" alt=" 金代大官屯窑始末"></div><div class="textbox"><h1>金代大官屯窑始末</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=1110"><div class="picbox"><img src=" /Upload/image/20180226/20180226220919_6036.jpg" alt=" 明代盛著《沧浪独钓图》辨伪"></div><div class="textbox"><h1>明代盛著《沧浪独钓图》辨伪</h1><p>展览时间:</p><p></p><p class="p1"></p></div></a></li><li><a href=" /Academic/NewsDetail.aspx?ID=961"><div class="picbox"><img src=" /Upload/image/20161222/20161222110000_5726.jpg" alt=" 《梦影红楼》荣获古籍优秀通俗读物奖       "></div><div class="textbox"><h1>《梦影红楼》荣获古籍优秀通俗读物奖     …</h1><p>展览时间:</p><p></p><p class="p1">我馆编辑出版的《梦影红楼——旅顺博物馆藏全本红楼梦》近日在第十九届（2015年度）华东地区古籍优秀图书奖中荣获古籍优秀通俗读物奖。</p></div></a></li>
+                                </ul>
+                                <div class="clear" style="height:60px;"></div>
+                                <div class="pagination">
+                            	    <a href="javascript:;" class="page_prev">上一页</a>
+                                         <ul class="page_number">
+                                             <li><a href="javascript:;">1</a></li><li><a href="/Academic/default.aspx?SortID=6&amp;Page=2">2</a></li>
+                                        </ul>
+                                <a href="/Academic/default.aspx?SortID=6&amp;Page=2" class="page_next">下一页</a>
+                            </div>
+                                <div class="clear" style="height:50px;"></div>
+                          </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+                
+
+            <div class="blogroll clear">
+            	<h1 class="blogroll_title">友情链接</h1>
+                <ul class="link">
+                     
+                             <li><a target="_blank" href="http://www.capitalmuseum.org.cn/">首都博物馆 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.dpm.org.cn/index1024768.html">故宫博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.scmuseum.cn/">四川博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.shanximuseum.com/">山西博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.ahm.cn/">安徽博物院 </a>|</li>
+                     
+                             <li><a target="_blank" href="http://www.qingdaomuseum.com/">青岛市博物馆 </a>|</li>
+                     
+
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="content_foot clear">
+            	<div class="footleft">
+                    <a href="http://weibo.com/lvshunbowuguan">
+                        <img src="/Content/Images/weibo.png">
+                        <p>点此进入官方微博  <!--a href="http://webscan.360.cn/index/checkwebsite/url/lvshunmuseum.org" name="d3d28d7c212717123cec4e996fcbf5a5" >360网站安全检测平台</a--></p>
+                    </a>
+                </div>
+		<div class="footright" style="padding:0 0 1em 1em;"><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/08/138/0000/40526813/CA081380000405268130002.js' type='text/javascript'%3E%3C/script%3E"));</script><span id="_ideConac"><a href="//bszs.conac.cn/sitename?method=show&amp;id=5506BC8704545B38E053022819ACB3A7" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span><script src="http://dcs.conac.cn/js/08/138/0000/40526813/CA081380000405268130002.js" type="text/javascript"></script><span id="_ideConac"></span></div>
+                <div class="footright">
+			<p class="p1">copyright  ©  2014 - 2020 &nbsp; www.naite.com.cn</p>
+			<p class="p2">    版权所有 &nbsp;10004061号</p>
+			<p class="p3">design by<a href="http://www.naite.com.cn" target="_blank">奈特原动力</a></p>
+			<div style="margin:0;padding:0 0 12px 0;text-align:right;">
+				<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21021202000107" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><p style="float:right;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">辽公网安备 21021202000107号</p><img src="/content/images/ba.png" style="float:right;"></a>
+			</div>
+                </div>
+            </div>
+<script src="/script/xss.js" type="text/javascript"></script>
+<script type="text/javascript">
+//console.log(filterXSS('<a href="#" onclick="alert(/xss/)">click me</a>'));
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?697148874d2ba2b57289a24ff5e46d13";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+</body></html>

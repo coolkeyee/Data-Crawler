@@ -1,0 +1,412 @@
+<html><head>
+<!-- 静态化时间： 2020-05-22 01:44:47 -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="author" content="http://www.fractal-technology.com">
+		<meta name="keywords" content="伪满皇宫前身是民国时期管理吉林、黑龙江两省盐务的吉黑榷运局官署。">
+		<meta name="description" content="伪满皇宫博物院，位于吉林省长春市光复北路5号，前身是民国时期管理吉林、黑龙江两省盐务的吉黑榷运局官署，总占地25.05万平方米，建筑面积13.7万平方米。
+伪满皇宫博物院现有包括缉熙楼、勤民楼、同德殿等伪满宫廷原状陈列50个，大型基本陈列2个，专题展览3个，举办临时展览33个，中国国内巡展17个，出国展览11个。伪满皇宫博物院收藏了大批伪满宫廷文物、日本近现代文物、东北近现代文物、民俗文物、近现代有代表性的书画、雕刻、非遗传承人作品等艺术精品。
+2007年5月24日，伪满皇宫博物院被评为全国文物系统先进集体。   2009年，伪满皇宫博物院被评为第四批全国爱国主义教育示范基地。   2013年，伪满皇宫博物院被评为全国重点文物保护单位。 2017年5月18日，伪满皇宫博物院被评为国家一级博物馆。 2018年10月11日，伪满皇宫博物院入选“全国中小学生研学实践教育基地”名单">
+
+<title>学术成果 - 伪满皇宫博物院 - 伪满皇宫前身是民国时期管理吉林、黑龙江两省盐务的吉黑榷运局官署。</title><link rel="stylesheet" type="text/css" href="/Public/static/themes/css/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/video-js.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/global.css">
+<link rel="stylesheet" type="text/css" href="/Public/static/themes/css/page.css">
+<script src="https://hm.baidu.com/hm.js?45dbe5d8e095ee28f2cc0c7283964632"></script><script src="/Public/static/themes/js/plugs/jquery-1.11.3.min.js"></script>
+<script src="/Public/static/themes/js/plugs/jquery.placeholder.min.js"></script>
+<script src="/Public/static/themes/js/plugs/jquery.ba-throttle-debounce.min.js"></script>
+<script src="/Public/static/themes/js/plugs/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/Public/static/themes/js/plugs/imagesloaded.pkgd.min.js"></script>
+<script src="/Public/static/themes/js/plugs/masonry.pkgd.min.js"></script>
+<script src="/Public/static/themes/js/plugs/TweenMax.min.js"></script>
+<script src="/Public/static/themes/js/plugs/raphael.js"></script>
+<script src="/Public/static/themes/js/plugs/video.js"></script>
+<script src="/Public/static/themes/js/plugs/slick.js"></script>
+<script src="/Public/static/themes/js/plugs/xRoll.js"></script>
+<script src="/Public/static/themes/js/global.js"></script>
+<script>
+// $.ajaxSetup({
+// 	data: {
+// 		"lang": "LANG_SET"
+// 	}
+// });
+function mqfix () {}
+</script>
+<script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=441688"></script></head>
+
+<body>
+        <style>
+#myalert{ display:none; }
+.recruit .block1{ height: auto}
+.layer{background:url(/Public/static/themes/image/con_mask.png);;position:fixed;left:0;right: 0;top:0;bottom: 0;width:100%;height:100%;z-index: 1000000;}
+.layer .myalert{padding:30px;background:#fff;width:240px;position:absolute;margin-top:-100px;top:50%;left:50%;margin-left:-120px;text-align:center; z-index: 100000}
+.layer .guan{background:url(/Public/static/themes/image/clos.png) no-repeat center; display:block;width:23px;height:23px;position:absolute;top:10px;right:10px;}
+.layer .text{padding-bottom:15px;font-size:16px;color:#474747;}
+.layer .button{background:none;border:1px solid #bbbbbb;width:91px;height:29px;font:14px/100% "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;color: #707070;}
+</style>
+<div id="myalert" class="layer">
+    <div class="myalert">
+        <a href="javascript:;" onclick="myalert_hide();" class="guan"></a>
+        <div class="text">请输入关键字</div>
+        <a><button class="button" id="my_ok" style="cursor:pointer ;opacity: 1;transform: translateY(0px);">确定</button></a>
+    </div>
+</div>
+<script>
+function my_alert(text,callback) {
+    $('#myalert').show();
+    $('#myalert .myalert div').html(text);
+
+    $('#my_ok').click( function() {
+        $('#myalert').hide();
+
+        if (typeof(callback) == 'function') {
+            callback();
+            return false;
+        }
+    });
+}
+
+function myalert_hide(){
+    $('#myalert').hide();
+}
+</script>
+    <span class="gotop js-gotop js-scroller">top</span>
+<div class="x-sider" id="header_header">
+    <div class="logo"><a href="/"><img src="/Uploads/Picture/2019/12/19/s5dfad4c69046e.jpg" alt="" title=""></a></div>    <div class="tools">
+        <div class="tools-item icon-menu"></div>
+        <div class="share-box bdsharebuttonbox">
+            <div><a class="share-item icon-wchat" href="javascript:;" title="分享到微信"><span class="code"><img src="/Uploads/Picture/2019/06/20/s5d0af37526435.jpg" alt="" title=""></span></a></div>            <a href="javascript:;" class="share-item icon-sinawb" data-cmd="tsina" title="分享到新浪微博"></a>
+        </div>
+        <div class="search-trigger">
+            <div class="search-box">
+                <div class="search-txt">
+                    <input placeholder="search..." type="text" onkeydown="keydown(event,'#buoon')" id="searchpc">
+                </div>
+                <button class="search-btn" type="submit" id="buoon"></button>
+            </div>
+        </div>
+        <div class="user" id="logins"><a class="tools-item icon-user nolog" href="/passport/login.html"></a></div>
+    </div>
+    <div class="other">
+        <div class="weather">
+            <div class="icon">
+                <img src="" alt=""></div>
+                <div class="p">
+                    <!-- <span class="en" id="dushu"></span><span id="yun"></span><div class="en">2020.05.22</div> -->
+                </div>
+            </div>
+            <!-- <div class="lang">
+                <a href="/tr/index.html" class="lang-item">繁</a>
+                <a href="/ja/index.html" class="lang-item">日</a>
+                <a href="/en/index.html" class="lang-item"><span class="en">EN</span></a>
+            </div> -->
+        </div>
+        <div class="nav-mod"><div class="nav-lv1">
+   <div class="nav-item fri">
+            <a href="/index.html" class="nav-link fria">首页</a>
+                    </div><div class="nav-item fri">
+            <a href="/guide.html" class="nav-link fria">导览</a>
+            <div class="nav-lv2">
+                    <div class="nav-item"><a href="/notice_of_visit.html" class="nav-link">参观须知</a></div><div class="nav-item"><a href="/tickets.html" class="nav-link">参观门票</a></div><div class="nav-item"><a href="/tour_service.html" class="nav-link">游览服务</a></div>                </div>        </div><div class="nav-item fri">
+            <a href="/exhibtion.html" class="nav-link fria">展览</a>
+            <div class="nav-lv2">
+                    <div class="nav-item"><a href="/permanent.html" class="nav-link">常设展览</a></div><div class="nav-item"><a href="/special_exhib.html" class="nav-link">专题展览</a></div><div class="nav-item"><a href="/cooper.html" class="nav-link">展览合作</a></div><div class="nav-item"><a href="/tempo.html" class="nav-link">临时展览</a></div><div class="nav-item"><a href="/exhib_review.html" class="nav-link">展览回顾</a></div>                </div>        </div><div class="nav-item fri">
+            <a href="/collection_list.html" class="nav-link fria">藏品</a>
+            <div class="nav-lv2">
+                    <div class="nav-item"><a href="/collection_list.html" class="nav-link">藏品类目</a></div><div class="nav-item"><a href="/solicitation.html" class="nav-link">藏品征集</a></div>                </div>        </div><div class="nav-item fri">
+            <a href="/server.html" class="nav-link fria">服务</a>
+            <div class="nav-lv2">
+                    <div class="nav-item"><a href="/demeanor.html" class="nav-link">讲解员风采</a></div><div class="nav-item"><a href="/horse.html" class="nav-link">御用马场</a></div><div class="nav-item"><a href="/palace.html" class="nav-link">皇宫剧场</a></div><div class="nav-item"><a href="/volunteer.html" class="nav-link">志愿者</a></div><div class="nav-item"><a href="/workhome.html" class="nav-link">彭祖述大师工作室</a></div><div class="nav-item"><a href="/winchance.html" class="nav-link">文创产品</a></div>                </div>        </div><div class="nav-item fri cur">
+            <a href="/learnings.html" class="nav-link fria">学术</a>
+            <div class="nav-lv2">
+                    <div class="nav-item cur"><a href="/achievements.html" class="nav-link">学术成果</a></div><div class="nav-item"><a href="/forim.html" class="nav-link">文博讲坛</a></div><div class="nav-item"><a href="/research.html" class="nav-link">长春溥仪研究会</a></div><div class="nav-item"><a href="/latest_summarize.html" class="nav-link">旧址保护</a></div><div class="nav-item"><a href="/historys.html" class="nav-link">历史</a></div><div class="nav-item"><a href="/papers.html" class="nav-link">学术论文</a></div><div class="nav-item"><a href="/achievements1.html" class="nav-link">年鉴</a></div>                </div>        </div><div class="nav-item fri">
+            <a href="/activityies.html" class="nav-link fria">活动资讯</a>
+            <div class="nav-lv2">
+                    <div class="nav-item"><a href="/notice.html" class="nav-link">公告</a></div><div class="nav-item"><a href="/information.html" class="nav-link">博物院资讯</a></div><div class="nav-item"><a href="/focusnews.html" class="nav-link">文博要闻</a></div><div class="nav-item"><a href="/video_list.html" class="nav-link">视频列表</a></div><div class="nav-item"><a href="/message/my_love.html" class="nav-link">我爱博物馆</a></div>                </div>        </div><div class="nav-item fri">
+            <a href="/news_activity.html" class="nav-link fria">教育</a>
+            <div class="nav-lv2">
+                    <div class="nav-item"><a href="/news_activity.html" class="nav-link">最新活动</a></div><div class="nav-item"><a href="/center_activity.html" class="nav-link">中小学假期活动</a></div><div class="nav-item"><a href="/education_activity.html" class="nav-link">教育培训</a></div><div class="nav-item"><a href="/culture.html" class="nav-link">文化交流</a></div>                </div>        </div><div class="nav-item fri">
+            <a href="/aboutus.html" class="nav-link fria">关于我们</a>
+                    </div><div class="nav-item fri">
+            <a href="/question.html" class="nav-link fria">常见问题</a>
+                    </div><div class="nav-item fri">
+            <a href="/ques_answer.html" class="nav-link fria">问卷调查</a>
+                    </div> 
+</div>
+<script type="text/javascript">
+// 高亮
+function navgl() {
+    var category = "/achievements.html";
+    var now = (category != 'javascript:void(0);') ? category : window.location.pathname;
+    now2 = now + window.location.hash;
+    category_top_id = "2";
+    var categoryURL = "/achievements.html" ;
+    var cateparentid = "6";
+    var cateid = "44";
+    var href = ''; 
+    $('.nav-lv1 .nav-item.fri').each(function(index) {
+        var _this = $(this);
+        var _index = index;
+        href = _this.find('a.fria').attr('href'); 
+        if (now == '/index.html' || now == '/index' || now == '/') {
+            $('.nav-link.fria:first').parents().addClass('cur');
+            
+            return false;
+        }
+        // 一级
+        try {
+           if (href.indexOf(now) > -1) {
+                _this.addClass('cur');
+            }
+        } catch (e) {}
+        var isShow = true;
+        // 二级
+        if (_this.find('.nav-lv2 div').size() > 0) {
+            _this.find('.nav-lv2 a').each(function(i) {
+                href = $(this).attr('href');
+                if (isShow && href.indexOf(now2) > -1) {
+                    _this.addClass("cur").siblings().removeClass('cur');
+                    $(this).parent().addClass('cur').siblings().removeClass('cur');
+                    isShow = false;
+                }
+            })
+        }
+    })
+}
+navgl();
+</script></div>    </div>
+
+<script type="text/javascript">
+$(function() {
+    window.ISLONGIN = false;
+    $.get("/Site/Index/get_user_info.html" + '?' + Math.random(), function(data) {
+        if (data.status == 1) {
+            $('#logins').html('<a class="tools-item icon-user" href="/member/index.html"></a><a class="tools-item icon-logout" href="/passport/logout.html"></a>');
+            window.ISLONGIN = true;
+        } else {
+            $('#logins').html('<a class="tools-item icon-user nolog" href="/passport/login.html"></a>');
+        }
+    })
+});
+</script>
+<script type="text/javascript">
+// $.get("/Site/Index/get_tq.html",'',function(data){
+//     $('#dushu').html(data['name'][0]['temperature']);
+//     $('#yun').html(data['name'][0]['weather']);
+//     now = new Date(),hour = now.getHours();
+//     if ( hour < 18 && hour > 6){
+//         var tiqni = data['name'][0]['dayPictureUrl'].split('/');
+//     }else{
+//         var tiqni = data['name'][0]['nightPictureUrl'].split('/');
+//     }
+//     $('.weather img').attr('src','/Public/static/themes/image/tianqi/'+tiqni['6'])
+// })
+$(function(){
+    $('.search-box .search-btn').click(function(){
+        var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串  
+        var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1; 
+        if(isIE){
+                 var keywords = document.getElementById('searchpc').value;
+        }else{
+                 var keywords =  $("#searchpc").val();
+        };
+        if(keywords == '' || keywords == 'search...' || keywords == '.' || keywords == ' ' ){
+            my_alert("请输入搜索关键词"); return false;
+        }
+
+                     window.location.href = "/searchs/keywords/" + encodeURI(keywords);    });
+   
+})
+function keydown(e, but) {
+    var currKey=0,e=e||event;
+    var _this = $(but);
+
+    if(e.keyCode==13)
+    {
+        _this.click();
+        return false;
+    }
+}
+window.onload=function (){
+  if($(window).width()<1025){
+    $('a').removeAttr('target');
+  }
+};
+</script>
+        <div class="x-container" data-ch=".academic_achievements" style="min-height: 523px;">
+	<div class="academic_achievements ribbon r1" style="min-height: 523px;">
+		<div class="t_bannar r">
+			<div class="x-wrap">
+				<div class="h30">学术成果</div>
+			</div>
+		</div>
+		<div class="section1">
+			<div class="x-wrap" id="datalist">
+				<div class="list-box6 xtween">
+	<div class="list-item" style="visibility: inherit; opacity: 0.301104; transform: translate(0%, 20.9669%) translate3d(0px, 0px, 0px);">
+			<div class="fl">
+				<div class="img scaleimg"><a href="/detail/659.html"><img src="/Uploads/Picture/2019/05/14/s5cda7a87984f0.png" alt="" title="" style="width:100%;height:100%;"><span class="mask" style="background-color: rgba(0,0,0,0);"></span></a></div>
+			</div>
+						<div class="cont">
+				<div class="h18"><a href="/detail/659.html" title="《长春伪满遗址大观》">《长春伪满遗址大观》</a></div>
+				<div class="p">　　《长春伪满遗址大观》是一部难得的图文并茂的乡土教材，本书共列伪满遗址70处，详加介绍并配以照片或图片，图文并茂、直观详实、文字简洁、通俗易懂。</div>
+				<a href="/detail/659.html" class="t_more s_border" data-ec="#a32f2e">查看更多<div id="line0" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"><svg height="38" version="1.1" width="114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.4</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="#a6937f" d="M5,9H8V13H2V5H5V1H110V5H113V13H107V9H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="#a6937f" d="M5,28H8V24H2V32H5V36H110V32H113V24H107V28H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></div></a><!-- :parse_image($vo[detail][file]) -->
+			</div>
+		</div><div class="list-item" style="visibility: hidden; opacity: 0; transform: translate(0%, 30%) matrix(1, 0, 0, 1, 0, 0);">
+			<div class="fl">
+				<div class="img scaleimg"><a href="/detail/658.html"><img src="/Uploads/Picture/2019/05/14/s5cda7a4e3dc89.png" alt="" title="" style="width:100%;height:100%;"><span class="mask" style="background-color: rgba(0,0,0,0);"></span></a></div>
+			</div>
+						<div class="cont">
+				<div class="h18"><a href="/detail/658.html" title="《伪满皇宫》">《伪满皇宫》</a></div>
+				<div class="p">　　《伪满皇宫》是首部全面、系统、真实、客观展现在日本帝国主义殖民统治下的傀儡宫廷生活的正史。从宫中建筑到宫中机构、从宫中事件到宫中人物、从宫中秘闻到宫中文物、从伪满皇宫的选址到傀...</div>
+				<a href="/detail/658.html" class="t_more s_border" data-ec="#a32f2e">查看更多<div id="line1" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"><svg height="38" version="1.1" width="114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.4</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="#a6937f" d="M5,9H8V13H2V5H5V1H110V5H113V13H107V9H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="#a6937f" d="M5,28H8V24H2V32H5V36H110V32H113V24H107V28H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></div></a><!-- :parse_image($vo[detail][file]) -->
+			</div>
+		</div><div class="list-item" style="visibility: hidden; opacity: 0; transform: translate(0%, 30%) matrix(1, 0, 0, 1, 0, 0);">
+			<div class="fl">
+				<div class="img scaleimg"><a href="/detail/657.html"><img src="/Uploads/Picture/2019/05/14/s5cda7985c6a9b.png" alt="" title="" style="width:100%;height:100%;"><span class="mask" style="background-color: rgba(0,0,0,0);"></span></a></div>
+			</div>
+						<div class="cont">
+				<div class="h18"><a href="/detail/657.html" title="《伪满官吏》">《伪满官吏》</a></div>
+				<div class="p">　　《伪满官吏》一书是首部全面介绍伪满高级官吏的传纪史书，全书按照伪满时期任职的等级共收录了120人，分别是在伪满皇宫中任特任官14人、国务总理2人、各部大臣38人、各省省长39人...</div>
+				<a href="/detail/657.html" class="t_more s_border" data-ec="#a32f2e">查看更多<div id="line2" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"><svg height="38" version="1.1" width="114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.4</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="#a6937f" d="M5,9H8V13H2V5H5V1H110V5H113V13H107V9H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="#a6937f" d="M5,28H8V24H2V32H5V36H110V32H113V24H107V28H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></div></a><!-- :parse_image($vo[detail][file]) -->
+			</div>
+		</div><div class="list-item" style="visibility: hidden; opacity: 0; transform: translate(0%, 30%) matrix(1, 0, 0, 1, 0, 0);">
+			<div class="fl">
+				<div class="img scaleimg"><a href="/detail/656.html"><img src="/Uploads/Picture/2019/05/14/s5cda793058060.png" alt="" title="" style="width:100%;height:100%;"><span class="mask" style="background-color: rgba(0,0,0,0);"></span></a></div>
+			</div>
+						<div class="cont">
+				<div class="h18"><a href="/detail/656.html" title="《伪满遗址》">《伪满遗址》</a></div>
+				<div class="p">　　《伪满遗址》一书是一部图文并茂的乡土教材。第一，全书共收录了147处伪满遗址，均有照片或图片，给人以直观、生动的感觉，而且内容详实，文字简洁，通俗易懂；第二，将伪满建筑、殖民统...</div>
+				<a href="/detail/656.html" class="t_more s_border" data-ec="#a32f2e">查看更多<div id="line3" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"><svg height="38" version="1.1" width="114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.4</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="#a6937f" d="M5,9H8V13H2V5H5V1H110V5H113V13H107V9H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="#a6937f" d="M5,28H8V24H2V32H5V36H110V32H113V24H107V28H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></div></a><!-- :parse_image($vo[detail][file]) -->
+			</div>
+		</div><div class="list-item" style="visibility: hidden; opacity: 0; transform: translate(0%, 30%) matrix(1, 0, 0, 1, 0, 0);">
+			<div class="fl">
+				<div class="img scaleimg"><a href="/detail/655.html"><img src="/Uploads/Picture/2019/05/14/s5cda78b884ffb.jpg" alt="" title="" style="width:100%;height:100%;"><span class="mask" style="background-color: rgba(0,0,0,0);"></span></a></div>
+			</div>
+						<div class="cont">
+				<div class="h18"><a href="/detail/655.html" title="《图像档案解密--伪满皇宫》">《图像档案解密--伪...</a></div>
+				<div class="p">　　全书共计8万余字，收录260多幅珍贵历史图片（大部分图片为首次公开面世），为进一步深入研究伪满皇宫旧址提供了一些新的视角和新的发现。该书图文并茂，依据大量一手档案资料，揭示了伪...</div>
+				<a href="/detail/655.html" class="t_more s_border" data-ec="#a32f2e">查看更多<div id="line4" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"><svg height="38" version="1.1" width="114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.4</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="#a6937f" d="M5,9H8V13H2V5H5V1H110V5H113V13H107V9H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="#a6937f" d="M5,28H8V24H2V32H5V36H110V32H113V24H107V28H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></div></a><!-- :parse_image($vo[detail][file]) -->
+			</div>
+		</div><div class="list-item" style="visibility: hidden; opacity: 0; transform: translate(0%, 30%) matrix(1, 0, 0, 1, 0, 0);">
+			<div class="fl">
+				<div class="img scaleimg"><a href="/detail/654.html"><img src="/Uploads/Picture/2019/05/14/s5cda78740b700.jpg" alt="" title="" style="width:100%;height:100%;"><span class="mask" style="background-color: rgba(0,0,0,0);"></span></a></div>
+			</div>
+						<div class="cont">
+				<div class="h18"><a href="/detail/654.html" title="《溥仪研究》1">《溥仪研究》1</a></div>
+				<div class="p">　　为更好地传承和发展溥仪研究的学术成果，扩大长春溥仪研究会和伪满皇宫博物院的对外影响，使溥仪研究成果系列化，我们特别遴选58篇优秀论文，出版溥仪研究系列丛书《溥仪研究》1。全书分...</div>
+				<a href="/detail/654.html" class="t_more s_border" data-ec="#a32f2e">查看更多<div id="line5" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"><svg height="38" version="1.1" width="114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.4</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="#a6937f" d="M5,9H8V13H2V5H5V1H110V5H113V13H107V9H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="#a6937f" d="M5,28H8V24H2V32H5V36H110V32H113V24H107V28H110" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></div></a><!-- :parse_image($vo[detail][file]) -->
+			</div>
+		</div></div>
+<div class="page-mod">
+        <ul class="page-box p-show clear">
+            <li class="page-item xfont"><a href="/achievements/p/3.html" onclick="getPage($(this));return false;"></a></li>            <li class="page-item"><a href="/achievements/p/1.html" onclick="getPage($(this));return false;">01</a></li>                                                                    <li class="page-item"><a href="/achievements/p/2.html" onclick="getPage($(this));return false;">02</a></li>                                                            <li class="page-item"><a href="/achievements/p/3.html" onclick="getPage($(this));return false;">03</a></li>                                    <li class="page-item"><a href="javascript:void(0);" class="cur">04</a></li>
+                                                                                <li class="page-item"><a href="/achievements/p/5.html" onclick="getPage($(this));return false;">05</a></li>                                                            <li class="page-item"><a href="/achievements/p/6.html" onclick="getPage($(this));return false;">06</a></li>                            <li class="page-item xfont"></li>            <li class="page-item">
+                    <a href="/achievements/p/8.html" onclick="getPage($(this));return false;">
+                        08                                            </a>
+                </li>            <li class="page-item xfont"><a href="/achievements/p/5.html" onclick="getPage($(this));return false;"></a></li>        </ul>
+    </div><script>
+function getPage( obj ) {
+    var url = obj.attr('href')+'?'+Math.random();
+    if( url == 'javascript:void(0);' ) {
+        return false;
+    }
+    // $.ajaxSetup({cache:false});
+    $.get( url , {} , function( data ) {
+      $('#datalist').html( data );
+      creatBorder();
+      $('html,body').animate({ scrollTop : parseInt( $('#datalist').offset().top - 230 )} , 500 );
+    })
+}
+
+    
+function creatBorder(){
+    $('.s_border').each(function(index, element){
+        if($(this).length < 1) return;
+        var dom = '<div id="line'+index+'" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>';
+        $(this).append(dom);
+        cline('#line'+index);
+    });
+}
+
+function cline(obj){
+    var $this = $(obj);
+    var par = $this.closest('.s_border');
+    var paper = Raphael($this[0]);
+    var w = $this.width();
+    var h = $this.height();
+    var lw = w - 9;
+    var lh = h - 9;
+    
+    var sc = par.data('sc') || '#a6937f';
+    var ec = par.data('ec') || '#6a312c';
+    
+    var line1, line2;
+    
+    if(w > h){
+        line1 = paper.path("M5, 9h3, v4, h-6, v-8, h3, v-4, h" + lw + ", v4, h3, v8, h-6, v-4, h3");
+        line2 = paper.path("M5, " + (h - 10) + "h3, v-4, h-6, v8, h3, v4, h" + lw + ", v-4, h3, v-8, h-6, v4, h3");
+    }else{
+        line1 = paper.path("M9, 5v3, h4, v-6, h-8, v3, h-4, v" + lh + ", h4, v3, h8, v-6, h-4, v3");
+        line2 = paper.path("M" + (w - 10) + ", 5v3, h-4, v-6, h8, v3, h4, v" + lh + ", h-4, v3, h-8, v-6, h4, v3");
+    }
+    
+    if(par.hasClass('cur')){
+        line1.attr({stroke: ec});
+        line2.attr({stroke: ec});
+    }else{
+        line1.attr({stroke: sc});
+        line2.attr({stroke: sc});
+    }
+    
+    line1.attr({'stroke-width': 2});
+    line2.attr({'stroke-width': 2});
+    
+    par.on('click', function(){
+        $(this).siblings().find('path').attr({stroke: sc});
+    });
+
+    par.on('mouseenter', function(){
+        line1.attr({stroke: ec});
+        line2.attr({stroke: ec});
+    });
+}
+</script>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(function(){	
+	$('.list-box6').xRoll({
+		stagger: 0.3,
+		target: '.list-item',
+		trans: {
+			y: '30%'
+		}
+	});
+
+///	
+});
+</script>
+    <div class="x-footer" id="footer_footer">
+    <div class="link fl">
+        <div><div class="link-item"><a href="/sitemap.html">网站地图</a></div><div class="link-item"><a href="/aboutus.html">关于我们</a></div><div class="link-item"><a href="/single/detail/1815.html">版权所有</a></div><div class="link-item"><a href="/question.html">常见问题</a></div><div class="link-item"><a href="/ques_answer.html">调查问卷</a></div></div>    </div>
+    <div class="fr">
+       	<span class="copy">吉ICP备16003892号-1 吉公网安备22010302000132号</span>
+		<span class="ftbj"><a href="http://www.fractal-technology.com">网站建设</a>：<a href="http://www.fractal-technology.com">北京分形科技</a></span>
+    </div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?45dbe5d8e095ee28f2cc0c7283964632";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</body></html>

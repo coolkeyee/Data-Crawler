@@ -1,0 +1,925 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="../../../images/base_v2018.css">
+<link type="text/css" rel="stylesheet" href="../../../images/zhanlan_gb2018.css">
+<script src="https://hm.baidu.com/hm.js?d8512e191052092ef1dd135588660448"></script><script src="../../../images/jquery-1.12.4.min.js"></script>
+<script src="../../../images/jquery.SuperSlide.2.1.1.js"></script>
+<title>学术论文</title>
+</head>
+<body class="yj-body">
+<!--header_menu-->
+<!--header_menu-->
+<style type="text/css">
+    /*.logo a img{width: 210px; height: 75px;}
+    a.cf_youiangya{ width: 50px; height: 50px; display: block; position: absolute; right: 63px; top: 13px; padding: 0px;  }*/
+    .logo a img{width: 210px; height: 75px;}
+    .menu-rgt{height: 110px;margin-top: 0;}
+    a.cf_youiangya{ width: 50px; display: block; position: absolute; right: 72px; top: 13px; padding: 0px; }
+    a.cf_weixin{width: 50px;  display: block; position: absolute; right: 70px; top: 60px; padding: 0px; }
+    a.cf_weibo{width: 50px; display: block; position: absolute; right: 12px; top: 60px; padding: 0px; }
+    a.cf_weibo>img,a.cf_weixin>img{height: 30px;}
+</style>
+<div class="header" style="width: 1200px;">
+    <div class="main">
+        <div class="menu-box">
+            <div class="logo"><a href="http://www.chnmuseum.cn/" ignoreapd="TRUE" title="国家博物馆"><img src="/images/header-logo.png" title="国家博物馆" alt="国家博物馆"></a></div>
+            <div class="menu">
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/" ignoreapd="TRUE" title="首页">首页</a></dt>
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/zj/" title="征集">征集</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/zp/" title="保管">保管</a></dt>
+   
+                </dl>
+                
+                <dl class="cur">
+                    <dt><a href="http://www.chnmuseum.cn/yj/" title="研究">研究</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/zl/" title="展览">展览</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/fw/" title="社教">社教</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/wc/" title="文创">文创</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/cg/" title="服务">服务</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/dj/" title="学习">学习</a></dt>
+   
+                </dl>
+                
+                <dl>
+                    <dt><a href="http://www.chnmuseum.cn/sp/" title="视频">视频</a></dt>
+   
+                </dl>
+                
+            </div>
+            <div class="menu-rgt">
+<!--
+                <a class="header-login" href="#" title="登录/注册">
+                    <span>登录/注册</span>
+                </a>
+                <a class="header-share" href="#" title="分享网站">
+                    <span>分享网站</span>
+                </a>
+ -->
+                <!--<a href="http://old.chnmuseum.cn/" target="_blank" style="position: absolute; display: block; width: 50px; top: 0px; right: 150px; font-size: 19px; color: #fff; padding:0px; height: 40px;">旧版网站</a>-->
+                <a href="http://en.chnmuseum.cn/" class="cf_EnglishBtn" target="_blank"><img src="/images/en_20200220.png"></a>
+                <a href="https://webmail.chnmuseum.cn" class="cf_youiangya" target="_blank"></a>
+                <span class="header-search" style="border:0px;"><img src="/images/search_20200220.png"></span>
+                <!--<a class="header-lang"  title="导航">
+              
+                </a> -->     
+<script>
+function search(){
+var searchword=$("#searchword").val();
+if(searchword!="")
+window.open("/qwjs/?searchword="+searchword);
+}
+</script>
+                <div class="header-search-box">
+                    <input onkeydown="keyup_submit(event);" class="search-ipt" type="text" id="searchword" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''}" onblur="if (value ==''){value='请输入关键字'}">
+                    <span class="search-btn" onclick="search()"></span>
+                </div>
+                <a href="http://www.chnmuseum.cn/shxg/wbwx/202003/t20200314_206563.shtml" class="cf_weixin" target="_blank"><img src="/images/icon-weixin.png"></a>
+                <a href="https://weibo.com/chnmuseum" class="cf_weibo" target="_blank"><img src="/images/icon-weibo.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+$(document).ready(function(){
+        var nvdqlujing=window.location.pathname;
+        var nvdqstrs=new Array();
+
+        nvdqstrs=nvdqlujing.split("/");
+
+        var navnubtwo=nvdqstrs[1];
+
+
+        switch (navnubtwo) 
+        { 
+           case "zj":
+          $(".menu dl").eq(1).addClass("cur"); 
+      $("body").addClass("cj_zjbg"); 
+          break; 
+          case "zp":
+          $(".menu dl").eq(2).addClass("cur"); 
+      $("body").addClass("cp-body"); 
+          break; 
+          case "yj":
+          $(".menu dl").eq(3).addClass("cur"); 
+      $("body").addClass("yj-body"); 
+          break; 
+          case "zl":
+          $(".menu dl").eq(4).addClass("cur"); 
+      $("body").addClass("cj_zlbobg"); 
+          break; 
+          case "fw":
+          $(".menu dl").eq(5).addClass("cur"); 
+      $("body").addClass("fwbody");
+          break; 
+          case "wc":
+          $(".menu dl").eq(6).addClass("cur"); 
+      $("body").addClass("fwbody"); 
+          break; 
+          case "cg":
+          $(".menu dl").eq(7).addClass("cur"); 
+      $("body").addClass("visit-body"); 
+          break; 
+          case "dj":
+          $(".menu dl").eq(8).addClass("cur"); 
+      $("body").addClass("qj-body");
+          break;  
+          case "sp":
+          $(".menu dl").eq(9).addClass("cur"); 
+      $("body").addClass("qj-body");
+          break;  
+        }
+
+
+    });
+
+
+// $(".menu dl").hover(function(){
+//     $(this).addClass("cur").siblings().removeClass("cur");  
+// },function(){
+//     $(this).removeClass("cur");
+// })
+//弹出搜索框
+$(".header-search img").click(function(event){
+     event.stopPropagation();
+    $(".header-search-box").attr("show","true")
+    $(".header-search-box").animate({'right':'0','opacity':'1'},1000);
+});
+$(".search-ipt,.search-btn").click(function(event){event.stopPropagation();});
+$(document).click(function(event){
+    if($(".header-search-box").attr("show")=="true"){
+        $(".header-search-box").animate({'right':'-382','opacity':'0'},1000);
+    }
+    event.stopPropagation();
+})
+
+
+function keyup_submit(e){ 
+   var evt = window.event || e; 
+    if (evt.keyCode == 13){
+     //回车事件
+     search()
+   }
+ }
+</script>
+<!--/header_menu-->
+<!--/header_menu-->
+<!--位置-->
+<div class="cj_ercom_wai cj_huise cj_pb25">
+    <div class="cj_wz_list">
+		当前位置：<a href="../../../" target="_self" title="首页">首页</a><span>&gt;</span><a href="../../" target="_self" title="研究">研究</a><span>&gt;</span><a href="../" target="_self" title="研究成果">研究成果</a><span>&gt;</span><a class="cj_wz_active3">学术论文</a>
+	</div>
+</div>
+<!--/位置-->
+
+<!--列表-->
+<div class="cj_ercom_wai cj_fff">
+    <div class="cj_zlv_mar cj_xshu_pp50">
+        
+        <!--footer-->
+        <dl class="cj_hd_left">
+            <dt class="cj_xueshubgim">研究</dt>
+            <dd class="cj_hd_list9">
+                <ul>
+                    
+                        <li>
+                            <a class="gb_xin_a" href="http://www.chnmuseum.cn/yj/kydt/">学术动态</a>
+                        </li>
+                    
+                </ul>
+                <ul>
+                    
+                        <li>
+                            <span class="gb_xin_a">研究机构</span>
+
+                            
+                            <div class="xxgk-child">
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/yjy/">国博研究院</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/kgy/">国博考古院</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/wby/">国博文保院</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/shy/">国博书画院</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/bshg/">博士后科研工作站</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/fwxz/">访问学者</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/zlghc/">战略研究</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/zlyj/">展览研究</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/yjjg/wgwwb/">博物馆管理研究</a>
+                                
+                            </div>
+                            
+
+                        </li>
+                    
+                        <li>
+                            <span class="gb_xin_a">专家学者</span>
+
+                            
+                            <div class="xxgk-child">
+                                
+                                <a href="http://www.chnmuseum.cn/yj/zjxz/zzzgjzj/">在职正高级职称专家</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/zjxz/zzzzgjzj/">在职副高级职称专家</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/zjxz/ltxzgzj/">离退休正高级职称专家</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/zjxz/ygzgjzj/">已故正高级职称专家</a>
+                                
+                            </div>
+                            
+
+                        </li>
+                    
+                </ul>
+                <ul>
+                    
+                        <li>
+                            <a class="gb_xin_a" href="http://www.chnmuseum.cn/yj/kyxm/">科研项目</a>
+                        </li>
+                    
+                </ul>
+                <ul>
+                    
+                        <li class="cj_hd_ac">
+                            <span class="gb_xin_a">研究成果</span>
+
+                            
+                            <div class="xxgk-child">
+                                
+                                <a href="http://www.chnmuseum.cn/yj/xscg/xslw/" class="sanjixuanzh">学术论文</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/xscg/xszz/">学术著作</a>
+                                
+                                <a href="http://www.chnmuseum.cn/yj/xscg/zltl/">展览图录</a>
+                                
+                            </div>
+                            
+
+                        </li>
+                    
+                </ul>
+                <ul>
+                    
+                        <li>
+                            <a class="gb_xin_a" href="http://www.chnmuseum.cn/yj/kygl/">科研管理</a>
+                        </li>
+                    
+                </ul>
+                <ul>
+                    
+                        <li>
+                            <a class="gb_xin_a" href="http://www.chnmuseum.cn/yj/gbgk/">国博馆刊</a>
+                        </li>
+                    
+                </ul>
+                <ul>
+                  
+                        <li>
+                            <a class="gb_xin_a" href="http://yuyue.chnmuseum.cn/lecture/">国博讲堂</a>
+                        </li>
+
+                    
+                </ul>
+            </dd>
+        </dl>
+        <!--/footer-->
+
+        <div class="cj_wxzz_right" style="width:772px; float:right;">
+            <ul class="cj_xushuliebao_list">
+                
+                <li>
+                    <span class="date"><a title="单凌寒">单凌寒</a></span>
+                    <a href="./202001/t20200106_187374.shtml" title="宋拓黄庭坚《此君轩诗》帖综考">宋拓黄庭坚《此君轩诗》帖综考</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="洪梅、严志斌">洪梅、严志斌</a></span>
+                    <a href="./202001/t20200106_187372.shtml" title="宣汉罗家坝墓地出土巴蜀符号探析">宣汉罗家坝墓地出土巴蜀符号探析</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="王月前">王月前</a></span>
+                    <a href="./202001/t20200106_187371.shtml" title="纹饰谱系框架下的东北地区新石器文化">纹饰谱系框架下的东北地区新石器文化</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="王春法">王春法</a></span>
+                    <a href="./202001/t20200106_187369.shtml" title="关于培育科学文化与建设世界科技强国关系论纲">关于培育科学文化与建设世界科技强国关系论纲</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="王春法">王春法</a></span>
+                    <a href="./202001/t20200106_187367.shtml" title="智慧博物馆建设中的机遇和挑战">智慧博物馆建设中的机遇和挑战</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="王高升">王高升</a></span>
+                    <a href="./202001/t20200106_187361.shtml" title="从国博藏《增一阿含经·高幢品》卷看北朝敦煌写经书法">从国博藏《增一阿含经·高幢品》卷看北朝敦煌写经书法</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="田率">田率</a></span>
+                    <a href="./202001/t20200106_187360.shtml" title="宜侯夨簋铭文相关史地国族问题补论">宜侯夨簋铭文相关史地国族问题补论</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="邱振威">邱振威</a></span>
+                    <a href="./202001/t20200106_187358.shtml" title="荷花山遗址发现新石器时代早期水稻栽培的证据">荷花山遗址发现新石器时代早期水稻栽培的证据</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="吕伟涛">吕伟涛</a></span>
+                    <a href="./202001/t20200106_187357.shtml" title="天津天后宫行会图中的妈祖信俗">天津天后宫行会图中的妈祖信俗</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="刘薇">刘薇</a></span>
+                    <a href="./202001/t20200106_187356.shtml" title="湖北叶家山墓地出土青铜器的锈层结构研究">湖北叶家山墓地出土青铜器的锈层结构研究</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="李重蓉">李重蓉</a></span>
+                    <a href="./202001/t20200106_187355.shtml" title="一九五四年洛阳孙旗屯出土石兽的定名与年代">一九五四年洛阳孙旗屯出土石兽的定名与年代</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="洪梅">洪梅</a></span>
+                    <a href="./202001/t20200106_187354.shtml" title="棘戈研究">棘戈研究</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="张安昊">张安昊</a></span>
+                    <a href="./202001/t20200106_187353.shtml" title="祖大寿疑冢考析_兼论皇太极对祖氏及大凌河群体态度之嬗变">祖大寿疑冢考析_兼论皇太极对祖氏及大凌河群体态度之嬗变</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="丁鹏勃">丁鹏勃</a></span>
+                    <a href="./202001/t20200106_187349.shtml" title="遐迩一体中外互鉴谈有效利用海外中国古代文物资源">遐迩一体中外互鉴谈有效利用海外中国古代文物资源</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="丁鹏勃">丁鹏勃</a></span>
+                    <a href="./201903/t20190323_84837.shtml" title="明代纪年墓出土梅瓶研究">明代纪年墓出土梅瓶研究</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="于成龙">于成龙</a></span>
+                    <a href="./201903/t20190323_84836.shtml" title="战国楚卜筮简中“卜人与卜筮工具”之研究">战国楚卜筮简中“卜人与卜筮工具”之研究</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="朱万章">朱万章</a></span>
+                    <a href="./201903/t20190323_84835.shtml" title="仇英绘画的摹古与创新——以《清明上河图》为例">仇英绘画的摹古与创新——以《清明上河图》为例</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="戴向明">戴向明</a></span>
+                    <a href="./201903/t20190323_84819.shtml" title="北方地区龙山时代的聚落与社会">北方地区龙山时代的聚落与社会</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="田率">田率</a></span>
+                    <a href="./201903/t20190323_84818.shtml" title="新见鄂监簋与西周监国制度">新见鄂监簋与西周监国制度</a>
+                </li>
+                
+                <li>
+                    <span class="date"><a title="马敏">马敏</a></span>
+                    <a href="./201903/t20190323_84816.shtml" title="国博藏《四部医典》曼唐中宗教图像的解读">国博藏《四部医典》曼唐中宗教图像的解读</a>
+                </li>
+                
+            </ul>
+            <div class="cj_clear"></div>
+            <script language="javascript">
+function toPage(){
+ var countPage = 25//共多少页
+ var regExp=new RegExp("^[0-9]*$");
+ var _num = document.getElementById("num").value;
+ var str = "index"+"_"+(_num-1)+"."+"shtml";
+ var url = location.href.substring(0,location.href.lastIndexOf("/")+1);
+ if(_num<=1||_num==null)
+  location.href = url+"index"+"."+"shtml";
+ else if(_num>countPage)
+  //alert("本频道最多"+countPage+"页");//超出总页数后跳转最后一页
+  location.href = url+"index"+"_"+(countPage-1)+"."+"shtml"; 
+        else if(!regExp.test(_num))
+                //alert("请输入正确的页码");//输入非法字符后跳转最后一页
+               location.href = url+"index"+"_"+(countPage-1)+"."+"shtml"; 
+ else
+  location.href = url+str;
+}
+function outputPage(){
+var currentPage = 1;//所在页从0开始
+var prevPage = currentPage-1//上一页
+var nextPage = currentPage+1//下一页
+var countPage = 25//共多少页
+var headPage = "index"+"."+"shtml";//首页
+var tailPage = "index_" + (countPage-1) + ".shtml"//尾页
+var allPage= 25-1;
+var countnum = 500
+
+
+var output = "<div class='cj_page2'><a href='/' class='cj_backhui2'>返回首页</a>";
+
+output = output +"<a class='cj_shang2' href=\"index.shtml\" >首页</a>";
+//output=output + "<ul class='list_page'><li>";
+
+//设置上一页代码
+if(countPage>1&&currentPage!=0&&currentPage!=1)
+  output = output + "<a class='cj_shang1' aria-label='Previous' href=\"index"+"_" + prevPage + "."+"shtml\" target=\"_self\">上一页</a>";
+else if(countPage>1&&currentPage!=0&&currentPage==1)
+  output = output + "<a class='cj_shang1' aria-label='Previous' href=\"index.shtml\" target=\"_self\">上一页</a>";
+else
+  output = output +"<a class='cj_shang1'>上一页</a>";
+
+//循环5个页码
+var num = 5;
+var startPage=currentPage-2;
+if(startPage<0) startPage=0;
+var endpage=startPage+num;
+if(endpage>countPage)endpage=countPage;
+startPage=endpage-7;
+if(startPage<0) startPage=0;
+
+
+for(var i=startPage; i<endpage ; i++){
+ if(currentPage==i)
+   output = output + "<a class='cj_pg_active2'>"+(i+1)+"</a>";
+ else if(i==0){
+   output = output +"<a href=\"index.shtml\" target=\"_self\">"+1+"</a>";
+ }else 
+   output = output +"<a  href=\"index"+"_" + i + "."+"shtml\" target=\"_self\">"+(i+1)+"</a>";
+}
+
+
+//超过5个页码并且不是最后一页的前两页
+//if (countPage>7 && currentPage <(countPage-3))
+//{
+// output = output +"<span class='page_num'><a href=\"index_" + (countPage-1) + ".shtml\">...</a></span>";
+//}
+
+//跳转页面
+//页码低于5个页面不显示跳转
+//if (countPage>8 && currentPage <(countPage-4)){
+//output = output +"<a href=\"index_" + (countPage-2) + ".shtml\"><span>"+allPage+"</span></a><a href=\"index_" + (countPage-1) + ".shtml\"><span>"+25+"</span></a>"
+//}
+
+
+//设置下一页代码 
+if(countPage>1&&currentPage!=(countPage-1))
+  output = output +"<a class='cj_shang1' aria-label='Next' href=\"index"+"_" + nextPage + "."+"shtml\" target=\"_self\" aria-hidden='true'>下一页</a>";
+
+else
+  output = output +"<a class='cj_shang1' aria-hidden='true'>下一页</a>";
+
+if(countPage==1)
+  output = output +"<a class='cj_shang2' href=\"index.shtml\" >尾页</a>";
+else if(countPage>1)
+  output = output +"<a class='cj_shang2' href=\"index_" + (countPage-1) + ".shtml\">尾页</a>";
+
+//跳转页面
+//页码低于5个页面不显示跳转
+if (countPage>5){
+output = output +"<span class='jumppage'>转第 <input type='text' size='3' id='num' class='cj_ininp' style='text-align:center' value="+(currentPage+1)+" /> 页</span>"+"<span class='btn' onClick=javascript:toPage()>　确认</span><span>　共"+countPage+"页</span><span>&nbsp;&nbsp;"+countnum+"条</span>";
+}
+
+
+output = output+"</div>";
+return output;
+
+
+}
+document.write(outputPage());
+
+</script><div class="cj_page2"><a href="/" class="cj_backhui2">返回首页</a><a class="cj_shang2" href="index.shtml">首页</a><a class="cj_shang1" aria-label="Previous" href="index.shtml" target="_self">上一页</a><a href="index.shtml" target="_self">1</a><a class="cj_pg_active2">2</a><a href="index_2.shtml" target="_self">3</a><a href="index_3.shtml" target="_self">4</a><a href="index_4.shtml" target="_self">5</a><a class="cj_shang1" aria-label="Next" href="index_2.shtml" target="_self" aria-hidden="true">下一页</a><a class="cj_shang2" href="index_24.shtml">尾页</a><span class="jumppage">转第 <input type="text" size="3" id="num" class="cj_ininp" style="text-align:center" value="2"> 页</span><span class="btn" onclick="javascript:toPage()">　确认</span><span>　共25页</span><span>&nbsp;&nbsp;500条</span></div>
+        </div>
+    </div>
+
+
+
+</div>
+<!--/列表-->
+
+<div class="cj_ercom_wai cj_bg_write cj_vio_padd" style="padding: 0px 0px 50px;">
+</div>
+<!--
+<div class="cj_ercom_wai cj_bg_write cj_vio_padd">
+	<div class="cj_jianxunwai">
+		<ul>
+			<li class="cj_jxw_bg1"><a href="http://www.chnmuseum.cn/fw/zlxz/zxxz/"><img alt="展览简讯" src="/images/cj_ww1_gb2018.png" /></a></li>
+			<li class="cj_jxw_bg2"><a href="http://www.chnmuseum.cn/cg/cgxz/"><img alt="参观须知" src="/images/cj_ww2_gb2018.png" /></a></li>
+			<li class="cj_jxw_bg3"><a href=""><img alt="展馆藏品" src="/images/cj_ww3_gb2018.png" /></a></li>
+			<li class="cj_jxw_bg4"><a href="../../zl/zlsq/201901/t20190102_37011.shtml" target='_blank'><img alt="展览申请" src="../../images/cj_ww4_gb2018.png" /></a></li>
+
+			       </ul>
+	</div>
+
+</div>
+-->
+
+<!--footer-->
+<!--footer-->
+<div class="footer" style="width: 1200px;">
+    <div class="main" style="width:800px;">
+        <div style="">
+            <div>
+                <div class="footer-txt" style="text-align: left;position: relative;color: #cacaca;">
+                    中国国家博物馆融媒矩阵：
+                </div>
+                <ul class="footerEwmUl">
+                	<li>
+                	   <img src="/images/wx1Ewm20200314.png">
+                	   <p>微信服务号</p>
+                	</li>
+                	<li>
+                	   <img src="/images/wx2Ewm20200314.png">
+                	   <p>微信订阅号</p>
+                	</li>
+                	<li>
+                	   <img src="/images/wbEwm20200314.png">
+                	   <p>新浪微博</p>
+                	</li>
+                	<li>
+                	   <img src="/images/dyEwm20200314.png">
+                	   <p>抖音短视频</p>
+                	</li>
+                </ul>
+                <div class="footer-link" style="text-align: left; border-bottom: 1px solid #adadad;">
+                    <!--<a class="header-lang" title="网站导航">网站导航</a>-->
+                    <a style="padding-left:0px;" href="http://www.chnmuseum.cn/shxg/yqlj/" title="友情链接">友情链接</a>
+                    <a href="http://www.chnmuseum.cn/sp/" title="国博视频">国博视频</a>
+                    <a href="http://www.chnmuseum.cn/cg/lybd/" title="留言板">留言板</a>
+                    <a href="http://www.chnmuseum.cn/shxg/lxwm/" title="联系我们">联系我们</a>
+                    <a href="http://www.chnmuseum.cn/shxg/bqsm/" title="版权声明">版权声明</a>
+                    <a href="http://www.chnmuseum.cn/shxg/yszc/" title="隐私政策">隐私政策</a>
+                    <a style="background:none; padding-right: 0px;" href="http://www.chnmuseum.cn/shxg/wjdc/" title="问卷调查">问卷调查</a>
+
+                </div>
+
+                <div class="footer-txt" style="text-align: left;position: relative;">
+                    <p style="text-align: left;">
+                        <span style="padding-left:0px;">中国国家博物馆版权所有</span>|
+                        <span>网站维护：新闻传播处</span><!--|<span>技术支持：<a  href='http://www.trs.com.cn/' target='_blank' style='color:#cacaca;'>北京拓尔思信息技术股份有限公司</a> </span>-->
+                        
+                    </p>
+                    <p style="text-align: left;">
+                        <span style="padding-left:0px;">京ICP备05008885号</span>|
+                        <span>京公网安备11010102003012号</span>|
+                        <span style="padding-right: 0px;">EMAIL：service@chnmuseum.cn</span>
+                    </p>
+                    <div style="display: inline-block;margin-left: 40px;position: absolute;right:0;top:20px">
+                      <a href="//bszs.conac.cn/sitename?method=show&amp;id=30E0CF203BE827D8E053022819AC57DB" target="_blank"><img src="/images/blue.png"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div style="float: right;">
+                <ul class="ft_xiamian_jiand">
+                    <li ><a href="https://weibo.com/chnmuseum/" target="_blank"><img src="/images/ft_20190410_icon1.png" /></a></li>
+                    <li class="ft_teshuxu">
+                        <a href="javascript:void(0);"><img src="/images/ft_20190410_icon2.png" /></a>
+                        <div class="ft_ying_weixin"><img src="/images/ft_20190410_wei2.jpg" /><img src="/images/ft_20190410_wei1.jpg" /></div>
+                    </li>
+                    <li style="display: none;"><a href=""><img src="/images/ft_20190410_icon3.png" /></a></li>
+                </ul>
+            </div>-->
+        </div>
+        <div class="footer-logo"><img src="/images/footer-logo.png" title="国家博物馆" alt="国家博物馆"></div>
+    </div>
+</div>
+<!--/footer-->
+
+
+<div class="nav_eject_Box">
+    <div class="nav_eject_close"></div>
+    <div class="nav_eject_center">
+        <ul class="nav_eject_Tul">
+                
+                <li><a href="http://www.chnmuseum.cn/zj/" title="征集">征集</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/zp/" title="保管">保管</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/yj/" title="研究">研究</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/zl/" title="展览">展览</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/fw/" title="社教">社教</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/wc/" title="文创">文创</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/cg/" title="服务">服务</a></li>
+                
+                <li><a href="http://www.chnmuseum.cn/dj/" title="学习">学习</a></li>
+                
+        </ul>
+        <ul class="nav_eject_Bul">
+            <li class="nav_eject_Bli">
+                <ul>
+                <li><a id="quanjing3" value="3" onclick="gotoquanjing3()" title="职能介绍">职能简介</a></li>
+                <li><a href="../../gbgk/gzzc/" title="馆长致辞">馆长致辞</a></li>
+                <li><a href="http://www.chnmuseum.cn/zx/" title="要闻">要闻</a></li>
+                <li><a href="http://www.chnmuseum.cn/sp/" title="视频">国博视频</a></li>
+                <li><a id="quanjing0" value="0" onclick="gotoquanjing0()" title="正在展出">历史沿革</a></li>
+                <li><a id="quanjing1" value="1" onclick="gotoquanjing1()" title="历任领导">历任领导</a></li>
+                <li><a id="quanjing2" value="2" onclick="gotoquanjing2()" title="现任领导">现任领导</a></li>
+                   
+                </ul>
+            </li>
+            <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="/Portals/0/web/zt/cangpin/" title="藏品总目">藏品总目</a></li>
+                     <li><a href="http://www.chnmuseum.cn/zp/zpml/" title="馆藏精品">馆藏精品</a></li>
+
+                </ul>
+            </li>
+            <li class="nav_eject_Bli">
+                <ul><li><a href="http://www.chnmuseum.cn/yj/zjxz/" title="专家学者">专家学者</a></li>
+                                        <li><a href="" title="科研课题">科研课题</a></li>
+                                        
+                    <li><a href="" title="学术专著">学术专著</a></li>
+                    <li><a href="http://www.chnmuseum.cn/yj/xscg/xslw/" title="学术论文">学术论文</a></li>
+                                        
+                    <li><a href="http://www.chnmuseum.cn/yj/gbjt/" title="国博讲堂">国博讲堂</a></li><li><a href="" title="馆刊">馆刊</a></li>
+
+                    
+                </ul>
+            </li>
+            <li class="nav_eject_Bli">
+                <ul>
+                    <li><a id="zhanlan0" value="0" onclick="gotofuwi0()" title="正在展出">正在展出</a></li>
+                    <li><a id="zhanlan1" value="1" onclick="gotofuwi1()" title="展览预告">展览预告</a></li>
+                    <li><a id="zhanlan2" value="2" onclick="gotofuwi2()" title="展览回顾">展览回顾</a></li>
+                    <li><a href="/Portals/0/web/vr/index.html" title="网上展览">网上展览</a></li>
+                    <li><a href="http://www.chnmuseum.cn/zl/zlsq/" title="展览申请">展览申请</a></li>
+                </ul>
+            </li>
+           
+            <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="http://www.chnmuseum.cn/fw/hd/zxhd/" title="最新活动">最新活动</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/ggjy/jyhdjs/" title="教育活动">教育活动</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/ggjy/wzgbjww/" title="我在国博讲文物">我在国博讲文物</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/ggjy/gb100j/" title="馆校合作">馆校合作</a></li>
+                                                       </ul>
+            </li>
+            
+            
+                        <li class="nav_eject_Bli">
+                <ul>
+                                      
+                    <li><a href="https://zggjbwg.tmall.com/" title="国博文创">国博文创</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/gbwc/" title="馆属企业">馆属企业</a></li>
+                    <li><a href="http://www.chnmuseum.cn/wc/ipsq/" title="IP授权">IP授权</a></li>
+                    <li><a href="http://www.chnmuseum.cn/fw/zlxz/" title="资料下载">资料下载</a></li>
+                  
+                </ul>
+            </li>
+            
+            
+             <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="http://www.chnmuseum.cn/cg/" title="开放时间">开放时间</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit_rgfs','','','true');" title="入馆方式">入馆方式</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-jtdl','','','true');" title="交通地理">交通地理</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-cgxz','','','true');" title="参观须知">参观须知</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-ssyfw','','','true');" title="设施与服务">设施与服务</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-dlfw','','','true');" title="导览服务">导览服务</a></li>
+                    <li><a style="cursor:pointer;" onclick="window.open('http://www.chnmuseum.cn/cg/#visit-ztfb','','','true');" title="展厅分布">展厅分布</a></li>
+                </ul>
+            </li>
+            <li class="nav_eject_Bli" style="border: 0px;">
+                <ul>
+                    
+                </ul>
+            </li>
+      <!--      <li class="nav_eject_Bli">
+                <ul>
+                    <li><a href="http://www.chnmuseum.cn/sp/gbzp/" title="精品文物">精品文物</a></li>
+                    <li><a href="http://www.chnmuseum.cn/sp/gbzl/" title="展览视频">展览视频</a></li>
+                    <li><a href="http://www.chnmuseum.cn/sp/gbjt_150/" title="国博讲堂">国博讲堂</a></li>
+
+                </ul>
+            </li> -->
+        </ul>
+    </div>
+</div>
+
+
+
+
+<script>
+$(function(){
+    var windowwidth=$(window).width();
+      if(windowwidth<1200){
+       $(".header,.footer").css("width","1200px");
+      }else{
+       $(".header,.footer").css("width","100%");
+      }
+    $(window).resize(function(){
+     var windowwidth=$(window).width();
+      if(windowwidth<1200){
+       $(".header,.footer").css("width","1200px");
+      }else{
+       $(".header,.footer").css("width","100%");
+      }
+      
+    });
+
+/*导航弹出层 开始*/
+   
+    $('.nav_eject_Bul .nav_eject_Bli:last-child').css('border','0');
+    $('.header-lang').click(function(){
+        
+         $('.nav_eject_Box').show();
+          var windowHeight = $(window).height();
+         //var navejectcenterH = $('.nav_eject_center').height();
+         //$('.nav_eject_center').css('margin-top',(windowHeight-navejectcenterH)*0.5+'px')
+    })
+    $('.nav_eject_close').click(function(){
+        $('.nav_eject_Box').hide();
+    })
+    /*导航弹出层 结束*/
+
+
+    $('.nav_eject_Bul li a').click(function(){
+        $('.nav_eject_Box').hide();
+    })
+
+
+    $(".ft_teshuxu").hover(function(){
+        $(".ft_ying_weixin").show(); 
+    },function(){
+        $(".ft_ying_weixin").hide(); 
+    })
+
+})
+
+
+
+    var zl_jiekou="http://www.chnmuseum.cn/zl/?";
+    var zl_maodian="#zl_zzzl";
+
+    function gotofuwi0(){
+        var zhanlan0 = $("#zhanlan0").attr("value")
+        location.href=zl_jiekou+"tex="+encodeURI(zhanlan0)+zl_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+    function gotofuwi1(){
+        var zhanlan1 = $("#zhanlan1").attr("value")
+        location.href=zl_jiekou+"tex="+encodeURI(zhanlan1)+zl_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+    function gotofuwi2(){
+        var zhanlan2 = $("#zhanlan2").attr("value")
+        location.href=zl_jiekou+"tex="+encodeURI(zhanlan2)+zl_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+
+
+    var qj_jiekou="http://www.chnmuseum.cn/";
+    var qj_maodian="#qj_lishil";
+    var qj_maodianzl="#znjdlsj";
+
+    function gotoquanjing0(){
+        var quanjing0 = $("#quanjing0").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing0)+qj_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+
+    function gotoquanjing1(){
+        var quanjing1 = $("#quanjing1").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing1)+qj_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+    function gotoquanjing2(){
+        var quanjing2 = $("#quanjing2").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing2)+qj_maodian;
+        $('.nav_eject_Box').hide();
+    }
+
+
+    function gotoquanjing3(){
+        var quanjing3 = $("#quanjing3").attr("value")
+        location.href=qj_jiekou+"tex="+encodeURI(quanjing3)+qj_maodianzl;
+        $('.nav_eject_Box').hide();
+    }
+
+    //20200517修改去掉链接qjgb
+  $(function() {
+        $(".zljsCBox a").each(function(){
+          var dstxghrem=$(this).attr("href").substring(5, 0);
+
+          if(dstxghrem=="/qjgb"){
+            var dstxghreh=$(this).attr("href").substring(5);
+            $(this).attr("href",dstxghreh)
+          }
+
+        });
+  });
+
+</script>
+
+<!--网脉-->
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=2797" async="async" defer="defer"></script>
+
+<!--百度-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d8512e191052092ef1dd135588660448";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--/footer-->
+<script type="text/javascript">
+    //鼠标经过图片放大效果
+    $(function () {
+        $('.cj_jianxunwai ul li').hover(function(){
+            $(this).find('img').stop().animate({width:300, marginTop:-20, marginLeft:-20},600);
+        },function(){
+            $(this).find('img').stop().animate({width:250, marginTop:0, marginLeft:0},500);
+        });
+
+    })
+
+    /*左侧导航*/
+    $(".cj_hd_list9 ul li span").click(function(){
+        if($(this).parent().hasClass("cj_hd_ac")){
+            $(this).parent().removeClass("cj_hd_ac");
+        }else{
+            $(this).parent().addClass("cj_hd_ac");
+        }
+    });
+
+
+  //var  str=$(".cj_hd_list9 ul").attr("parent");
+  var str="研究成果";
+  var str2="学术论文";
+  $(".cj_hd_list9 ul li").each(function(){
+     var  cft=$(this).find(".gb_xin_a").text();
+
+      if(str == cft){
+        $(this).addClass("cj_hd_ac");
+        //$(this).find(".xxgk-child").show();
+
+      }else{
+
+      }
+  });
+
+  $(".xxgk-child a").each(function(){
+     var  cft2=$(this).text();
+
+      if(str2 == cft2){
+        $(this).addClass("sanjixuanzh");
+        //$(this).find(".xxgk-child").show();
+
+      }else{
+
+      }
+  });
+
+</script>
+
+</body></html>

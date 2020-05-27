@@ -1,0 +1,284 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/r/cms/css/style.css">
+<title>周口店北京人遗址博物馆-首页-学术研究</title>
+<script type="text/javascript" src="/r/cms/js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="/r/cms/js/jquery.jslides.js"></script>
+<script type="text/javascript" src="/r/cms/js/16sucai.js"></script>
+<style>
+.lanmu2 {
+	letter-spacing: 3px;
+	width: 1100px;
+	border-bottom: 2px solid #a77031;
+	padding-bottom: 6px;
+	font-size: 16px;
+	margin-top: 35px;
+}
+
+.lanmu2 a {
+	color: #696969;
+}
+
+.zlhg_text2 {
+	width: 760px;
+	float: left;
+	margin-left: 15px;
+}
+
+.yzdt_sub img {
+	float: left;
+}
+
+.yzdt_sub {
+	overflow: auto;
+	width: 1100px;
+	margin-top: 20px;
+}
+
+.zlhg2_list ul li {
+	width: 900px;
+	background: url(/r/cms/images/jt.png) no-repeat left center;
+	overflow: hidden;
+	text-indent: 15px;
+	border-bottom: 1px solid #d2d2d2;
+	line-height: 55px;
+}
+
+.zlhg2_list ul li a {
+	float: left;
+	font-size: 16px;
+	color: #595757;
+}
+
+.zlhg2_list ul li span {
+	float: right;
+	font-size: 16px;
+	color: #595757;
+}
+
+.zlhg2_list {
+	width: 900px;
+	margin-top: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header_top">
+	<div class="header_box">
+		<img src="/r/cms/images/logo.png">
+
+
+		<div class="header_right">
+			<div class="yuyan">
+				<span>中文</span><span onclick="javascript:window.location.href='http://www.zkd.cn/zkdeng/'" style="cursor:pointer">English</span><span onclick="javascript:window.location.href='http://www.zkd.cn/zkdjapan/'" style="cursor:pointer">日本语</span>
+			</div>
+			<input value="搜索" type="text">
+
+		</div>
+	</div>
+
+</div>
+
+
+
+
+<div class="nav">
+	<ul>
+		<li><a href="/"><img src="/r/cms/images/nv_bg.png" style="margin-top: 10px"></a></li>
+		 
+		<!--<li><a href="http://www.zkd.cn:80/yzgk/index.jhtml">遗址概况</a></li> 
+		<!--<li><a href="http://www.zkd.cn:80/zlxx/index.jhtml">展览展示</a></li> 
+		<!--<li><a href="http://www.zkd.cn:80/yzbh/index.jhtml">遗址保护</a></li> 
+		<!--<li><a href="http://www.zkd.cn:80/kpyd/index.jhtml">科普园地</a></li> 
+		<!--<li><a href="http://www.zkd.cn:80/xsyj/index.jhtml">学术研究</a></li> 
+		<!--<li><a href="http://www.zkd.cn:80/yzqk/index.jhtml">遗址期刊</a></li> 
+		<!--<li><a href="http://www.zkd.cn:80/cgdl/index.jhtml">参观导览</a></li> 
+		>-->
+
+<li><a href="/yzgk/index.jhtml">遗址概况</a></li>
+<li><a href="/djgz/index.jhtml">党群工作</a></li>
+<li><a href="/zlxx/index.jhtml">展览展示</a></li>
+<!--<li><a href="/yzbh/index.jhtml">遗址保护</a></li>-->
+<li><a href="/kpyd/index.jhtml">科普园地</a></li>
+<li><a href="/xsyj/index.jhtml">学术研究</a></li>
+<li><a href="/yzqk/index.jhtml">遗址期刊</a></li>
+<li><a href="/cgdl/index.jhtml">参观导览</a></li>
+	</ul>
+
+</div>
+
+<script type="text/javascript">
+  
+    $(document).ready(function () {
+        var pageurl = window.location.search;
+        if (pageurl == '?m2w') {
+            addCookie('m2wcookie', '1', 0);
+        }
+        if (getCookie('m2wcookie') != '1' && browserRedirect()) {
+            $(".header_top").css("width", "1200px");
+            $(".nav").css("width", "1200px");
+            $(".fotter").css("width", "1200px");
+ $(".main_bg").css("width", "1200px");
+        }
+
+    });
+
+    /*工具类方法
+    ------------------------------------------------*/
+    //检测是否移动设备来访
+    function browserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    //写Cookie
+    function addCookie(objName, objValue, objHours) {
+        var str = objName + "=" + escape(objValue);
+        if (objHours > 0) {//为0时不设定过期时间，浏览器关闭时cookie自动消失
+            var date = new Date();
+            var ms = objHours * 3600 * 1000;
+            date.setTime(date.getTime() + ms);
+            str += "; expires=" + date.toGMTString();
+        }
+        document.cookie = str;
+    }
+
+    //读Cookie
+    function getCookie(objName) {//获取指定名称的cookie的值
+        var arrStr = document.cookie.split("; ");
+        for (var i = 0; i < arrStr.length; i++) {
+            var temp = arrStr[i].split("=");
+            if (temp[0] == objName) return unescape(temp[1]);
+        }
+        return "";
+    }
+</script>
+
+	<div class="main_bg">
+		<div class=" main_content">
+			<div class="left_box">
+            	<div class="bt_title">
+                   学术研究
+                </div>
+                  <div id="firstpane" class="menu_list">
+                        <a href="/kxyj2/index.jhtml"><p class="menu_head">科学研究</p></a>   
+                        <a href="/zjxz/index.jhtml"><p class="menu_head">专家学者</p></a>
+                        <a href="/xszz/index.jhtml"><p class="menu_head">学术专著</p></a>
+   
+                 </div>
+            
+    		</div>
+
+			<div class="right_box">
+				<div class="lanmu">
+					<a href="/">首页</a> &gt; <a class="gray" href="http://www.zkd.cn:80/xsyj/index.jhtml">学术研究</a> &gt;
+<a class="gray" href="http://www.zkd.cn:80/kxyj2/index.jhtml">科学研究</a>				</div>
+				<div class="yzhb_sub">   
+  
+                    
+             	</div>
+				<div class="zlhg2_list">
+					<ul>
+ 						<li><a href="http://www.zkd.cn:80/kxyj2/956.jhtml" title="中瑞专家新发现一枚周口店直立人牙齿化石">中瑞专家新发现一枚周口店直立人牙齿化石</a><span>[2012-12-05]</span></li>
+						<li><a href="http://www.zkd.cn:80/kxyj2/955.jhtml" title="魏敦瑞与周口店">魏敦瑞与周口店</a><span>[2012-12-05]</span></li>
+						<li><a href="http://www.zkd.cn:80/kxyj2/954.jhtml" title="裴老带我们跑周口店">裴老带我们跑周口店</a><span>[2012-12-05]</span></li>
+						<li><a href="http://www.zkd.cn:80/kxyj2/953.jhtml" title="麦格雷戈·吉布与周口店">麦格雷戈·吉布与周口店</a><span>[2012-12-05]</span></li>
+						<li><a href="http://www.zkd.cn:80/kxyj2/952.jhtml" title="关于周口店地质构造的新探索">关于周口店地质构造的新探索</a><span>[2012-12-05]</span></li>
+						<li><a href="http://www.zkd.cn:80/kxyj2/951.jhtml" title="周口店遗址文化比较研究">周口店遗址文化比较研究</a><span>[2012-12-05]</span></li>
+						<li><a href="http://www.zkd.cn:80/kxyj2/950.jhtml" title="北京人行踪探秘">北京人行踪探秘</a><span>[2012-12-05]</span></li>
+					</ul>
+					<div class="clear"></div>
+					<div class="page"><div>
+共17条记录 2/2页
+&nbsp;<a href="#" onclick="location.href=encodeURI('index.jhtml');">首页</a> <a href="#" onclick="location.href=encodeURI('index.jhtml');">上一页</a>&nbsp;<a disabled="disabled">下一页</a> <a disabled="disabled">尾页</a>
+&nbsp;第<select onchange="if(this.value==1){location.href=encodeURI('index.jhtml')}else{location.href=encodeURI('index_'+this.value+'.jhtml')}this.disabled='disabled'">
+  <option value="1">1</option>
+  <option value="2" selected="selected">2</option>
+</select>页
+</div></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+<style type="text/css">.bqtxt{margin-top:20px;}</style>
+<div class="fotter" style="background:#870203;position: relative;">
+	<ul>
+	
+		 
+		<li><a href="http://www.zkd.cn:80/yzgk/index.jhtml">遗址概况</a></li> 
+		<li><a href="http://www.zkd.cn:80/zlxx/index.jhtml">展览展示</a></li> 
+		<li><a href="http://www.zkd.cn:80/yzbh/index.jhtml">遗址保护</a></li> 
+		<li><a href="http://www.zkd.cn:80/kpyd/index.jhtml">科普园地</a></li> 
+		<li><a href="http://www.zkd.cn:80/xsyj/index.jhtml">学术研究</a></li> 
+		<li><a href="http://www.zkd.cn:80/yzqk/index.jhtml">遗址期刊</a></li> 
+		<li><a href="http://www.zkd.cn:80/cgdl/index.jhtml">参观导览</a></li> 
+<!--li><a href="/weblongadmin/weblongcms/index.do" style="border: none"  target="_blank">用户登录</a></li--> 
+	</ul>
+<div style="width:980px;margin:0 auto;position:relative">
+<div class="bqtxt"><img style="margin-right:3px" src="/r/cms/www/default/img/qq.png" height="14">在线咨询QQ：2606603703</div>
+	<div class="bqtxt">版权所有：周口店北京人遗址博物馆 ©2006 <a href="http://www.beian.miit.gov.cn" target="_blank" style="color:#f3970a">京ICP证05082479号-1</a>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259284415'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1259284415%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1259284415"><a href="https://www.cnzz.com/stat/website.php?web_id=1259284415" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic1.gif"></a></span><script src=" http://s95.cnzz.com/z_stat.php?id=1259284415&amp;show=pic1" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1259284415&amp;show=pic1&amp;t=z" charset="utf-8" type="text/javascript"></script>
+
+</div>
+
+<div class="bqtxt"><span id="yj_date">2020年5月22日</span>，预计参观人数 <span id="yj_time">9:00-11:00</span> <span id="yj_pnum">103</span>人</div>
+<a href="http://bszs.conac.cn/sitename?method=show&amp;id=0AC7D6D0A499632AE053022819ACEAEE" style="border: none" target="_blank"><img src="/r/cms/images/zhang.png" style="position: absolute; top: 0px;left: 207px"></a>
+</div>
+<script type="text/javascript">
+    var d = new Date();
+    var h = d.getHours();
+    var ht = '9:00-11:00';
+    if (h < 11) {
+        ht = "9:00-11:00";
+    } else if (h < 14) {
+        ht = "11:01-14:00";
+    } else if (h < 17) {
+        ht = "14:01-16:30";
+    }
+    if (h > 16) {
+        d.setDate(d.getDate() + 1);
+    }
+
+    var day = d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日";
+
+
+    document.getElementById("yj_time").innerHTML = ht;
+    document.getElementById("yj_date").innerHTML = day;
+
+    var n = Math.random() * 150;
+    n = (n + 50).toFixed(0);
+    document.getElementById("yj_pnum").innerHTML = n;
+    
+        </script>
+</div>
+<style>
+.fotter ul li:last-child a{
+ border-right:none
+}
+</style>
+
+
+
+
+</body></html>
